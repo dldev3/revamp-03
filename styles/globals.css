@@ -1,16 +1,80 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container-mcl {
+	max-width: 1536px !important;
+	margin: auto;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+@font-face {
+  font-family: Inter-Black;
+  src: url(./Inter-Black.ttf);
+  font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: Inter-Bold;
+  src: url(./Inter-Bold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(./Inter-ExtraBold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-ExtraLight;
+  src: url(./Inter-ExtraLight.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url(./Inter-Light.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url(./Inter-Medium.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(./Inter-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(./Inter-SemiBold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Thin;
+  src: url(./Inter-Thin.ttf);
+  font-display: swap;
+}
+
+.Inter-Regular {
+	font-family: 'Inter-Regular', sans-serif;
+}
+
+.Inter-Medium {
+	font-family: 'Inter-Medium', sans-serif;
+}
+
+.Inter-SemiBold {
+	font-family: 'Inter-SemiBold', sans-serif;
+}
+
+.Inter-Bold {
+	font-family: 'Inter-Bold', sans-serif;
 }

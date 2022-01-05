@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import Header from './components/Header';
-
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -27,8 +27,8 @@ export default function Home() {
 
 	<div className="md:mx-36 relative bottom-hero-tagline-spacing">
 		<div className="text-white text-f50 leading-f50 Inter-Medium tracking-wide">
-	  		<h1 className="drop-shadow-md">Creative solutions. For the</h1>
-	  		<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
+	  		<h1>Creative solutions. For the</h1>
+	  		<h1>creators of modern day dream homes.</h1>
 	  	</div>
 	  	<div className="text-white text-f24 Inter-Regular mt-12">
 	  		<p>We are a creative agency for home porfessionals.</p>
@@ -62,8 +62,6 @@ export default function Home() {
 	  			</div>
 	  		</div>
 	  	</div>
-
-
 
 
 
