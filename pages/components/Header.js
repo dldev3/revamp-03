@@ -2,11 +2,11 @@ import NextLink from 'next/link';
 
 const Header = () => {
 	return (
-		
+
 		<div className="flex flex-row justify-centeir md:pt-12 xl:pt-16 md:mx-36">
 			<div className="w-5/12">
 				<div className="w-72 h-auto">
-  					<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
+					<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
 				</div>
 			</div>
 
@@ -17,7 +17,7 @@ const Header = () => {
 					<li className=""><NextLink href="/about-us"><a href="/about-us">About</a></NextLink></li>
 					<li className=""><NextLink href="/contact-us"><a href="/contact-us">Contact</a></NextLink></li>
 				</ul>
-			
+				<div></div>
 			</div>
 
 		</div>

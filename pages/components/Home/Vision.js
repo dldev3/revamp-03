@@ -4,7 +4,7 @@ const Vision = () => {
 			<div className="p-12">
 				<h1 className="text-white text-f50 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 			</div>
-			
+
 			<div className="flex flex-row justify-between md:py-12 md:px-24 md:mx-40">
 				<div className="text-left text-gray-300 Inter-Regular text-f24 leading-f24">
 					<p>Here is to the creators,</p>
