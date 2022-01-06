@@ -20,6 +20,7 @@ module.exports = {
 	lineHeight: {
 		'f50' : '66px',
 		'f24' : '36px',
+		'f24-high' : '38px',
 	},
 	spacing: {
 		'hero-tagline-spacing' : '30rem',
