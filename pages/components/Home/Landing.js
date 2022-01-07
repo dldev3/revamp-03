@@ -1,7 +1,7 @@
 const Landing = () => {
     return (
         <div>
-            <div className="relative -top-36 landing-section flex flex-row justify-center z-0">
+            <div className="relative -top-33 landing-section flex flex-row justify-center z-0">
                 <div className="w-7/12 bg-hero-dark h-screen">
                 </div>
                 <div className="w-5/12 h-screen">
@@ -9,7 +9,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="md:mx-36 relative bottom-hero-tagline-spacing">
+            <div className="md:mx-36 relative bottom-102">
                 <div className="text-white text-f50 leading-f50 Inter-Medium tracking-wide">
                     <h1 className="drop-shadow-md">Creative solutions. For the</h1>
                     <h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
