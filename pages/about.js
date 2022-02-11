@@ -3,8 +3,9 @@ import Landing from './components/About/Landing';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Grow from './components/Grow';
-import WhoWeAre from './components/About/WhoWeArre';
+import WhoWeAre from './components/About/WhoWeAre';
 import OurCoreValues from './components/About/OurCoreValues';
+import OurProcess from './components/About/OurProcess';
 
 export default function About() {
     return (
@@ -29,13 +30,16 @@ export default function About() {
             <div className="-mt-56">
             </div>
 
-
             <div className=''>
                 <WhoWeAre />
             </div>
 
             <div className=''>
                 <OurCoreValues />
+            </div>
+
+            <div>
+                <OurProcess />
             </div>
 
 

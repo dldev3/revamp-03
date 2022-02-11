@@ -7,6 +7,7 @@ module.exports = {
 		extend: {
 			fontSize: {
 				'f50': '3.125rem',
+				'f28': '1.75rem',
 				'f25': '1.5625rem',
 				'f24': '1.5rem',
 				'f20': '1.25rem',
@@ -20,12 +21,15 @@ module.exports = {
 				'mcl-blue': '#5648FF',
 				'mcl-black': '#07152D',
 				'mcl-gray': '#262A53',
+				'mcl-text-black': "#2D2D2D",
 			},
 			lineHeight: {
 				'f50': '66px',
 				'f24-low': '24px',
 				'f24': '36px',
 				'f24-high': '38px',
+				'f48': '48px',
+				'f40': '40px',
 			},
 			spacing: {
 				'102': '30rem',

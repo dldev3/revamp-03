@@ -12,10 +12,9 @@ export default function Home() {
     return (
         <div className="container-mcl">
             <Head>
-                <title>Minutecode Labs | Home</title>
+                <title>Minutecode Labs | Capabilities</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
                 <link rel="icon" href="/favicon.ico" />
-                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             </Head>
 
             {/* Header */}

@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="pb-6 text-gray-300 text-center">
-                <p className="Inter-Light text-f16">©2021 MinuteCode Labs. All rights reserved.</p>
+                <p className="Inter-Light text-f16">©2022 MinuteCode Labs. All rights reserved.</p>
             </div>
 
 

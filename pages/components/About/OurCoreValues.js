@@ -1,19 +1,49 @@
 const OurCoreValues = () => {
     return (
-        <div className="md:mx-44">
+        <div className="md:mx-44 mt-12">
             <div className="flex flex-row justify-center">
                 <div className="w-1/4 text-f16 Inter-Regular">
-                    <p>Who we are </p>
+                    <p>Our core values </p>
                 </div>
                 <div className="w-3/4 text-f24 Inter-Regular">
-                    <h2>We are team of hustlers with a mission to bring clarity</h2>
-                    <h2>and growth to the world through the power of creativity</h2>
-                    <h2>designing based in Sri Lanka. We bring our collective</h2>
-                    <h2>experience of design and technical expertise to build</h2>
-                    <h2>meaningful and engaging solutions.</h2>
-                    <br></br>
-                    <h1>Simplifying what is already complex is our passion.</h1>
-                    <h1>Seeing the company we keep thrive with results is our drive.</h1>
+
+                    <div className="grid grid-cols-1 gap-y-10">
+
+                        <div className="flex">
+                            <div>
+                                <div><img className="w-96 h-56 object-cover" src="/Resources/About/value-1.jpg" alt="value-1" /></div>
+                                <div><p className="text-f24 text-left">Be empathetic</p></div>
+                            </div>
+
+                            <div>
+                                <div><img className="w-96 h-56 object-cover" src="/Resources/About/value-2.jpg" alt="value-2" /></div>
+                                <div><p className="text-f24 text-left">Build solutions, not websites</p></div>
+                            </div>
+                        </div>
+
+                        <div className="flex">
+
+                            <div>
+                                <div><img className="w-96 h-56 object-cover" src="/Resources/About/value-3.jpg" alt="value-3" /></div>
+                                <div><p className="text-f24 text-left">Over deliver, always</p></div>
+                            </div>
+                            <div>
+                                <div><img className="w-96 h-56 object-cover" src="/Resources/About/value-4.jpg" alt="value-4" /></div>
+                                <div><p className="text-f24 text-left">Seek learning and growth</p></div>
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div>
+                                <div><img className="w-96 h-56 object-cover" src="/Resources/About/value-5.jpg" alt="value-5" /></div>
+                                <div><p className="text-f24 text-left">Build a family, not a team</p></div>
+                            </div>
+                            <div>
+                                <div><img className="w-96 h-56 object-cover" src="/Resources/About/value-6.jpg" alt="value-6" /></div>
+                                <div><p className="text-f24 text-left">Choose honesty over white lies</p></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
