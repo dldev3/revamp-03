@@ -1,12 +1,12 @@
 const Vision = () => {
 	return (
 		<div className="bg-hero-dark">
-			<div className="p-12">
-				<h1 className="text-white text-f50 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
+			<div className="lg:p-12 p-6">
+				<h1 className="text-white text-f25 lg:text-f50 lg:leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 			</div>
 
-			<div className="flex flex-row justify-between md:py-12 md:px-24 md:mx-40">
-				<div className="text-left text-gray-300 Inter-Regular text-f24 leading-f24">
+			<div className="flex lg:flex-row flex-col justify-between lg:py-12 lg:px-24 lg:mx-40 px-12 py-6">
+				<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
 					<p>Here is to the creators,</p>
 					<p>The designers,</p>
 					<p>And the builders,</p>
@@ -14,7 +14,7 @@ const Vision = () => {
 					<p>The ones who help us ensure</p>
 					<p>a home is our best investment</p>
 				</div>
-				<div className="text-left text-gray-300 Inter-Regular text-f24 leading-f24">
+				<div className="mt-12 lg:mt-0 text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
 					<p>We can't ignore them because.</p>
 					<p>they make hte dream of a home a reality for all</p>
 					<p>While the world sees them as just home</p>

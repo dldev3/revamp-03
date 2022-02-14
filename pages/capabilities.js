@@ -28,11 +28,11 @@ export default function Home() {
             </div>
 
 
-            <div className='md:mx-36 flex flex-row mx-auto'>
-                <div className='w-3/12'>
-                    <p className='Inter-Regular text-f16 p-2 text-gray-700'>How we do it</p>
+            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12'>
+                <div className='lg:w-3/12'>
+                    <p className='Inter-Regular lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
-                <div className='w-9/12 text-f50 Inter-Regular leading-f50 text-gray-700'>
+                <div className='lg:w-9/12 lg:text-f50 text-f14 Inter-Regular lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
                     <h1>We let creativity meet strategy to</h1>
                     <h1>solve problems</h1>
                 </div>

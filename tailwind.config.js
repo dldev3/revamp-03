@@ -14,6 +14,7 @@ module.exports = {
 				'f18': '1.125rem',
 				'f16': '1rem',
 				'f14': '0.875rem',
+				'f10': '0.625rem',
 			},
 			colors: {
 				'hero-dark': '#07152D',
@@ -28,6 +29,8 @@ module.exports = {
 				'f24-low': '24px',
 				'f24': '36px',
 				'f24-high': '38px',
+				'f26': '26px',
+				'f33': '33px',
 				'f48': '48px',
 				'f40': '40px',
 			},

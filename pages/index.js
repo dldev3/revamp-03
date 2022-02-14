@@ -30,7 +30,7 @@ export default function Home() {
 				<Landing></Landing>
 			</div>
 
-			<div className="-mt-88">
+			<div className="lg:-mt-88 -mt-20">
 			</div>
 
 			{/* capabilities section */}
@@ -49,12 +49,12 @@ export default function Home() {
 			</div>
 
 			{/* Our process */}
-			<div className="mt-24">
+			<div className="lg:mt-24">
 				<OurProcess></OurProcess>
 			</div>
 
 			{/* case study */}
-			<div className="mt-24">
+			<div className="lg:mt-24 mt-8">
 				<CaseStudy></CaseStudy>
 			</div>
 

@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 const Header = () => {
 	return (
 
-		<div className="flex flex-row justify-centeir md:pt-12 xl:pt-16 md:mx-36">
+		<div className="hidden lg:flex flex-row justify-centeir md:pt-12 xl:pt-16 md:mx-36">
 			<div className="w-5/12">
 				<div className="w-72 h-auto">
 					<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
@@ -19,7 +19,6 @@ const Header = () => {
 				</ul>
 				<div></div>
 			</div>
-
 		</div>
 
 	);

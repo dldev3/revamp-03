@@ -1,10 +1,10 @@
 const DesignGrid = () => {
     return (
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4">
 
             <div>
                 <div>
-                    <img className="h-64 w-full" src="/Resources/Capabilities/research.jpg" alt="research" />
+                    <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/research.jpg" alt="research" />
                 </div>
                 <div className="bg-mcl-black p-6 h-60">
                     <h2 className="Inter-Medium text-f20 text-gray-300">Discovery & Research</h2>
@@ -13,7 +13,7 @@ const DesignGrid = () => {
             </div>
             <div>
                 <div>
-                    <img className="h-64 w-full" src="/Resources/Capabilities/wireframing.jpg" alt="wireframing" />
+                    <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/wireframing.jpg" alt="wireframing" />
                 </div>
                 <div className="bg-mcl-gray p-6 h-60">
                     <h2 className="Inter-Medium text-f20 text-gray-300">Wireframes & Prototypes</h2>
@@ -22,7 +22,7 @@ const DesignGrid = () => {
             </div>
             <div>
                 <div>
-                    <img className="h-64 w-full" src="/Resources/Capabilities/design-system.jpg" alt="design-system" />
+                    <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/design-system.jpg" alt="design-system" />
                 </div>
                 <div className="bg-mcl-black p-6 h-60">
                     <h2 className="Inter-Medium text-f20 text-gray-300">Design Systems</h2>
@@ -31,7 +31,7 @@ const DesignGrid = () => {
             </div>
             <div>
                 <div>
-                    <img className="h-64 w-full" src="/Resources/Capabilities/responsive.jpg" alt="responsive" />
+                    <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/responsive.jpg" alt="responsive" />
                 </div>
                 <div className="bg-mcl-gray p-6 h-60">
                     <h2 className="Inter-Medium text-f20 text-gray-300">Responsive Designing</h2>
