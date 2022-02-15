@@ -9,7 +9,7 @@ const Footer = () => {
                     </div>
                     <div className="w-1/3 text-f18 Inter-Regular text-gray-300 flex flex-row justify-center space-x-6">
                         <NextLink href="/capabilities"><a href="capabilities">Capabilities</a></NextLink>
-                        <NextLink href="/works"><a href="/works">Works</a></NextLink>
+                        <NextLink href="/case-study"><a href="/case-study">Case Study</a></NextLink>
                         <NextLink href="/about"><a href="/about">About</a></NextLink>
                         <NextLink href="/contact"><a href="/contact">Contact</a></NextLink>
                     </div>
