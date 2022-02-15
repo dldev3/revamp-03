@@ -144,9 +144,9 @@ const Contact = () => {
 
 
 
-            < div className='mt-60' >
+            <div div className='mt-60' >
                 <Footer />
-            </ >
+            </div>
 
 
 
