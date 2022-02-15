@@ -37,7 +37,7 @@ export default function Home() {
 								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
 							</div>
 							<div className="text-white text-f24 Inter-Regular mt-12">
-								<p>We are a creative design agency for architects & interior designers</p>
+								<p>We are a creative design agency for architects & interior designers.</p>
 							</div>
 						</div>
 					</div>
@@ -80,7 +80,7 @@ export default function Home() {
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
-								<div className="lg:text-f24 text-f14 leading-f24 text-white lg:mt-20 mt-12">
+								<div className="Inter-Regular lg:text-f24 text-f14 leading-f24 text-white lg:mt-20 mt-12">
 									<p>We help home professionals build awareness,</p>
 									<p>gain happier customers and drive revenues by</p>
 									<p>designing strategic and engaging websites.</p>
@@ -159,31 +159,31 @@ export default function Home() {
 
 			{/* Our process */}
 			<div className="lg:mt-24">
-				<div className="lg:mx-36">
+				<div className="lg:mx-28">
 					<div className="flex lg:flex-row flex-col">
 						<div className="lg:w-1/2">
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
-						<div className="lg:w-1/2 p-12">
+						<div className="lg:w-1/2 p-4 mt-12">
 							<div className="Inter-Regular leading-f24-high text-f14 lg:text-f24 text-gray-700">
 								<p>We envision becoming a full-service creative</p>
 								<p>agency that can help the growth of home</p>
 								<p>professionals in the connected world</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/roadmap"><a href="/roadmap" className="text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+								<NextLink href="/roadmap"><a href="/roadmap" className="Inter-Regular text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
 							</div>
 						</div>
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse">
-						<div className="lg:w-1/2 p-12">
+						<div className="lg:w-1/2 p-4 mt-12">
 							<div className="Inter-Regular text-f14 lg:text-f24 leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you take a journey</p>
 								<p>from mere discovery of a problem to a creative</p>
 								<p>solution that delivers results.</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/process"><a href="/process" className="text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
+								<NextLink href="/process"><a href="/process" className="Inter-Regular text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
 							</div>
 						</div>
 						<div className="lg:w-1/2">
