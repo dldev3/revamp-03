@@ -196,7 +196,7 @@ const CaseStudy = () => {
                     <p className='text-center'>materials used in the case study were taken from their public website and no</p>
                     <p className='text-center'>sensitive information has been displayed on the design.</p>
                 </div>
-                <div className='text-white Inter-regular text-f14 mt-8'>
+                <div className='lg:hidden text-white Inter-regular text-f14 mt-8'>
                     <p className='text-center'>Gensler is not an actual client of MinuteCode</p>
                     <p className='text-center'>Labs. This case was done for the purpose of</p>
                     <p className='text-center'>demonstrating the creative process of Minute </p>
@@ -213,7 +213,7 @@ const CaseStudy = () => {
                 <div className="flex flex-col items-center my-24">
                     <h1 className="hidden lg:block Inter-Regular text-f50">Have something in mind?</h1>
                     <h1 className="lg:hidden Inter-Regular text-f25">Ready to grow?</h1>
-                    <div className='flex lg:flex-row flex-col lg:space-x-4 space-y-4 mt-6'>
+                    <div className='flex lg:flex-row flex-col lg:space-x-4 space-y-4 lg:space-y-0 mt-6'>
                         <div className="bg-home-cap py-6 px-12 hover:cursor-pointer">
                             <NextLink href="/contact">
                                 <a href="/contact" className="Inter-Regular text-gray-300">Write to us</a>
