@@ -37,7 +37,7 @@ export default function Home() {
 								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
 							</div>
 							<div className="text-white text-f24 Inter-Regular mt-12">
-								<p>We are a creative agency for home professionals.</p>
+								<p>We are a creative design agency for architects & interior designers</p>
 							</div>
 						</div>
 					</div>
