@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="px-12 py-6 lg:mx-44">
                 <form>
 
-                    <div className='flex lg:felx-row flex-col lg:space-x-5'>
+                    <div className='flex lg:flex-row flex-col lg:space-x-5'>
                         <div className='grid gap-y-2 lg:w-1/2'>
                             <label className="text-f16" htmlFor="name">Your Name*</label>
                             <input className='w-full border-2 h-16 p-2' type="text" id="name" name="name" required />
