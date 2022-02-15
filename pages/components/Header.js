@@ -54,7 +54,7 @@ const Header = () => {
 						<NextLink href="/"><a href="/">Home</a></NextLink>
 						<NextLink href="/about"><a href="/about">About</a></NextLink>
 						<NextLink href="/capabilities"><a href="/capabilities">Capabilities</a></NextLink>
-						<NextLink href="/case-study"><a href="/case-study">Case Study</a></NextLink>
+						<NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink>
 						<NextLink href="/contact"><a href="/contact">Contact</a></NextLink>
 					</div>
 				</div>

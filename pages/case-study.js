@@ -26,7 +26,7 @@ const CaseStudy = () => {
 
 
             <div className='flex flex-col justify-center text-center'>
-                <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Case Study</h1>
+                <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Case Studies</h1>
             </div>
             <div className='hidden lg:flex flex-col justify-center text-center text-f50 Inter-Medium leading-f50 text-mcl-text-black'>
                 <h1>Gensler: Reimagining the digital</h1>
@@ -71,7 +71,7 @@ const CaseStudy = () => {
             </div>
 
             <div className='md:mx-36 mt-12'>
-                <img className='w-full h-auto' src="/Resources/CaseStudy/CurrentHome.png" alt="current_homepage" />
+                <img className='w-full h-auto border border-black' src="/Resources/CaseStudy/CurrentHome.png" alt="current_homepage" />
                 <p className='text-center mt-4 lg:text-f16 text-f12'>Current homepage</p>
             </div>
 
