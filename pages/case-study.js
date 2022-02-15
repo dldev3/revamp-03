@@ -166,7 +166,7 @@ const CaseStudy = () => {
             </div>
 
             <div className='md:mx-36 mt-20'>
-                <img src="/Resources/CaseStudy/DesignSystem.png" className='h-auto w-full' alt="design_system" />
+                <img src="/Resources/CaseStudy/DesignSystem.png" className='h-auto w-full border border-gray-200' alt="design_system" />
                 <p className='text-center mt-4 text-f12 lg:text-f14'>Design System</p>
             </div>
 
