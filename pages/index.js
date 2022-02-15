@@ -74,7 +74,7 @@ export default function Home() {
 							<img className="w-full h-768px object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
-							<div className="flex flex-col p-12 lg:ml-12 mt-6">
+							<div className="flex flex-col p-12 lg:ml-12 mt-14">
 								<div className="Inter-Regular text-f25 lg:text-f50 text-white lg:leading-f50 lg:tracking-wide">
 									<h1>We empower the</h1>
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
@@ -87,7 +87,7 @@ export default function Home() {
 									<p>customers and drive revenues.</p>
 
 								</div>
-								<div className="lg:mt-24 mt-12 Inter-Regular">
+								<div className="lg:mt-24 mt-12 Inter-Bold">
 									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
 								</div>
 							</div>
