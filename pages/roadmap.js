@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Landing from './components/Roadmap/Landing';
 import Grow from './components/Grow';
 import Head from 'next/head';
 
@@ -20,18 +19,43 @@ const Roadmap = () => {
 
             {/* Landing page */}
             <div>
-                <Landing></Landing>
+                <div>
+                    <div className="relative -top-33 z-0">
+                        <div className="">
+                            <img src="/Resources/Roadmap/home-roadmap.jpg" className="hidden lg:block object-cover w-full h-screen" />
+                            <img src="/Resources/Mobile/Roadmap-mobile-hero.png" className="lg:hidden object-cover w-full h-auto" />
+                        </div>
+                    </div>
+
+                    <div className="md:mx-36 relative bottom-100 mx-12">
+                        <div className="text-white lg:text-f24 text-f14 Inter-Regular mt-12">
+                            <p>Our mission</p>
+                        </div>
+                        <div className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
+                            <h1 className="drop-shadow-md">We envision becoming a full-service</h1>
+                            <h1 className="drop-shadow-md">creative agency for home professionals</h1>
+                        </div>
+                        <div className="lg:hidden text-white text-f25 Inter-Regular tracking-wide mt-4">
+                            <h1 className="drop-shadow-md"> We envision becoming</h1>
+                            <h1 className="drop-shadow-md">a full-service creative</h1>
+                            <h1 className="drop-shadow-md">agency for home</h1>
+                            <h1 className="drop-shadow-md">professionals</h1>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
 
             <div className="-mt-56">
             </div>
 
-            <div className="md:mx-44">
-                <div className="flex flex-row justify-center">
-                    <div className="w-1/4 text-f16 Inter-Regular">
+            <div className="md:mx-44 mx-10">
+                <div className="flex lg:flex-row flex-col justify-center">
+                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Regular">
                         <p className=''>Our roadmap</p>
                     </div>
-                    <div className="w-3/4 text-f24 Inter-Regular">
+                    <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
                         <h2>Delivering results through the power of design is just the</h2>
                         <h2>first step of our grand game plan for the construction</h2>
                         <h2>industry. We have a big vision for the years to come, that</h2>
@@ -45,12 +69,12 @@ const Roadmap = () => {
                 </div>
             </div>
 
-            <div className="md:mx-44 mt-36">
-                <div className="flex flex-row justify-center">
-                    <div className="w-1/4 text-f16 Inter-Regular">
+            <div className="md:mx-44 mx-10 lg:mt-36 mt-24">
+                <div className="flex lg:flex-row flex-col justify-center">
+                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Regular">
                         <p className=''>Our game plan</p>
                     </div>
-                    <div className="w-3/4 text-f24 Inter-Regular">
+                    <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
                         <h2>Each side of the hexagon of our brand identity represents</h2>
                         <h2>a specific service we want to bring in as a core service.</h2>
                     </div>
@@ -58,15 +82,16 @@ const Roadmap = () => {
             </div>
 
 
-            <div className='mt-36'>
-                <img className='h-auto w-full' src="/Resources/Roadmap/roadmap-desktop.jpg" alt="roadmap" />
+            <div className='lg:mt-36 mt-20'>
+                <img className='lg:block hidden h-auto w-full' src="/Resources/Roadmap/roadmap-desktop.jpg" alt="roadmap" />
+                <img className='h-auto w-full lg:hidden' src="/Resources/Roadmap/roadmap-mobile.jpg" alt="roadmap" />
             </div>
 
-            <div className='grid grid-cols-3 gap-y-8 md:mx-28 mt-28'>
+            <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-y-8 gap-y-4 lg:mx-28 lg:mt-28 mt-16 mx-10'>
 
                 <div>
-                    <h1 className='text-f24 text-mcl-gray'>Online Identity</h1>
-                    <div className='text-f24 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Online Identity</h1>
+                    <div className='lg:text-f24 text-f12 mt-4'>
                         <p>Setting your online presence</p>
                         <p>for success through creative</p>
                         <p><span className='text-mcl-blue'>Web Designing </span>that helps</p>
@@ -76,8 +101,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-f24 text-mcl-gray'>Personality</h1>
-                    <div className='text-f24 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Personality</h1>
+                    <div className='lg:text-f24 text-f12 mt-4'>
                         <p>Giving you an identity that</p>
                         <p>tells your personality and</p>
                         <p>your values through</p>
@@ -88,8 +113,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='text-f24 text-mcl-gray'>Discoverability</h1>
-                    <div className='text-f24 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Discoverability</h1>
+                    <div className='lg:text-f24 text-f12 mt-4'>
                         <p>Giving your brand the upper</p>
                         <p>hand at being found online</p>
                         <p>through<span className='text-mcl-blue'> SEO.</span></p>
@@ -98,8 +123,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='text-f24 text-mcl-gray'>Master Plan</h1>
-                    <div className='text-f24 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Master Plan</h1>
+                    <div className='lg:text-f24 text-f12 mt-4'>
                         <p>Helping you understand your</p>
                         <p>purpose and define your goals</p>
                         <p>through<span className='text-mcl-blue'> Strategy.</span></p>
@@ -107,8 +132,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-f24 text-mcl-gray'>Attraction</h1>
-                    <div className='text-f24 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Attraction</h1>
+                    <div className='lg:text-f24 text-f12 mt-4'>
                         <p>Helping you to penetrate</p>
                         <p>and attract your ideal</p>
                         <p>customers through<span className='text-mcl-blue'> Digital</span></p>
@@ -117,8 +142,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-f24 text-mcl-gray'>Connectivity</h1>
-                    <div className='text-f24 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Connectivity</h1>
+                    <div className='lg:text-f24 text-f12 mt-4'>
                         <p>Helping you to go out to the world</p>
                         <p>and establish authentic connections</p>
                         <p>by bringing your next event to life</p>

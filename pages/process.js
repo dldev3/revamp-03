@@ -1,9 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Landing from './components/Process/Landing';
 import Grow from './components/Grow';
-import CaseStudy from './components/Home/Case-Study';
 import Head from 'next/head';
 
 const Process = () => {
@@ -21,7 +19,25 @@ const Process = () => {
 
             {/* Landing page */}
             <div>
-                <Landing></Landing>
+                <div>
+                    <div className="relative -top-33 z-0">
+                        <div className="">
+                            <img src="/Resources/Home/home-process.jpg" className="object-cover w-full h-screen" />
+                        </div>
+                    </div>
+
+                    <div className="md:mx-36 relative bottom-100">
+                        <div className="text-white text-f24 Inter-Regular mt-12">
+                            <p>Our Strength</p>
+                        </div>
+                        <div className="text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
+                            <h1 className="drop-shadow-md">One of our key strengths lie in having</h1>
+                            <h1 className="drop-shadow-md"> a clear cut process that delivers results</h1>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
 
             <div className="-mt-56">
@@ -99,7 +115,30 @@ const Process = () => {
             </div>
 
             <div className='mt-12'>
-                <CaseStudy />
+                <div className="lg:mt-24 mt-8">
+                    <div className="lg:mx-2">
+
+                        <div><h1 className="text-f25 lg:text-f50 Inter-Regular text-center">Case Study</h1></div>
+
+                        <div className="mt-8 grid lg:grid-cols-3 grid-cols-1">
+                            <div>
+                                <img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-1.jpg" alt="case-1" />
+                                <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Lightin Interiors</p>
+                            </div>
+                            <div>
+                                <img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-2.jpg" alt="case-1" />
+                                <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Flexy Archi</p>
+                            </div>
+                            <div>
+                                <img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-3.jpg" alt="case-1" />
+                                <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Bloom Beauty</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
             </div>
 
             <div>

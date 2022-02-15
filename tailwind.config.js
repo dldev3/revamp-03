@@ -14,6 +14,7 @@ module.exports = {
 				'f18': '1.125rem',
 				'f16': '1rem',
 				'f14': '0.875rem',
+				'f12': '0.750rem',
 				'f10': '0.625rem',
 			},
 			colors: {
@@ -38,6 +39,8 @@ module.exports = {
 				'102': '30rem',
 				'33': '8.75rem',
 				'100': '28rem',
+				'104': '42rem',
+				'103': '32rem'
 			},
 			margin: {
 				'88': '22.5rem',
