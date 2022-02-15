@@ -92,7 +92,7 @@ const Contact = () => {
 
                     <div className='grid gap-y-2 mt-10'>
                         <label className="text-f16" htmlFor='thinking'>What are you thinking?</label>
-                        <select value={this.state.selectValue} onChange={(e) => { setThinking(e.target.value) }} className="w-full border-2 h-16 p-2">
+                        <select value={this.value} onChange={(e) => { setThinking(e.target.value) }} className="w-full border-2 h-16 p-2">
                             <option value="start-a-project">Start a project</option>
                             <option value="opt-2">Opt-2</option>
                             <option value="opt-3">Opt-3</option>
@@ -113,7 +113,7 @@ const Contact = () => {
                     <div className='flex lg:flex-row flex-col lg:space-x-5 mt-10'>
                         <div className='grid gap-y-2 lg:w-1/2'>
                             <label className="text-f16" htmlFor="name">Your readiness of investment into growing your business*</label>
-                            <select value={this.state.selectValue} onChange={(e) => { setBudget(e.target.value) }} className="w-full border-2 h-16 p-2">
+                            <select value={this.value} onChange={(e) => { setBudget(e.target.value) }} className="w-full border-2 h-16 p-2">
                                 <option value="$10,000 - $18,000">$10,000 - $18,000</option>
                                 <option value="Below $10,000">Below $10,000</option>
                                 <option value="$18,000-$25,000">$18,000-$25,000</option>
@@ -122,7 +122,7 @@ const Contact = () => {
                         </div>
                         <div className='grid gap-y-2 lg:w-1/2 mt-4 lg:mt-0'>
                             <label className="text-f16" htmlFor='email'>How did you find us?</label>
-                            <select value={this.state.selectValue} onChange={(e) => { setFind(e.target.value) }} className="w-full border-2 h-16 p-2">
+                            <select value={this.value} onChange={(e) => { setFind(e.target.value) }} className="w-full border-2 h-16 p-2">
                                 <option value="On Google">On Google</option>
                                 <option value="LinkedIn">LinkedIn</option>
                                 <option value="Other">Other</option>
