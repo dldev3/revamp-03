@@ -71,7 +71,7 @@ export default function Home() {
 				<div>
 					<div className="flex lg:flex-row flex-col-reverse">
 						<div className="lg:w-5/12">
-							<img className="w-full h-auto object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
+							<img className="w-full h-768px object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
 							<div className="flex flex-col p-12 lg:ml-12 mt-6">
@@ -101,12 +101,13 @@ export default function Home() {
 					<div className="hidden lg:flex flex-row">
 						<div className="bg-home-cap p-6 text-gray-300"><p className="Inter-Regular">Our Dream Clients</p></div>
 
-						<div className="flex flex-1 grow-1 space-x-10 bg-gray-800">
+						<div className="flex flex-1 grow-1 bg-gray-800">
 							<div className="py-6 text-gray-500 ml-4"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Architects</p></div>
 							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Interior Designers</p></div>
 							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Landscapers</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Custom Home Builders</p></div>				<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Landscape Architects</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular">Design and Build Firms</p></div>
+							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Custom Home Builders</p></div>
+							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Landscape Architects</p></div>
+							<div className="py-6 text-gray-500"><p className="Inter-Regular ml-4">Design and Build Firms</p></div>
 						</div>
 					</div>
 
@@ -133,7 +134,7 @@ export default function Home() {
 						<h1 className="text-white text-f25 lg:text-f50 lg:leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 					</div>
 
-					<div className="flex lg:flex-row flex-col justify-between lg:py-12 lg:px-24 lg:mx-40 px-12 py-6">
+					<div className="flex lg:flex-row flex-col justify-between lg:py-12 lg:px-24 lg:mx-28 px-12 py-6">
 						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
 							<p>Here is to the creators,</p>
 							<p>The designers,</p>
