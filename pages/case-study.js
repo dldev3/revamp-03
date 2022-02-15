@@ -45,9 +45,9 @@ const CaseStudy = () => {
                         <div className='Inter-regular text-f14 lg:text-f20 lg:leading-f40 mt-4 lg:mt-0'>
                             <p>Gensler is the world's largest design </p>
                             <p>firm that partners with clients to</p>
-                            <p>create more livable cities, smarter work</p>
-                            <p>places and more engaging leisure</p>
-                            <p>destinations.</p>
+                            <p>create more livable cities, smarter </p>
+                            <p>work places and more engaging</p>
+                            <p>leisure destinations.</p>
                         </div>
                     </div>
                     <div>
