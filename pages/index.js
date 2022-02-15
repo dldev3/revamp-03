@@ -172,7 +172,7 @@ export default function Home() {
 			<div className="lg:mt-24 mt-8">
 				<div className="lg:mx-2">
 
-					<div><h1 className="text-f25 lg:text-f50 Inter-Regular text-center">Case Study</h1></div>
+					<div><h1 className="text-f25 lg:text-f50 Inter-Regular text-center">Case Studies</h1></div>
 
 					<div className="mt-8 grid lg:grid-cols-3 grid-cols-1">
 						<div>
