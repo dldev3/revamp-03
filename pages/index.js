@@ -171,7 +171,7 @@ export default function Home() {
 								<p>professionals in the connected world</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/our-process"><a href="/our-process" className="text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
+								<NextLink href="/roadmap"><a href="/roadmap" className="text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
 							</div>
 						</div>
 					</div>
@@ -183,7 +183,7 @@ export default function Home() {
 								<p>solution that delivers results.</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/our-process"><a href="/our-process" className="text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
+								<NextLink href="/process"><a href="/process" className="text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
 							</div>
 						</div>
 						<div className="lg:w-1/2">
