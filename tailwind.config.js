@@ -5,6 +5,14 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			width: {
+				'230px': '14.375rem',
+				'60px': '3.75rem',
+
+			},
+			height: {
+				'60px': '3.75rem'
+			},
 			fontSize: {
 				'f50': '3.125rem',
 				'f28': '1.75rem',

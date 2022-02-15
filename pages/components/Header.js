@@ -18,7 +18,7 @@ const Header = () => {
 		<div>
 			<div className="hidden lg:flex flex-row justify-centeir md:pt-12 xl:pt-16 md:mx-28">
 				<div className="w-5/12">
-					<div className="w-48 h-auto">
+					<div className="w-230px h-60px">
 						<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
 					</div>
 				</div>
