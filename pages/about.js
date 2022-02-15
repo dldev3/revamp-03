@@ -15,7 +15,7 @@ export default function About() {
             </Head>
 
             {/* Header */}
-            <div className="relative -top-5 z-10">
+            <div className="relative lg:-top-5 z-10">
                 <Header></Header>
             </div>
 

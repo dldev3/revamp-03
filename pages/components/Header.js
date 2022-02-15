@@ -36,10 +36,10 @@ const Header = () => {
 			</div>
 
 
-			<nav className="md:hidden block mx-8 mt-6">
+			<nav className="md:hidden block mx-8">
 				<div className="flex justify-between">
-					<NextLink href="/"><a href="/" ><img className='w-44' id="logo" src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
-					<a href="#">
+					<NextLink href="/"><a href="/" ><img className='w-44 mt-4' id="logo" src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
+					<a href="#" className='mt-4'>
 						<img src="/Resources/Mobile/mobile-menu.webp" onClick={openNav} className="cursor-pointer w-8 h-8" alt="mobile-menu" />
 					</a>
 				</div>

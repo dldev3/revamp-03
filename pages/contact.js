@@ -59,7 +59,7 @@ const Contact = () => {
                     <Header />
                 </div>
 
-                <div className='md:mx-36 text-white lg:mt-40 py-12 mx-10'>
+                <div className='md:mx-36 text-white lg:mt-40 py-12 mx-10 mt-24'>
                     <p className='Inter-Regular lg:text-f24 text-f14'>Say hello</p>
                     <div className='hidden lg:block Inter-Medium text-f50'>
                         <h1>Start a project? Have a call?</h1>

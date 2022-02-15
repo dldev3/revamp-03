@@ -45,7 +45,7 @@ export default function Home() {
 					{/* mobile */}
 					<div className="lg:hidden relative -top-20 landing-section">
 						<div className="bg-mcl-black p-12">
-							<div className="text-white text-f25 leading-f33 Inter-Regular mt-16">
+							<div className="text-white text-f25 leading-f33 Inter-Regular mt-36">
 								<h1 className="drop-shadow-md">Creative solutions. For </h1>
 								<h1 className="drop-shadow-md">the creators of modern</h1>
 								<h1 className="drop-shadow-md">day dream homes.</h1>
@@ -71,7 +71,7 @@ export default function Home() {
 				<div>
 					<div className="flex lg:flex-row flex-col-reverse">
 						<div className="lg:w-5/12">
-							<img className="w-full h-screen object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
+							<img className="w-full h-auto object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
 							<div className="flex flex-col p-12 lg:ml-12 mt-6">
