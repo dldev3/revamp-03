@@ -22,17 +22,24 @@ const Process = () => {
                 <div>
                     <div className="relative -top-33 z-0">
                         <div className="">
-                            <img src="/Resources/Home/home-process.jpg" className="object-cover w-full h-screen" />
+                            <img src="/Resources/Home/home-process.jpg" className="hidden lg:block object-cover w-full h-screen" />
+                            <img src="/Resources/Mobile/Process-mobile-hero.png" className="lg:hidden object-cover w-full" />
                         </div>
                     </div>
 
-                    <div className="md:mx-36 relative bottom-100">
-                        <div className="text-white text-f24 Inter-Regular mt-12">
+                    <div className="md:mx-36 relative bottom-100 mx-10">
+                        <div className="text-white lg:text-f24 text-f14 Inter-Regular mt-12">
                             <p>Our Strength</p>
                         </div>
-                        <div className="text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
+                        <div className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md">One of our key strengths lie in having</h1>
                             <h1 className="drop-shadow-md"> a clear cut process that delivers results</h1>
+                        </div>
+                        <div className="lg:hidden text-white text-f24 Inter-Regular tracking-wide mt-4">
+                            <h1 className="drop-shadow-md">One of our key </h1>
+                            <h1 className="drop-shadow-md">strengths lie in having a</h1>
+                            <h1 className="drop-shadow-md">clear cut process that</h1>
+                            <h1 className="drop-shadow-md">delivers results</h1>
                         </div>
 
                     </div>
@@ -40,16 +47,16 @@ const Process = () => {
                 </div>
             </div>
 
-            <div className="-mt-56">
+            <div className="lg:-mt-56 -mt-72">
             </div>
 
 
-            <div className="md:mx-44">
-                <div className="flex flex-row justify-center">
-                    <div className="w-1/4 text-f16 Inter-Regular">
+            <div className="lg:mx-44 mx-10">
+                <div className="flex lg:flex-row flex-col justify-center">
+                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Regular">
                         <p className=''>Our process</p>
                     </div>
-                    <div className="w-3/4 text-f24 Inter-Regular">
+                    <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
                         <h2>Using our experience and new founded learnings, we have</h2>
                         <h2>refined a process that helps to understand where you are</h2>
                         <h2>right now, where you want to go, and the best way to get</h2>
@@ -64,16 +71,16 @@ const Process = () => {
             </div>
 
 
-            <div className="md:mx-44 mt-36">
-                <div className="flex flex-row justify-center">
-                    <div className="w-1/4 text-f16 Inter-Regular">
+            <div className="md:mx-44 lg:mt-36 mt-20 mx-10">
+                <div className="flex lg:flex-row flex-col justify-center">
+                    <div className="lg:w-1/4 text-f12 lg:text-f16 Inter-Regular">
                         <p className=''>Process approach</p>
                     </div>
-                    <div className="w-3/4 text-f24 Inter-Regular">
+                    <div className="lg:w-3/4 text-f24 Inter-Regular mt-6 lg:mt-0">
                         <div className='grid grid-cols-2 gap-y-6'>
                             <div>
-                                <div><p className='Inter-SemiBold text-f24 text-mcl-blue'>01 Discover</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular text-f24'>
+                                <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>01 Discover</p></div>
+                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>Our process gathers research,</p>
                                     <p>inputs, thoughts & ideas, audits,</p>
                                     <p>and experiences to understand</p>
@@ -81,8 +88,8 @@ const Process = () => {
                                 </div>
                             </div>
                             <div>
-                                <div><p className='Inter-SemiBold text-f24 text-mcl-blue'>02 Difine</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular text-f24'>
+                                <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>02 Define</p></div>
+                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>We run collaborative work to</p>
                                     <p>understand and to refine a</p>
                                     <p>brand's business goals,</p>
@@ -91,8 +98,8 @@ const Process = () => {
                                 </div>
                             </div>
                             <div>
-                                <div><p className='Inter-SemiBold text-f24 text-mcl-blue'>03 Develop</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular text-f24'>
+                                <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>03 Develop</p></div>
+                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>From the new founded insights,</p>
                                     <p>we create a road map that will</p>
                                     <p>take a brand from it's current</p>
@@ -100,8 +107,8 @@ const Process = () => {
                                 </div>
                             </div>
                             <div>
-                                <div><p className='Inter-SemiBold text-f24 text-mcl-blue'>04 Deliver</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular text-f24'>
+                                <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>04 Deliver</p></div>
+                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>We develop the solution for the</p>
                                     <p>measurements & guidelines we</p>
                                     <p>got from the roadmap, which will</p>
