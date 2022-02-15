@@ -96,38 +96,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			{/* dream clients */}
-			<div className="2xl:block sm:hidden">
-				<div>
 
-					<div className="hidden lg:flex flex-row">
-						<div className="bg-home-cap p-6 text-gray-300"><p className="Inter-Regular">Our Dream Clients</p></div>
-
-						<div className="flex flex-1 grow-1 bg-gray-800">
-							<div className="py-6 text-gray-500 ml-4"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Architects</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Interior Designers</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Landscapers</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Custom Home Builders</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular px-6 border-r-2 border-gray-700">Landscape Architects</p></div>
-							<div className="py-6 text-gray-500"><p className="Inter-Regular ml-4">Design and Build Firms</p></div>
-						</div>
-					</div>
-
-					{/* mobile */}
-					<div className="lg:hidden flex flex-col ">
-						<div className="bg-home-cap p-6"><p className="text-f14 Inter-Regular text-gray-300 text-center p-2">Our Dream Clients</p></div>
-						<div className="p-6 bg-mcl-gray"><p className="text-f14 Inter-Regular p-2 text-gray-300 text-center">Architects</p></div>
-						<div className="p-6 bg-mcl-gray"><p className="text-f14 Inter-Regular p-2 text-gray-300 text-center">Interior Designers</p></div>
-						<div className="p-6 bg-mcl-gray"><p className="text-f14 Inter-Regular p-2 text-gray-300 text-center">Landscapers</p></div>
-						<div className="p-6 bg-mcl-gray"><p className="text-f14 Inter-Regular p-2 text-gray-300 text-center">Custom Home Builders</p></div>
-						<div className="p-6 bg-mcl-gray"><p className="text-f14 Inter-Regular p-2 text-gray-300 text-center">Landscape Architects</p></div>
-						<div className="p-6 bg-mcl-gray"><p className="text-f14 Inter-Regular p-2 text-gray-300 text-center">Design and Build Firms</p></div>
-					</div>
-					{/* mobile ends */}
-
-				</div>
-
-			</div>
 
 			{/* Vision */}
 			<div>
@@ -162,31 +131,33 @@ export default function Home() {
 
 			{/* Our process */}
 			<div className="lg:mt-24">
-				<div className="lg:mx-28">
+				<div className="lg:mx-14">
 					<div className="flex lg:flex-row flex-col">
 						<div className="lg:w-1/2">
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
-						<div className="lg:w-1/2 p-4 mt-12">
+						<div className="lg:w-1/2 py-4 px-8 mt-12">
 							<div className="Inter-Regular leading-f24-high text-f14 lg:text-f24 text-gray-700">
-								<p>We envision becoming a full-service creative</p>
-								<p>agency that can help the growth of home</p>
-								<p>professionals in the connected world</p>
+								<p>From a boutique design agency, we envision</p>
+								<p>becoming a full-service creative agency that</p>
+								<p>can help the growth of architects & interior</p>
+								<p>designers in the connected world.</p>
 							</div>
+
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/roadmap"><a href="/roadmap" className="Inter-Regular text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+								<NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
 							</div>
 						</div>
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse">
-						<div className="lg:w-1/2 p-4 mt-12">
+						<div className="lg:w-1/2 py-4 px-8 mt-12">
 							<div className="Inter-Regular text-f14 lg:text-f24 leading-f24-high text-gray-700">
-								<p>Our clear cut process helps you take a journey</p>
-								<p>from mere discovery of a problem to a creative</p>
-								<p>solution that delivers results.</p>
+								<p>Our clear cut process helps you understand your</p>
+								<p>problems and helps us deliver results focused</p>
+								<p>solutions that solves problems.</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/process"><a href="/process" className="Inter-Regular text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
+								<NextLink href="/process"><a href="/process" className="Inter-Bold text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
 							</div>
 						</div>
 						<div className="lg:w-1/2">
