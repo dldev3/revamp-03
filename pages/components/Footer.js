@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className='flex flex-col justify-center items-center p-4'><NextLink href="/"><a href="/"><img className="object-cover w-48 h-12" src="Resources/About/Logo.png" alt="logo" /></a></NextLink></div>
                 <div className='flex flex-col justify-center items-center space-y-4 text-gray-300'>
                     <NextLink href="/capabilities"><a href="capabilities">Capabilities</a></NextLink>
-                    <NextLink href="/works"><a href="/works">Works</a></NextLink>
+                    <NextLink href="/case-study"><a href="/case-study">Case Study</a></NextLink>
                     <NextLink href="/about"><a href="/about">About</a></NextLink>
                     <NextLink href="/contact"><a href="/contact">Contact</a></NextLink>
                 </div>
