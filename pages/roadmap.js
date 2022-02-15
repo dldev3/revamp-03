@@ -10,7 +10,7 @@ const Roadmap = () => {
             <Head>
                 <title>Minutecode Labs | Roadmap</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/fav.png" />
             </Head>
 
             <div className="relative -top-5 z-10">

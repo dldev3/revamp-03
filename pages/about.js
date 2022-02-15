@@ -10,7 +10,7 @@ export default function About() {
             <Head>
                 <title>Minutecode Labs | About</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/fav.png" />
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             </Head>
 

@@ -50,7 +50,7 @@ const Contact = () => {
             <Head>
                 <title>Minutecode Labs | Contact Us</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/fav.png"/>
             </Head>
 
             <div className='bg-hero-dark'>
@@ -124,6 +124,7 @@ const Contact = () => {
                             <select value={find} onChange={(e) => { setFind(e.target.value) }} className="w-full border-2 h-16 p-2">
                                 <option value="On Google">On Google</option>
                                 <option value="LinkedIn">LinkedIn</option>
+                                <option value="Referral">Referral or Recommendation</option>
                                 <option value="Other">Other</option>
                             </select>
                         </div>
