@@ -29,12 +29,13 @@ const CaseStudy = () => {
                 <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Case Study</h1>
             </div>
             <div className='hidden lg:flex flex-col justify-center text-center text-f50 Inter-Medium leading-f50 text-mcl-text-black'>
-                <h1>Gensler: Reimagining the corporate</h1>
-                <h1>website homepage</h1>
+                <h1>Gensler: Reimagining the digital</h1>
+                <h1>forefront in 2022</h1>
+
             </div>
             <div className='flex lg:hidden text-f20 flex-col justify-center text-center Inter-Medium text-mcl-text-black'>
                 <h1>Gensler: Reimagining the </h1>
-                <h1>corporate website homepage</h1>
+                <h1>digital forefront in 2022</h1>
             </div>
 
             <div className='md:mx-36 mt-12 mx-14'>
@@ -42,7 +43,7 @@ const CaseStudy = () => {
                     <div>
                         <div className='lg:text-f16 text-f12 text-mcl-text-black'><p>Background</p></div>
                         <div className='Inter-regular text-f14 lg:text-f20 lg:leading-f40 mt-4 lg:mt-0'>
-                            <p>Gensler is the world's design firm</p>
+                            <p>Gensler is the world's largest design firm</p>
                             <p>that partners with clients to create</p>
                             <p>more livable cities, smarter work</p>
                             <p>places and more engaging leisure</p>
