@@ -16,7 +16,7 @@ const closeNav = (e) => {
 const Header = () => {
 	return (
 		<div>
-			<div className="hidden lg:flex flex-row justify-centeir md:pt-12 xl:pt-16 md:mx-36">
+			<div className="hidden lg:flex flex-row justify-centeir md:pt-12 xl:pt-16 md:mx-28">
 				<div className="w-5/12">
 					<div className="w-48 h-auto">
 						<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
@@ -24,7 +24,7 @@ const Header = () => {
 				</div>
 
 				<div className="w-7/12 text-f18 Inter-Regular text-gray-200">
-					<ul className="flex flex-row justify-center space-x-10 ml-32">
+					<ul className="flex flex-row justify-center space-x-9 ml-36">
 						<li className=""><NextLink href="/capabilities"><a href="/capablities">Capabilities</a></NextLink></li>
 						<li className=""><NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink></li>
 						<li className=""><NextLink href="/about"><a href="/about">About</a></NextLink></li>

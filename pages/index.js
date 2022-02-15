@@ -31,8 +31,8 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="md:mx-36 relative bottom-102">
-							<div className="text-white text-f50 leading-f50 Inter-Medium tracking-wider">
+						<div className="md:mx-28 relative bottom-102">
+							<div className="text-white text-f50 leading-f50 Inter-Medium">
 								<h1 className="drop-shadow-md">Creative solutions. For the</h1>
 								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
 							</div>

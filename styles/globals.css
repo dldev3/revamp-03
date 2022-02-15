@@ -4,8 +4,8 @@
 
 
 .container-mcl {
-	max-width: 1536px !important;
-	/* max-width: 1366px !important; */
+	/* max-width: 1536px !important; */
+	max-width: 1366px !important;
 	margin: auto;
 }
 
