@@ -71,7 +71,7 @@ const CaseStudy = () => {
             </div>
 
             <div className='md:mx-36 mt-12'>
-                <img className='w-full h-auto border border-gray-400' src="/Resources/CaseStudy/CurrentHome.png" alt="current_homepage" />
+                <img className='w-full h-auto border border-gray-300' src="/Resources/CaseStudy/CurrentHome.png" alt="current_homepage" />
                 <p className='text-center mt-4 lg:text-f16 text-f12'>Current homepage</p>
             </div>
 
