@@ -81,9 +81,11 @@ export default function Home() {
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
 								<div className="Inter-Regular lg:text-f24 text-f14 leading-f24 text-white lg:mt-20 mt-12">
-									<p>We help home professionals build awareness,</p>
-									<p>gain happier customers and drive revenues by</p>
-									<p>designing strategic and engaging websites.</p>
+									<p>We solve business problems for architects &</p>
+									<p>interior designers through creative designs</p>
+									<p>helping them to build awareness, gain happier</p>
+									<p>customers and drive revenues.</p>
+
 								</div>
 								<div className="lg:mt-24 mt-12 Inter-Regular">
 									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
