@@ -46,7 +46,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="lg:mx-36 relative lg:bottom-100 bottom-104 mx-12">
+                    <div className="lg:mx-36 relative lg:bottom-100 bottom-108 mx-12">
                         <div className="text-white text-f14 lg:text-f24 Inter-Regular mt-12">
                             <p>What we do</p>
                         </div>
@@ -71,23 +71,25 @@ export default function Home() {
             </div>
 
 
-            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-103 lg:-mt-72'>
+            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-110 lg:-mt-72'>
                 <div className='lg:w-3/12'>
                     <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
                 <div className='lg:w-9/12 lg:text-f50 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
-                    <h1>We let creativity meet strategy to</h1>
-                    <h1>solve problems</h1>
+                    <h1 className='lg:block hidden'>We let creativity meet strategy to</h1>
+                    <h1 className='lg:block hidden'>solve problems</h1>
+                    <h1 className='lg:hidden'>We let creativity meet strategy to solve</h1>
+                    <h1 className='lg:hidden'>problems</h1>
                 </div>
             </div>
 
             {/* Designing */}
-            <div className='mt-24'>
-                <div className='flex lg:flex-row flex-col'>
+            <div className='lg:mt-24 mt-10'>
+                <div className='flex lg:flex-row flex-col-reverse'>
                     <div className="lg:w-5/12 bg-mcl-blue py-16">
-                        <div className='mx-20 lg:mt-24'>
+                        <div className='lg:mx-20 mx-14 lg:mt-24'>
                             <div className=''>
-                                <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Medium'>Designing</h1>
+                                <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Regular'>Designing</h1>
                             </div>
                             <div className='text-f14 lg:text-f24 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
                                 <p>Every brand has a story to tell.</p>
@@ -95,8 +97,8 @@ export default function Home() {
                                 <p>present a design that brings brand</p>
                                 <p>stories to life in a meaningful way</p>
                             </div>
-                            <div className='max-w-fit border-white border-b-2 mt-20'>
-                                <a id="designArr" className='flex flex-row text-white Inter-Bold text-f16 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className=""><img id="designArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
+                            <div className='max-w-fit border-white border-b-2 lg:mt-20 mt-14'>
+                                <a id="designArr" className='flex flex-row text-white Inter-Bold text-f12 lg:text-f16 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className=""><img id="designArrImg" className='ml-1 w-auto h-4 lg:mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                             </div>
                         </div>
                     </div>
@@ -116,8 +118,8 @@ export default function Home() {
                             <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/research.jpg" alt="research" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Discovery & Research</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">A design is a solution to a problem. To create a design that solves, identifying the problems and needs are is and must be the first step.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Discovery & Research</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">A design is a solution to a problem. To create a design that solves, identifying the problems and needs are is and must be the first step.</p>
                         </div>
                     </div>
                     <div>
@@ -125,8 +127,8 @@ export default function Home() {
                             <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/wireframing.jpg" alt="wireframing" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Wireframes & Prototypes</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">A wireframe displays the structure while a prototype displays the interactions within. Collectively, they make the decision making and the effectiveness of a solution optimum.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Wireframes & Prototypes</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">A wireframe displays the structure while a prototype displays the interactions within. Collectively, they make the decision making and the effectiveness of a solution optimum.</p>
                         </div>
                     </div>
                     <div>
@@ -134,8 +136,8 @@ export default function Home() {
                             <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/design-system.jpg" alt="design-system" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Design Systems</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">A design system lays the foundations for a good design as it sets the standards and the patterns of a specific design.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Design Systems</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">A design system lays the foundations for a good design as it sets the standards and the patterns of a specific design.</p>
                         </div>
                     </div>
                     <div>
@@ -143,8 +145,8 @@ export default function Home() {
                             <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/responsive.jpg" alt="responsive" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Responsive Designing</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">From a desktop to tablets and mobiles, responsive designs adapt smoothly to any and all device screens perfectly.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Responsive Designing</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">From a desktop to tablets and mobiles, responsive designs adapt smoothly to any and all device screens perfectly.</p>
                         </div>
                     </div>
 
@@ -159,18 +161,18 @@ export default function Home() {
                             <img className='w-auto object-cover' src="/Resources/Capabilities/web-development.jpg" alt="img" />
                         </div>
                         <div className="lg:w-5/12 bg-mcl-blue py-16">
-                            <div className='mx-20 lg:mt-10'>
+                            <div className='lg:mx-20 mx-14 lg:mt-10'>
                                 <div className=''>
-                                    <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Medium'>Development</h1>
+                                    <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Regular'>Development</h1>
                                 </div>
-                                <div className='text-f14 lg:text-f24 leading-f36 Inter-Regular mt-8 text-gray-200'>
+                                <div className='text-f14 lg:text-f24 lg:leading-f36 leading-f26 Inter-Regular mt-8 text-gray-200'>
                                     <p>Our goal is to build a solution that</p>
                                     <p>is specific to a brand, performing,</p>
                                     <p>and future proof, setting the stage</p>
                                     <p>for brand stories come to life.</p>
                                 </div>
                                 <div className='max-w-fit border-white border-b-2 mt-10 lg:mt-20'>
-                                    <a id="devArr" className='flex flex-row text-white Inter-Bold text-f16 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className=""><img id="devArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
+                                    <a id="devArr" className='flex flex-row text-white Inter-Bold lg:text-f16 text-f12 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className=""><img id="devArrImg" className='ml-1 w-auto h-4 lg:mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                 </div>
                             </div>
                         </div>
@@ -189,8 +191,8 @@ export default function Home() {
                             <img className="h-64 w-full" src="/Resources/Capabilities/custom-development.jpg" alt="custom-development" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Custom Development</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">From scratch building of a solution without the use of website builders and templates of any kind.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Custom Development</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">From scratch building of a solution without the use of website builders and templates of any kind.</p>
                         </div>
                     </div>
                     <div>
@@ -198,8 +200,8 @@ export default function Home() {
                             <img className="h-64 w-full" src="/Resources/Capabilities/migration.jpg" alt="migration" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Migration</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">Taking a website from one place to another place on the internet without harming the good side of the current location.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Migration</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">Taking a website from one place to another place on the internet without harming the good side of the current location.</p>
                         </div>
                     </div>
                     <div>
@@ -207,8 +209,8 @@ export default function Home() {
                             <img className="h-64 w-full" src="/Resources/Capabilities/infrastructure.jpg" alt="infrastructure" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">Infrastructure</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">The basic digital structures and facilities needed for the operation of a website.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Infrastructure</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">The basic digital structures and facilities needed for the operation of a website.</p>
                         </div>
                     </div>
                     <div>
@@ -216,8 +218,8 @@ export default function Home() {
                             <img className="h-64 w-full" src="/Resources/Capabilities/maintenance.jpg" alt="maintenance" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
-                            <h2 className="Inter-Medium text-f20 text-gray-300">On-Going Support</h2>
-                            <p className="Inter-Regular text-f14 leading-f24-low text-gray-300 mt-4">From maintenance to scaling a built solution with the growth of a brand.</p>
+                            <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">On-Going Support</h2>
+                            <p className="Inter-Regular lg:text-f14 text-f10 leading-f24-low text-gray-300 mt-4">From maintenance to scaling a built solution with the growth of a brand.</p>
                         </div>
                     </div>
 

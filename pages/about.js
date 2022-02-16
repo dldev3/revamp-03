@@ -48,16 +48,16 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="-mt-56">
+            <div className="lg:-mt-56 -mt-72">
             </div>
 
             <div className='who we are'>
-                <div className="md:mx-44 mx-12">
-                    <div className="flex lg:flex-row  flex-col justify-center">
+                <div className="lg:mx-44 mx-8">
+                    <div className="flex lg:flex-row flex-col justify-center">
                         <div className="lg:w-1/4 text-f12 lg:text-f16 Inter-Bold">
                             <p>Who we are </p>
                         </div>
-                        <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
+                        <div className="hidden lg:block w-3/4 text-f24 Inter-Regular">
                             <h2>We are team of hustlers with a mission to bring clarity</h2>
                             <h2>and growth to the world through the power of creativity</h2>
                             <h2>designing based in Sri Lanka. We bring our collective</h2>
@@ -67,17 +67,28 @@ export default function About() {
                             <h1>Simplifying what is already complex is our passion.</h1>
                             <h1>Seeing the company we keep thrive with results is our drive.</h1>
                         </div>
+                        <div className="lg:hidden text-f14 Inter-Regular mt-6">
+                            <h2>We are a team of hustlers with a mission to</h2>
+                            <h2>bring clarity and growth to the world through</h2>
+                            <h2>the power of creative designing based in</h2>
+                            <h2>Sri Lanka. We bring our collective experience</h2>
+                            <h2>of design and technical expertise to build</h2>
+                            <h2>meaningful and engaging solutions.</h2>
+                            <br></br>
+                            <h1>Simplifying what is already complex is</h1>
+                            <h1>our passion. Seeing the company we keep</h1>
+                            <h1>thrive with results is our drive.</h1>
+                        </div>
                     </div>
-
 
                 </div>
             </div>
 
             <div className='our core values'>
-                <div className="md:mx-44 mt-12">
+                <div className="lg:mx-44 mt-12">
                     <div className="flex lg:flex-row flex-col justify-center">
                         <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
-                            <p className='mx-12 lg:mx-0'>Our core values </p>
+                            <p className='mx-8 lg:mx-0'>Our core values </p>
                         </div>
                         <div className="lg:w-3/4 text-f24 Inter-Regular">
 
@@ -131,24 +142,29 @@ export default function About() {
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-4'>
                         <div className=''>
                             <img className="w-full h-96" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
-                            <div className="lg:mt-4 Inter-Regular lg:leading-f24-high lg:text-f24 text-f14 text-gray-700 lg:mx-0 lg:p-0 mx-12 p-4">
+                            <div className="lg:mt-4 Inter-Regular lg:leading-f24-high lg:text-f24 text-f14 leading-f26 text-gray-700 lg:mx-0 lg:p-0 mx-4 p-4">
                                 <p>We envision becoming a full-service creative</p>
                                 <p>agency that can help the growth of home</p>
                                 <p>professionals in the connected world</p>
                             </div>
-                            <div className="lg:mt-20 lg:mx-0 mx-12 lg:p-0 p-4">
-                                <NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+                            <div className="lg:mt-20 lg:mx-0 mx-4 lg:p-0 p-4">
+                                <NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
                             </div>
                         </div>
                         <div className='mt-12 lg:mt-0'>
                             <img className="w-full h-96" src="/Resources/Home/home-process.jpg" alt="our-process-img" />
-                            <div className="lg:mt-4 Inter-Regular lg:text-f24 text-f14 lg:leading-f24-high text-gray-700 lg:mx-0 lg:p-0 mx-12 p-4">
+                            <div className="hidden lg:block mt-4 Inter-Regular text-f24 leading-f24-high text-gray-700">
                                 <p>Our clear cut process helps you take a journey from</p>
                                 <p>mere discovery of a problem to a creative solution</p>
                                 <p>that delivers results.</p>
                             </div>
-                            <div className="lg:mt-20 lg:mx-0 mx-12 lg:p-0 p-4">
-                                <NextLink href="/process"><a href="/process" className="Inter-Bold text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
+                            <div className="lg:hidden Inter-Regular text-f14 leading-f26 text-gray-700 mx-4 p-4">
+                                <p>Our clear cut process helps you take a journey </p>
+                                <p>from mere discovery of a problem to a creative </p>
+                                <p>solution that delivers results.</p>
+                            </div>
+                            <div className="lg:mt-20 lg:mx-0 mx-4 lg:p-0 p-4">
+                                <NextLink href="/process"><a href="/process" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
                             </div>
                         </div>
                     </div>

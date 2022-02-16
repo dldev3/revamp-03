@@ -5,7 +5,7 @@ const Footer = () => {
             <div className='hidden lg:block'>
                 <div className="flex flex-row justify-between pt-6 mx-24">
                     <div className="w-1/3">
-                        <NextLink href="/"><a href="/"><img className="object-cover w-48 h-12" src="Resources/About/Logo.png" alt="logo" /></a></NextLink>
+                        <NextLink href="/"><a href="/"><img className="object-cover w-187px h-46px" src="Resources/About/Logo.png" alt="logo" /></a></NextLink>
                     </div>
                     <div className="w-1/3 text-f18 Inter-Regular text-gray-300 flex flex-row justify-center space-x-6">
                         <NextLink href="/capabilities"><a href="capabilities">Capabilities</a></NextLink>
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             {/* mobile footer */}
             <div className='lg:hidden'>
-                <div className='flex flex-col justify-center items-center p-4'><NextLink href="/"><a href="/"><img className="object-cover w-48 h-12" src="Resources/About/Logo.png" alt="logo" /></a></NextLink></div>
+                <div className='flex flex-col justify-center items-center p-4'><NextLink href="/"><a href="/"><img className="object-cover w-187px h-46px" src="Resources/About/Logo.png" alt="logo" /></a></NextLink></div>
                 <div className='flex flex-col justify-center items-center space-y-4 text-gray-300'>
                     <NextLink href="/capabilities"><a href="capabilities">Capabilities</a></NextLink>
                     <NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink>

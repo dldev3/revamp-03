@@ -74,20 +74,20 @@ export default function Home() {
 							<img className="w-full h-768px object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
-							<div className="flex flex-col p-12 lg:ml-12 mt-14">
+							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
 								<div className="Inter-Regular text-f25 lg:text-f50 text-white lg:leading-f50 lg:tracking-wide">
 									<h1>We empower the</h1>
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
-								<div className="Inter-Regular lg:text-f24 text-f14 leading-f24 text-white lg:mt-20 mt-12">
+								<div className="Inter-Regular lg:text-f24 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-20 mt-12">
 									<p>We solve business problems for architects &</p>
 									<p>interior designers through creative designs</p>
 									<p>helping them to build awareness, gain happier</p>
 									<p>customers and drive revenues.</p>
 
 								</div>
-								<div className="lg:mt-24 mt-12 Inter-Bold">
+								<div className="lg:mt-24 mt-12 Inter-Bold mb-4 lg:mb-0">
 									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
 								</div>
 							</div>
@@ -131,20 +131,20 @@ export default function Home() {
 
 				{/* mobile */}
 				<div className="bg-hero-dark lg:hidden">
-					<div className="lg:p-12 p-6">
-						<h1 className="text-white text-f25 lg:text-f50 lg:leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
+					<div className="p-4">
+						<h1 className="text-white text-f25 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 					</div>
 
-					<div className="flex lg:flex-row flex-col justify-between lg:py-12 lg:px-24 lg:mx-28 px-12 py-6">
-						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
+					<div className="flex flex-col justify-between px-8 py-6">
+						<div className="text-left text-gray-300 Inter-Regular text-f14 leading-f26">
 							<p>Here is to the creators,</p>
 							<p>The designers,</p>
 							<p>And the builders,</p>
 							<p>of modern day dream homes.</p>
 							<p>The ones who help us ensure</p>
-							<p>a home is our best investment</p>
+							<p>a home is our best investment.</p>
 						</div>
-						<div className="mt-12 lg:mt-0 text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
+						<div className="mt-12 text-left text-gray-300 Inter-Regular text-f14  leading-f26 mb-4">
 							<p>We can't ignore them because.</p>
 							<p>they make hte dream of a home a reality for all</p>
 							<p>While the world sees them as just home</p>
@@ -167,7 +167,7 @@ export default function Home() {
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
 						<div className="lg:w-1/2 py-4 px-8 mt-12 lg:ml-4 ml-0">
-							<div className="Inter-Regular leading-f24-high text-f14 lg:text-f24 text-gray-700">
+							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f24 text-gray-700">
 								<p>From a boutique design agency, we envision</p>
 								<p>becoming a full-service creative agency that</p>
 								<p>can help the growth of architects & interior</p>
@@ -175,19 +175,19 @@ export default function Home() {
 							</div>
 
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold text-f16 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+								<NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
 							</div>
 						</div>
 					</div>
-					<div className="flex lg:flex-row flex-col-reverse">
+					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
 						<div className="lg:w-1/2 py-4 px-8 mt-12 lg:mr-4 mr-0">
-							<div className="Inter-Regular text-f14 lg:text-f24 leading-f24-high text-gray-700">
+							<div className="Inter-Regular text-f14 lg:text-f24 leading-f26 lg:leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you understand your</p>
 								<p>problems and helps us deliver results focused</p>
 								<p>solutions that solves problems.</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/process"><a href="/process" className="Inter-Bold text-f16 uppercase underline underline-offset-4">see our process</a></NextLink>
+								<NextLink href="/process"><a href="/process" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
 							</div>
 						</div>
 						<div className="lg:w-1/2">
