@@ -96,9 +96,7 @@ export default function Home() {
                                 <p>stories to life in a meaningful way</p>
                             </div>
                             <div className='max-w-fit border-white border-b-2 mt-20'>
-                                <NextLink href="#">
-                                    <a href="#" id="designArr" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img id="designArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
-                                </NextLink>
+                                <a href="#" id="designArr" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img id="designArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                             </div>
                         </div>
                     </div>
@@ -172,9 +170,7 @@ export default function Home() {
                                     <p>for brand stories come to life.</p>
                                 </div>
                                 <div className='max-w-fit border-white border-b-2 mt-10 lg:mt-20'>
-                                    <NextLink href="#">
-                                        <a href="#" id="devArr" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img id="devArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
-                                    </NextLink>
+                                    <a href="#" id="devArr" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img id="devArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                 </div>
                             </div>
                         </div>
