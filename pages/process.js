@@ -3,10 +3,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Grow from './components/Grow';
 import Head from 'next/head';
+import NextLink from 'next/link';
 
 const Process = () => {
     return (
-        <div>
+        <div className='container-mcl'>
             <Head>
                 <title>Minutecode Labs | Process</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
@@ -51,9 +52,9 @@ const Process = () => {
             </div>
 
 
-            <div className="lg:mx-44 mx-10">
+            <div className="lg:mx-28 mx-10">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Regular">
+                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our process</p>
                     </div>
                     <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
@@ -71,16 +72,16 @@ const Process = () => {
             </div>
 
 
-            <div className="md:mx-44 lg:mt-36 mt-20 mx-10">
+            <div className="md:mx-28 lg:mt-36 mt-20 mx-10">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 text-f12 lg:text-f16 Inter-Regular">
+                    <div className="lg:w-1/4 text-f12 lg:text-f16 Inter-Bold">
                         <p className=''>Process approach</p>
                     </div>
                     <div className="lg:w-3/4 text-f24 Inter-Regular mt-6 lg:mt-0">
-                        <div className='grid grid-cols-2 gap-y-6'>
+                        <div className='grid grid-cols-2 gap-y-10'>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>01 Discover</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
+                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>Our process gathers research,</p>
                                     <p>inputs, thoughts & ideas, audits,</p>
                                     <p>and experiences to understand</p>
@@ -89,7 +90,7 @@ const Process = () => {
                             </div>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>02 Define</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
+                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>We run collaborative work to</p>
                                     <p>understand and to refine a</p>
                                     <p>brand's business goals,</p>
@@ -99,7 +100,7 @@ const Process = () => {
                             </div>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>03 Develop</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
+                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>From the new founded insights,</p>
                                     <p>we create a road map that will</p>
                                     <p>take a brand from it's current</p>
@@ -108,7 +109,7 @@ const Process = () => {
                             </div>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f24 text-f14 text-mcl-blue'>04 Deliver</p></div>
-                                <div className='md:ml-10 mt-2 Inter-regular lg:text-f24 text-f12'>
+                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f24 text-f12'>
                                     <p>We develop the solution for the</p>
                                     <p>measurements & guidelines we</p>
                                     <p>got from the roadmap, which will</p>
@@ -121,30 +122,33 @@ const Process = () => {
                 </div>
             </div>
 
-            <div className='mt-12'>
-                <div className="lg:mt-24 mt-8">
-                    <div className="lg:mx-2">
+            {/* case study */}
+            <div className="lg:mt-24 mt-8">
+                <div className="lg:mx-2">
 
-                        <div><h1 className="text-f25 lg:text-f50 Inter-Regular text-center">Case Study</h1></div>
+                    <div><h1 className="text-f25 lg:text-f50 Inter-Medium text-center">Case Studies</h1></div>
 
-                        <div className="mt-8 grid lg:grid-cols-3 grid-cols-1">
-                            <div>
-                                <img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-1.jpg" alt="case-1" />
-                                <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Lightin Interiors</p>
+                    <div className="mt-8">
+                        <div className='flex flex-col justify-center items-center'>
+                            {/* <img className="object-cover w-auto lg:h-72 h-auto" src="/Resources/Home/case-study-1-cover.png" alt="case-1" /> */}
+                            <div className="container">
+                                <div className="content">
+                                    <NextLink href="/case-study"><a href="/case-study">
+                                        <div className="content-overlay"></div>
+                                        <img className="content-image" src="/Resources/Home/case-study-1-cover.png" alt="case-1" />
+                                        <div className="content-details fadeIn-top">
+                                            <h3>Gensler:Reimagining the digital</h3>
+                                            <h3>forefront in 2022</h3>
+                                        </div>
+                                    </a></NextLink>
+                                </div>
                             </div>
-                            <div>
-                                <img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-2.jpg" alt="case-1" />
-                                <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Flexy Archi</p>
-                            </div>
-                            <div>
-                                <img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-3.jpg" alt="case-1" />
-                                <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Bloom Beauty</p>
-                            </div>
+
+
+                            {/* <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Gensler</p> */}
                         </div>
-
-
-
                     </div>
+
                 </div>
             </div>
 

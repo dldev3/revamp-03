@@ -230,3 +230,16 @@
 .fadeIn-top{
   top: 20%;
 }
+
+
+/* dropdown arrow change */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("/Resources/About/Arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 20px;
+  
+}

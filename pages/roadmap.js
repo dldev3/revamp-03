@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 const Roadmap = () => {
     return (
-        <div>
+        <div className='container-mcl'>
             <Head>
                 <title>Minutecode Labs | Roadmap</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
@@ -52,7 +52,7 @@ const Roadmap = () => {
 
             <div className="md:mx-44 mx-10">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Regular">
+                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our roadmap</p>
                     </div>
                     <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
@@ -71,7 +71,7 @@ const Roadmap = () => {
 
             <div className="md:mx-44 mx-10 lg:mt-36 mt-24">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Regular">
+                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our game plan</p>
                     </div>
                     <div className="lg:w-3/4 lg:text-f24 text-f14 Inter-Regular mt-6 lg:mt-0">
@@ -83,15 +83,15 @@ const Roadmap = () => {
 
 
             <div className='lg:mt-36 mt-20'>
-                <img className='lg:block hidden h-auto w-full' src="/Resources/Roadmap/roadmap-desktop.jpg" alt="roadmap" />
+                <img className='lg:block hidden h-auto w-full' src="/Resources/Roadmap/roadmap-desktop.png" alt="roadmap" />
                 <img className='h-auto w-full lg:hidden' src="/Resources/Roadmap/roadmap-mobile.jpg" alt="roadmap" />
             </div>
 
-            <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-y-8 gap-y-4 lg:mx-28 lg:mt-28 mt-16 mx-10'>
+            <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-y-12 gap-y-4 lg:mx-16 lg:mt-28 mt-16 mx-10'>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Online Identity</h1>
-                    <div className='lg:text-f24 text-f12 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Online Identity</h1>
+                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
                         <p>Setting your online presence</p>
                         <p>for success through creative</p>
                         <p><span className='text-mcl-blue'>Web Designing </span>that helps</p>
@@ -101,8 +101,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Personality</h1>
-                    <div className='lg:text-f24 text-f12 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Personality</h1>
+                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
                         <p>Giving you an identity that</p>
                         <p>tells your personality and</p>
                         <p>your values through</p>
@@ -113,8 +113,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Discoverability</h1>
-                    <div className='lg:text-f24 text-f12 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Discoverability</h1>
+                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
                         <p>Giving your brand the upper</p>
                         <p>hand at being found online</p>
                         <p>through<span className='text-mcl-blue'> SEO.</span></p>
@@ -123,8 +123,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Master Plan</h1>
-                    <div className='lg:text-f24 text-f12 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Master Plan</h1>
+                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you understand your</p>
                         <p>purpose and define your goals</p>
                         <p>through<span className='text-mcl-blue'> Strategy.</span></p>
@@ -132,8 +132,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Attraction</h1>
-                    <div className='lg:text-f24 text-f12 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Attraction</h1>
+                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you to penetrate</p>
                         <p>and attract your ideal</p>
                         <p>customers through<span className='text-mcl-blue'> Digital</span></p>
@@ -142,8 +142,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray'>Connectivity</h1>
-                    <div className='lg:text-f24 text-f12 mt-4'>
+                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Connectivity</h1>
+                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you to go out to the world</p>
                         <p>and establish authentic connections</p>
                         <p>by bringing your next event to life</p>
