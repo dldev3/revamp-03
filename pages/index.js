@@ -100,7 +100,37 @@ export default function Home() {
 
 			{/* Vision */}
 			<div>
-				<div className="bg-hero-dark">
+				<div className="bg-hero-dark lg:block hidden vision-section">
+					<div className="p-16">
+						<h1 className="text-white text-f50 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
+					</div>
+
+					<div className="flex flex-row justify-between py-12 px-24 mx-28">
+						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
+							<p>Here is to the creators,</p>
+							<p>The designers,</p>
+							<p>And the builders,</p>
+							<p>of modern day dream homes.</p>
+							<p>The ones who help us ensure</p>
+							<p>a home is our best investment</p>
+						</div>
+						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
+							<p>We can't ignore them because.</p>
+							<p>they make hte dream of a home a reality for all</p>
+							<p>While the world sees them as just home</p>
+							<p>professionals, we see them as the creators of a</p>
+							<p>greater life that empowers the human race.</p>
+							<p>Because they are th ones that envision</p>
+							<p>comfort and healing of a home above all,</p>
+							<p>and they are the ones that make it so.</p>
+						</div>
+					</div>
+
+				</div>
+				<div className='bg-hero-dark lg:block hidden p-12'></div>
+
+				{/* mobile */}
+				<div className="bg-hero-dark lg:hidden">
 					<div className="lg:p-12 p-6">
 						<h1 className="text-white text-f25 lg:text-f50 lg:leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 					</div>
@@ -125,8 +155,8 @@ export default function Home() {
 							<p>and they are the ones that make it so.</p>
 						</div>
 					</div>
-
 				</div>
+				{/* mobile end */}
 			</div>
 
 			{/* Our process */}
@@ -136,7 +166,7 @@ export default function Home() {
 						<div className="lg:w-1/2">
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
-						<div className="lg:w-1/2 py-4 px-8 mt-12">
+						<div className="lg:w-1/2 py-4 px-8 mt-12 lg:ml-4 ml-0">
 							<div className="Inter-Regular leading-f24-high text-f14 lg:text-f24 text-gray-700">
 								<p>From a boutique design agency, we envision</p>
 								<p>becoming a full-service creative agency that</p>
@@ -150,7 +180,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse">
-						<div className="lg:w-1/2 py-4 px-8 mt-12">
+						<div className="lg:w-1/2 py-4 px-8 mt-12 lg:mr-4 mr-0">
 							<div className="Inter-Regular text-f14 lg:text-f24 leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you understand your</p>
 								<p>problems and helps us deliver results focused</p>
@@ -172,20 +202,26 @@ export default function Home() {
 			<div className="lg:mt-24 mt-8">
 				<div className="lg:mx-2">
 
-					<div><h1 className="text-f25 lg:text-f50 Inter-Regular text-center">Case Studies</h1></div>
+					<div><h1 className="text-f25 lg:text-f50 Inter-Medium text-center">Case Studies</h1></div>
 
-					<div className="mt-8 grid lg:grid-cols-3 grid-cols-1">
-						<div>
-							<img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-1.jpg" alt="case-1" />
-							<p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Lightin Interiors</p>
-						</div>
-						<div>
-							<img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-2.jpg" alt="case-1" />
-							<p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Flexy Archi</p>
-						</div>
-						<div>
-							<img className="object-cover w-full lg:h-72 h-auto" src="/Resources/Home/case-3.jpg" alt="case-1" />
-							<p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Bloom Beauty</p>
+					<div className="mt-8">
+						<div className='flex flex-col justify-center items-center'>
+							{/* <img className="object-cover w-auto lg:h-72 h-auto" src="/Resources/Home/case-study-1-cover.png" alt="case-1" /> */}
+							<div className="container">
+								<div className="content">
+									<NextLink href="/case-study"><a href="/case-study">
+										<div className="content-overlay"></div>
+										<img className="content-image" src="/Resources/Home/case-study-1-cover.png" alt="case-1" />
+										<div className="content-details fadeIn-top">
+											<h3>Gensler:Reimagining the digital</h3>
+											<h3>forefront in 2022</h3>
+										</div>
+									</a></NextLink>
+								</div>
+							</div>
+
+
+							{/* <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Gensler</p> */}
 						</div>
 					</div>
 
@@ -206,6 +242,6 @@ export default function Home() {
 			<div></div>
 
 
-		</div>
+		</div >
 	)
 }
