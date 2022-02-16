@@ -23,8 +23,8 @@ export default function Home() {
                 <div>
                     <div className="relative -top-33 z-0">
                         <div className="h-screen">
-                            <img src="/Resources/Capabilities/capabilities-hero.jpg" className="object-fill w-full lg:block hidden" />
-                            <img src="/Resources/Mobile/Capabilities-mobile-hero.png" className="object-fill w-full lg:hidden" />
+                            <img src="/Resources/Capabilities/cap-hero.png" className="object-cover w-full h-screen lg:block hidden" />
+                            <img src="/Resources/Mobile/Capabilities-mobile-hero.png" className="object-cover w-full lg:hidden" />
                         </div>
                     </div>
 
@@ -32,10 +32,13 @@ export default function Home() {
                         <div className="text-white text-f14 lg:text-f24 Inter-Regular mt-12">
                             <p>What we do</p>
                         </div>
-                        <div className="lg:block hidden text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
-                            <h1 className="drop-shadow-md">We create simple designs, meaningful</h1>
-                            <h1 className="drop-shadow-md">journeys and converting experience.</h1>
+                        <div className="lg:block hidden text-white text-f50 leading-f50 Inter-Medium mt-4">
+                            <div className='drop-shadow-lg'>
+                                <h1 className="drop-shadow-md">We create simple designs, meaningful</h1>
+                                <h1 className="drop-shadow-md">journeys and converting experience.</h1>
+                            </div>
                         </div>
+
 
                         <div className="lg:hidden text-f25 text-white Inter-Regular mt-8">
                             <p>We create simple</p>
@@ -50,11 +53,11 @@ export default function Home() {
             </div>
 
 
-            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-103 lg:-mt-40'>
+            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-103 lg:-mt-72'>
                 <div className='lg:w-3/12'>
-                    <p className='Inter-Regular lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
+                    <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
-                <div className='lg:w-9/12 lg:text-f50 text-f14 Inter-Regular lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
+                <div className='lg:w-9/12 lg:text-f50 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
                     <h1>We let creativity meet strategy to</h1>
                     <h1>solve problems</h1>
                 </div>
@@ -64,11 +67,11 @@ export default function Home() {
             <div className='mt-24'>
                 <div className='flex lg:flex-row flex-col'>
                     <div className="lg:w-5/12 bg-mcl-blue py-16">
-                        <div className='mx-28 lg:mt-24'>
+                        <div className='mx-20 lg:mt-24'>
                             <div className=''>
-                                <h1 className='lg:text-f50 text-f25 text-gray-200'>Designing</h1>
+                                <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Medium'>Designing</h1>
                             </div>
-                            <div className='text-f14 lg:text-f24 lg:leading-f24 leading-f26 mt-6 text-gray-200'>
+                            <div className='text-f14 lg:text-f24 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
                                 <p>Every brand has a story to tell.</p>
                                 <p>we thoughfully organize and</p>
                                 <p>present a design that brings brand</p>
@@ -76,7 +79,7 @@ export default function Home() {
                             </div>
                             <div className='max-w-fit border-white border-b-2 mt-20'>
                                 <NextLink href="/contact">
-                                    <a href="/contact" className='flex flex-row text-white'><span className='uppercase'>Tell me more</span><span className=""><img className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
+                                    <a href="/contact" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                 </NextLink>
                             </div>
                         </div>
@@ -140,11 +143,11 @@ export default function Home() {
                             <img className='w-auto object-cover' src="/Resources/Capabilities/web-development.jpg" alt="img" />
                         </div>
                         <div className="lg:w-5/12 bg-mcl-blue py-16">
-                            <div className='mx-28 lg:mt-24'>
+                            <div className='mx-20 lg:mt-10'>
                                 <div className=''>
-                                    <h1 className='lg:text-f50 text-f25 text-gray-200'>Development</h1>
+                                    <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Medium'>Development</h1>
                                 </div>
-                                <div className='text-f14 lg:text-f24 leading-f24 mt-6 text-gray-200'>
+                                <div className='text-f14 lg:text-f24 leading-f36 Inter-Regular mt-8 text-gray-200'>
                                     <p>Our goal is to build a solution that</p>
                                     <p>is specific to a brand, performing,</p>
                                     <p>and future proof, setting the stage</p>
@@ -152,7 +155,7 @@ export default function Home() {
                                 </div>
                                 <div className='max-w-fit border-white border-b-2 mt-10 lg:mt-20'>
                                     <NextLink href="/contact">
-                                        <a href="/contact" className='flex flex-row text-white '><span className='uppercase'>Tell me more</span><span className=""><img className='ml-1 w-auto h-4 mt-1 animate-bounce' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
+                                        <a href="/contact" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img className='ml-1 w-auto h-4 mt-1 animate-bounce' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                     </NextLink>
                                 </div>
                             </div>
