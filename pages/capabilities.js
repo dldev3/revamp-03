@@ -115,7 +115,7 @@ export default function Home() {
 
                     <div>
                         <div>
-                            <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/research.jpg" alt="research" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/research.jpg" alt="research" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Discovery & Research</h2>
@@ -124,7 +124,7 @@ export default function Home() {
                     </div>
                     <div>
                         <div>
-                            <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/wireframing.jpg" alt="wireframing" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/wireframing.jpg" alt="wireframing" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Wireframes & Prototypes</h2>
@@ -133,7 +133,7 @@ export default function Home() {
                     </div>
                     <div>
                         <div>
-                            <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/design-system.jpg" alt="design-system" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/design-system.jpg" alt="design-system" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Design Systems</h2>
@@ -142,7 +142,7 @@ export default function Home() {
                     </div>
                     <div>
                         <div>
-                            <img className="lg:h-64 h-72 w-full" src="/Resources/Capabilities/responsive.jpg" alt="responsive" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/responsive.jpg" alt="responsive" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Responsive Designing</h2>
@@ -188,7 +188,7 @@ export default function Home() {
 
                     <div>
                         <div>
-                            <img className="h-64 w-full" src="/Resources/Capabilities/custom-development.jpg" alt="custom-development" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/custom-development.jpg" alt="custom-development" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Custom Development</h2>
@@ -197,7 +197,7 @@ export default function Home() {
                     </div>
                     <div>
                         <div>
-                            <img className="h-64 w-full" src="/Resources/Capabilities/migration.jpg" alt="migration" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/migration.jpg" alt="migration" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Migration</h2>
@@ -206,7 +206,7 @@ export default function Home() {
                     </div>
                     <div>
                         <div>
-                            <img className="h-64 w-full" src="/Resources/Capabilities/infrastructure.jpg" alt="infrastructure" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/infrastructure.jpg" alt="infrastructure" />
                         </div>
                         <div className="bg-mcl-black p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Infrastructure</h2>
@@ -215,7 +215,7 @@ export default function Home() {
                     </div>
                     <div>
                         <div>
-                            <img className="h-64 w-full" src="/Resources/Capabilities/maintenance.jpg" alt="maintenance" />
+                            <img className="lg:h-64 h-52 w-full" src="/Resources/Capabilities/maintenance.jpg" alt="maintenance" />
                         </div>
                         <div className="bg-mcl-gray p-6 h-60">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">On-Going Support</h2>
