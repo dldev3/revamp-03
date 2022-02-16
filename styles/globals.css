@@ -243,3 +243,8 @@ select {
   background-position-y: 20px;
   
 }
+
+/* capabilities */
+.toggle-updown {
+ transform: rotate(180deg);
+}

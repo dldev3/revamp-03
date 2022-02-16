@@ -3,8 +3,26 @@ import Header from './components/Header';
 import Grow from './components/Grow';
 import Footer from './components/Footer';
 import NextLink from 'next/link';
+import { useEffect } from 'react';
+import $ from 'jquery';
 
 export default function Home() {
+    useEffect(() => {
+        $(document).ready(function () {
+            $("#designArr").click(function () {
+                $(".designGrid").toggle(800);
+                $("#designArrImg").toggleClass("toggle-updown");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#devArr").click(function () {
+                $(".devGrid").toggle(800);
+                $("#devArrImg").toggleClass("toggle-updown");
+            });
+        });
+
+    }, []);
     return (
         <div className="container-mcl">
             <Head>
@@ -78,8 +96,8 @@ export default function Home() {
                                 <p>stories to life in a meaningful way</p>
                             </div>
                             <div className='max-w-fit border-white border-b-2 mt-20'>
-                                <NextLink href="/contact">
-                                    <a href="/contact" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
+                                <NextLink href="#">
+                                    <a href="#" id="designArr" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img id="designArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                 </NextLink>
                             </div>
                         </div>
@@ -92,7 +110,7 @@ export default function Home() {
             </div>
 
             {/* Design grid */}
-            <div className=''>
+            <div className='designGrid hidden' id="designGrid">
                 <div className="grid grid-cols-2 lg:grid-cols-4">
 
                     <div>
@@ -154,8 +172,8 @@ export default function Home() {
                                     <p>for brand stories come to life.</p>
                                 </div>
                                 <div className='max-w-fit border-white border-b-2 mt-10 lg:mt-20'>
-                                    <NextLink href="/contact">
-                                        <a href="/contact" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img className='ml-1 w-auto h-4 mt-1 animate-bounce' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
+                                    <NextLink href="#">
+                                        <a href="#" id="devArr" className='flex flex-row text-white Inter-Bold text-f16'><span className='uppercase'>Learn more</span><span className=""><img id="devArrImg" className='ml-1 w-auto h-4 mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                     </NextLink>
                                 </div>
                             </div>
@@ -167,7 +185,7 @@ export default function Home() {
             </div>
 
             {/* Development grid */}
-            <div>
+            <div className='devGrid hidden' id="devGrid">
                 <div className="grid grid-cols-2 lg:grid-cols-4">
 
                     <div>
