@@ -26,8 +26,8 @@ export default function Home() {
 						<div className="relative -top-33 landing-section flex flex-row justify-center z-0">
 							<div className="w-7/12 bg-hero-dark h-screen">
 							</div>
-							<div className="w-5/12 h-screen">
-								<img src="/Resources/Home/home-hero.jpg" className="object-cover h-screen" />
+							<div className="w-5/12">
+								<img src="/Resources/Home/hero-image.png" className="h-full w-full object-fill" />
 							</div>
 						</div>
 
@@ -51,12 +51,12 @@ export default function Home() {
 								<h1 className="drop-shadow-md">day dream homes.</h1>
 							</div>
 							<div className="text-white text-f14 leading-f26 Inter-Regular mt-12">
-								<p>We are a creative agency for home </p>
-								<p>professionals.</p>
+								<p>We are a creative design agency for</p>
+								<p>architects & interior designers.</p>
 							</div>
 						</div>
 						<div>
-							<img src="/Resources/Home/home-hero.jpg" className="object-cover h-auto w-auto" />
+							<img src="/Resources/Home/hero-image.png" className="object-cover h-auto w-auto" />
 						</div>
 					</div>
 					{/* mobile end */}
