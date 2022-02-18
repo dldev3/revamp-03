@@ -13,6 +13,7 @@ module.exports = {
 				'46px': '2.875rem',
 				'187px': '11.6875rem',
 				'375px': '375px',
+				'342px': '342px',
 
 			},
 			height: {
@@ -24,6 +25,7 @@ module.exports = {
 				'254px': '254px',
 				'212px': '212px',
 				'134px': '134px',
+				'223px': '223px',
 			},
 			fontSize: {
 				'f50': '3.125rem',
