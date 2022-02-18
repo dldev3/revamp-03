@@ -254,7 +254,7 @@ const CaseStudy = () => {
             <div className='lg:mx-24 mx-2 flex flex-row space-x-4'>
                 <div className='w-10/12 flex flex-col'>
                     <div className=''>
-                        <img src="/Resources/CaseStudy/Redesigned-Home.png" alt="home-redesign" className='' />
+                        <img src="/Resources/CaseStudy/Redesigned-Home.png" alt="home-redesign" className='border border-gray-200' />
                     </div>
 
                     <div className='lg:mt-40 mt-12 lg:mx-0 mx-2'>
@@ -278,7 +278,7 @@ const CaseStudy = () => {
                 </div>
 
                 <div className='w-2/12'>
-                    <img src="/Resources/CaseStudy/Home-Mobile-min.png" alt="home-redesign-mobile" className='' />
+                    <img className="border border-gray-200" src="/Resources/CaseStudy/Home-Mobile-min.png" alt="home-redesign-mobile" />
                 </div>
 
 
@@ -317,9 +317,7 @@ const CaseStudy = () => {
                     <h1 className="lg:hidden Inter-Regular text-f25">Ready to grow?</h1>
                     <div className='flex lg:flex-row flex-col lg:space-x-4 space-y-4 lg:space-y-0 mt-6'>
                         <div className="bg-home-cap py-6 px-12 hover:cursor-pointer">
-                            <NextLink href="/contact">
-                                <a href="/contact" className="Inter-Regular text-gray-300">Write to us</a>
-                            </NextLink>
+                            <a href="mailto:minutecodelabs@gmail.com" className="Inter-Regular text-gray-300">Write to us</a>
                         </div>
                         <div className="bg-home-cap py-6 px-8 hover:cursor-pointer">
                             <NextLink href="/contact">

@@ -175,7 +175,7 @@ export default function Home() {
 							</div>
 
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+								<NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
 							</div>
 						</div>
 					</div>
@@ -187,7 +187,7 @@ export default function Home() {
 								<p>solutions that solves problems.</p>
 							</div>
 							<div className="lg:mt-20 mt-12">
-								<NextLink href="/process"><a href="/process" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
+								<NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
 							</div>
 						</div>
 						<div className="lg:w-1/2">

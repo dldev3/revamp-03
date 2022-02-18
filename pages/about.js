@@ -96,35 +96,35 @@ export default function About() {
 
                                 <div className="flex lg:flex-row flex-col">
                                     <div>
-                                        <div><img className="w-full h-64 lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-1.jpg" alt="value-1" /></div>
-                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-2">Be empathetic</p></div>
+                                        <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-1.jpg" alt="value-1" /></div>
+                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Be empathetic</p></div>
                                     </div>
 
                                     <div>
-                                        <div><img className="w-full h-64 lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-2.jpg" alt="value-2" /></div>
-                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-2">Build solutions, not websites</p></div>
+                                        <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-2.jpg" alt="value-2" /></div>
+                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Build solutions, not websites</p></div>
                                     </div>
                                 </div>
 
                                 <div className="flex lg:flex-row flex-col">
                                     <div>
-                                        <div><img className="w-full h-64 lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-3.jpg" alt="value-3" /></div>
-                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-2">Over deliver, always</p></div>
+                                        <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-3.jpg" alt="value-3" /></div>
+                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Over deliver, always</p></div>
                                     </div>
                                     <div>
-                                        <div><img className="w-full h-64 lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-4.jpg" alt="value-4" /></div>
-                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-2">Seek learning and growth</p></div>
+                                        <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-4.jpg" alt="value-4" /></div>
+                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Seek learning and growth</p></div>
                                     </div>
                                 </div>
 
                                 <div className="flex lg:flex-row flex-col">
                                     <div>
-                                        <div><img className="w-full h-64 lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-5.jpg" alt="value-5" /></div>
-                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-2">Build a family, not a team</p></div>
+                                        <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-5.jpg" alt="value-5" /></div>
+                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Build a family, not a team</p></div>
                                     </div>
                                     <div>
-                                        <div><img className="w-full h-64 lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-6.jpg" alt="value-6" /></div>
-                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-2">Choose honesty over white lies</p></div>
+                                        <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-6.jpg" alt="value-6" /></div>
+                                        <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Choose honesty over white lies</p></div>
                                     </div>
                                 </div>
                             </div>
@@ -137,22 +137,22 @@ export default function About() {
             </div>
 
             <div className="our process and roadmap">
-                <div className='lg:mx-20 mt-20'>
+                <div className='lg:mx-20 lg:mt-20 mt-36'>
 
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-4'>
                         <div className=''>
-                            <img className="w-full h-96" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
+                            <img className="w-full lg:h-96 h-254px" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
                             <div className="lg:mt-4 Inter-Regular lg:leading-f24-high lg:text-f24 text-f14 leading-f26 text-gray-700 lg:mx-0 lg:p-0 mx-4 p-4">
                                 <p>We envision becoming a full-service creative</p>
                                 <p>agency that can help the growth of home</p>
                                 <p>professionals in the connected world</p>
                             </div>
                             <div className="lg:mt-20 lg:mx-0 mx-4 lg:p-0 p-4">
-                                <NextLink href="/roadmap"><a href="/roadmap" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+                                <NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
                             </div>
                         </div>
                         <div className='mt-12 lg:mt-0'>
-                            <img className="w-full h-96" src="/Resources/Home/home-process.jpg" alt="our-process-img" />
+                            <img className="w-full lg:h-96 h-254px" src="/Resources/Home/home-process.jpg" alt="our-process-img" />
                             <div className="hidden lg:block mt-4 Inter-Regular text-f24 leading-f24-high text-gray-700">
                                 <p>Our clear cut process helps you take a journey from</p>
                                 <p>mere discovery of a problem to a creative solution</p>
@@ -164,7 +164,7 @@ export default function About() {
                                 <p>solution that delivers results.</p>
                             </div>
                             <div className="lg:mt-20 lg:mx-0 mx-4 lg:p-0 p-4">
-                                <NextLink href="/process"><a href="/process" className="Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
+                                <NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
                             </div>
                         </div>
                     </div>

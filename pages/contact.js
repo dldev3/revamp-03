@@ -83,9 +83,9 @@ const Contact = () => {
                     <div className='grid gap-y-2 mt-10'>
                         <label className="lg:text-f16 text-f12 Inter-Regular" htmlFor='thinking'>What are you thinking?</label>
                         <select value={thinking} onChange={(e) => { setThinking(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
+                            <option value="start-a-project">What are you thinking?</option>
                             <option value="start-a-project">Start a project</option>
-                            <option value="opt-2">Opt-2</option>
-                            <option value="opt-3">Opt-3</option>
+                            <option value="general-enquiry">General Enquiry</option>
                         </select>
                     </div>
 
@@ -104,10 +104,9 @@ const Contact = () => {
                         <div className='grid gap-y-2 lg:w-1/2'>
                             <label className="lg:text-f16 text-f12 Inter-Regular" htmlFor="name">Your readiness of investment into growing your business*</label>
                             <select value={budget} onChange={(e) => { setBudget(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
-                                <option value="$10,000 - $18,000">$10,000 - $18,000</option>
-                                <option value="Below $10,000">Below $10,000</option>
-                                <option value="$18,000-$25,000">$18,000-$25,000</option>
-                                <option value="$25,000 Above">$25,000 Above</option>
+                                <option value="$10,000 - $18,000">$10,000 - $20,000</option>
+                                <option value="Below $10,000">$20,000 - $30,000</option>
+                                <option value="$18,000-$25,000">$30,000+</option>
                             </select>
                         </div>
                         <div className='grid gap-y-2 lg:w-1/2 mt-4 lg:mt-0'>
@@ -126,7 +125,7 @@ const Contact = () => {
                         <textarea value={message} onChange={(e) => { setMessage(e.target.value) }} placeholder='Project details, timeline and such' className='w-full border-2 p-2' rows={10} type="text" id="deets" name="deets" ></textarea>
                     </div>
 
-                    <input type="submit" value="Submit" className="mt-10 text-gray-200 hover:cursor-pointer py-6 px-16 bg-mcl-blue lg:text-f20 text-f14 flex mx-auto" />
+                    <input type="submit" value="Submit" className="Inter-SemiBold mt-10 text-gray-200 hover:cursor-pointer py-6 px-16 bg-mcl-blue lg:text-f20 text-f14 flex mx-auto" />
 
 
                 </form>
