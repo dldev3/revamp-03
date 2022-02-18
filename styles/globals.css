@@ -244,6 +244,20 @@ select {
   
 }
 
+@media screen and (max-width: 480px) {
+  select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("/Resources/About/Arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 15px;
+}
+}
+
+
+
 /* capabilities */
 .toggle-updown {
  transform: rotate(180deg);

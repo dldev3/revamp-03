@@ -67,7 +67,9 @@ const Contact = () => {
 
             {/* form */}
             <div className="px-12 py-6 lg:mx-44">
-                <form onSubmit={handleSubmit}>
+                <form action="https://formspree.io/f/xvolabwl" method="POST">
+
+
 
                     <div className='flex lg:flex-row flex-col lg:space-x-5'>
                         <div className='grid gap-y-2 lg:w-1/2'>
@@ -81,9 +83,9 @@ const Contact = () => {
                     </div>
 
                     <div className='grid gap-y-2 mt-10'>
-                        <label className="lg:text-f16 text-f12 Inter-Regular" htmlFor='thinking'>What are you thinking?</label>
-                        <select value={thinking} onChange={(e) => { setThinking(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
-                            <option value="start-a-project">What are you thinking?</option>
+                        <label for="their-thinking" className="lg:text-f16 text-f12 Inter-Regular" htmlFor='thinking'>What are you thinking?</label>
+                        <select name="their-thinking" id="their-thinking" value={thinking} onChange={(e) => { setThinking(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
+                            <option value="thinking-0" selected="">What are you thinking?</option>
                             <option value="start-a-project">Start a project</option>
                             <option value="general-enquiry">General Enquiry</option>
                         </select>
@@ -102,17 +104,17 @@ const Contact = () => {
 
                     <div className='flex lg:flex-row flex-col lg:space-x-5 mt-10'>
                         <div className='grid gap-y-2 lg:w-1/2'>
-                            <label className="lg:text-f16 text-f12 Inter-Regular" htmlFor="name">Your readiness of investment into growing your business*</label>
-                            <select value={budget} onChange={(e) => { setBudget(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
-                                <option value="$10,000 - $18,000">$10,000 - $20,000</option>
-                                <option value="Below $10,000">$20,000 - $30,000</option>
-                                <option value="$18,000-$25,000">$30,000+</option>
+                            <label for="budget" className="lg:text-f16 text-f12 Inter-Regular" htmlFor="name">Your readiness of investment into growing your business*</label>
+                            <select name="budget" id="budget" value={budget} onChange={(e) => { setBudget(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
+                                <option value="$10,000-$20,000">$10,000 - $20,000</option>
+                                <option value="$20,000-$30,000">$20,000 - $30,000</option>
+                                <option value="$30,000+">$30,000+</option>
                             </select>
                         </div>
                         <div className='grid gap-y-2 lg:w-1/2 mt-4 lg:mt-0'>
-                            <label className="lg:text-f16 text-f12 Inter-Regular" htmlFor='email'>How did you find us?</label>
-                            <select value={find} onChange={(e) => { setFind(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
-                                <option value="On Google">On Google</option>
+                            <label for="find" className="lg:text-f16 text-f12 Inter-Regular" htmlFor='email'>How did you find us?</label>
+                            <select name="find" id="find" value={find} onChange={(e) => { setFind(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
+                                <option value="On-Google">On Google</option>
                                 <option value="LinkedIn">LinkedIn</option>
                                 <option value="Referral">Referral or Recommendation</option>
                                 <option value="Other">Other</option>
