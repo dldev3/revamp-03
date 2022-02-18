@@ -71,7 +71,7 @@ export default function Home() {
             </div>
 
 
-            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-103 lg:-mt-72'>
+            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-103-low lg:-mt-72'>
                 <div className='lg:w-3/12'>
                     <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
