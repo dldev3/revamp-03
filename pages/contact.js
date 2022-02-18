@@ -53,7 +53,7 @@ const Contact = () => {
                 <link rel="icon" href="/fav.png" />
             </Head>
 
-            <div className='bg-hero-dark pb-14'>
+            <div className='bg-hero-dark lg:pb-14 lg:pt-0 pb-6 pt-2'>
                 <div>
                     <Header />
                 </div>
@@ -127,7 +127,7 @@ const Contact = () => {
                         <textarea value={message} onChange={(e) => { setMessage(e.target.value) }} placeholder='Project details, timeline and such' className='w-full border-2 p-2' rows={10} type="text" id="deets" name="deets" ></textarea>
                     </div>
 
-                    <input type="submit" value="Submit" className="Inter-SemiBold mt-10 text-gray-200 hover:cursor-pointer py-6 px-16 bg-mcl-blue lg:text-f20 text-f14 flex mx-auto" />
+                    <input type="submit" value="Submit" className="Inter-SemiBold mt-10 text-gray-200 hover:cursor-pointer py-6 px-16 bg-mcl-blue lg:text-f20 text-f14 flex mx-auto lg:mx-0" />
 
 
                 </form>
