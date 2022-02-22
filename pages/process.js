@@ -181,7 +181,7 @@ const Process = () => {
             <div className="lg:mt-24 mt-8">
                 <div className="lg:mx-2">
 
-                    <div><h1 className="text-f25 lg:text-f50 Inter-Medium text-center">Case Studies</h1></div>
+                    <div><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
 
                     <div className="mt-8">
                         <div className='flex flex-col justify-center items-center'>

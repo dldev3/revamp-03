@@ -31,6 +31,7 @@ module.exports = {
 			},
 			fontSize: {
 				'f50': '3.125rem',
+				'f40': '2.5rem',
 				'f28': '1.75rem',
 				'f25': '1.5625rem',
 				'f24': '1.5rem',
