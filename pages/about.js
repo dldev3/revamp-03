@@ -24,7 +24,7 @@ export default function About() {
                 <div>
                     <div className="relative -top-33 z-0">
                         <div className="">
-                            <img src="/Resources/About/hero-image.png" className="object-cover w-full h-screen hidden lg:block" />
+                            <img src="/Resources/About/hero-image.png" className="object-cover w-full h-768px hidden lg:block" />
                             <img src="/Resources/Mobile/About-mobile-hero.png" className="object-cover w-full lg:hidden" />
                         </div>
                     </div>

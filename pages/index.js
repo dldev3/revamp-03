@@ -24,10 +24,10 @@ export default function Home() {
 				<div>
 					<div className="hidden lg:block">
 						<div className="relative -top-33 landing-section flex flex-row justify-center z-0">
-							<div className="w-7/12 bg-hero-dark h-screen">
+							<div className="w-7/12 bg-hero-dark h-768px">
 							</div>
 							<div className="w-5/12">
-								<img src="/Resources/Home/hero-image.png" className="h-full w-full object-fill" />
+								<img src="/Resources/Home/hero-image.png" className="h-768px w-full object-fill" />
 							</div>
 						</div>
 

@@ -22,7 +22,7 @@ const Roadmap = () => {
                 <div>
                     <div className="relative -top-33 z-0">
                         <div className="">
-                            <img src="/Resources/Roadmap/home-roadmap.jpg" className="hidden lg:block object-cover w-full h-screen" />
+                            <img src="/Resources/Roadmap/home-roadmap.jpg" className="hidden lg:block object-cover w-full h-768px" />
                             <img src="/Resources/Mobile/Roadmap-mobile-hero.png" className="lg:hidden object-cover w-full h-auto" />
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const Roadmap = () => {
 
 
             <div className='lg:mt-36 mt-20'>
-                <img className='lg:block hidden h-auto w-full' src="/Resources/Roadmap/roadmap-desktop.png" alt="roadmap" />
+                <img className='lg:block hidden h-768px w-full' src="/Resources/Roadmap/roadmap-desktop.png" alt="roadmap" />
                 <img className='h-auto w-full lg:hidden' src="/Resources/Roadmap/roadmap-mobile.png" alt="roadmap" />
             </div>
 

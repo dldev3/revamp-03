@@ -40,8 +40,8 @@ export default function Home() {
             <div>
                 <div>
                     <div className="relative -top-33 z-0">
-                        <div className="h-screen">
-                            <img src="/Resources/Capabilities/cap-hero.png" className="object-cover w-full h-screen lg:block hidden" />
+                        <div className="">
+                            <img src="/Resources/Capabilities/cap-hero.png" className="object-cover w-full h-768px lg:block hidden" />
                             <img src="/Resources/Mobile/Capabilities-mobile-hero.png" className="object-cover w-full lg:hidden" />
                         </div>
                     </div>

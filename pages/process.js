@@ -23,7 +23,7 @@ const Process = () => {
                 <div>
                     <div className="relative -top-33 z-0">
                         <div className="">
-                            <img src="/Resources/Home/home-process.jpg" className="hidden lg:block object-cover w-full h-screen" />
+                            <img src="/Resources/Home/home-process.jpg" className="hidden lg:block object-cover w-full h-768px" />
                             <img src="/Resources/Mobile/Process-mobile-hero.png" className="lg:hidden object-cover w-full" />
                         </div>
                     </div>
