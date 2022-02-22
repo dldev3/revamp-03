@@ -106,7 +106,7 @@ const Roadmap = () => {
 
 
             <div className='lg:mt-36 mt-20'>
-                <img className='lg:block hidden h-768px w-full' src="/Resources/Roadmap/roadmap-desktop.png" alt="roadmap" />
+                <img className='lg:block hidden h-full w-full' src="/Resources/Roadmap/roadmap-desktop.png" alt="roadmap" />
                 <img className='h-auto w-full lg:hidden' src="/Resources/Roadmap/roadmap-mobile.png" alt="roadmap" />
             </div>
 
