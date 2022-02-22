@@ -30,8 +30,8 @@ const CaseStudy = () => {
                 <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Concept Case Study</h1>
             </div>
             <div className='hidden lg:flex flex-col justify-center text-center text-f40 Inter-Medium leading-f50 text-mcl-text-black'>
-                <h1>Gensler: Reimagining the digital</h1>
-                <h1>forefront in 2022</h1>
+                <h1>Gensler: Reimagining the digital forefront in 2022</h1>
+                <h1></h1>
 
             </div>
             <div className='flex lg:hidden text-f20 flex-col justify-center text-center Inter-Medium text-mcl-text-black'>
