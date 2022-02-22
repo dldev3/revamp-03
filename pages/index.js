@@ -168,10 +168,17 @@ export default function Home() {
 						</div>
 						<div className="lg:w-1/2 py-4 px-8 mt-12">
 							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f20 text-gray-700">
-								<p>From a boutique design agency, we envision becoming a</p>
-								<p>full-service creative agency that can help the growth of </p>
-								<p>architects & interior designers in the connected world.</p>
-								<p></p>
+								<div className='lg:block hidden'>
+									<p>From a boutique design agency, we envision becoming a</p>
+									<p>full-service creative agency that can help the growth of </p>
+									<p>architects & interior designers in the connected world.</p>
+								</div>
+								<div className='lg:hidden'>
+									<p>From a boutique design agency, we envision</p>
+									<p>becoming a full-service creative agency that</p>
+									<p>can help the growth of architects & interior</p>
+									<p>designers in the connected world.</p>
+								</div>
 							</div>
 
 							<div className="lg:mt-20 mt-12">
