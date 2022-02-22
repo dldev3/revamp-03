@@ -61,7 +61,7 @@ const Contact = () => {
 
             <div className='flex flex-col justify-center items-center lg:my-24 my-12'>
                 <p className='lg:text-f16 text-f14 Inter-Regular'>Say Hello</p>
-                <h1 className='Inter-Medium lg:text-f50 text-f25'>Let's work together</h1>
+                <h1 className='Inter-Medium lg:text-f40 text-f25'>Let's work together</h1>
             </div>
 
 
