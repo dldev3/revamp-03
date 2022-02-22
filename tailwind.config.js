@@ -52,7 +52,7 @@ module.exports = {
 			},
 			lineHeight: {
 				'f18': '18px',
-				'f50': '60px',
+				'f50': '55px',
 				'f24-low': '24px',
 				'f22': '22px',
 				'f24': '36px',
