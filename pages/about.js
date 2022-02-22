@@ -67,7 +67,7 @@ export default function About() {
                             <h1>Simplifying what is already complex is our passion.</h1>
                             <h1>Seeing the company we keep thrive with results is our drive.</h1>
                         </div>
-                        <div className="lg:hidden text-f14 Inter-Regular mt-6">
+                        <div className="lg:hidden leading-f25 text-f14 Inter-Regular mt-6">
                             <h2>We are a team of hustlers with a mission to</h2>
                             <h2>bring clarity and growth to the world through</h2>
                             <h2>the power of creative designing based in</h2>
@@ -150,8 +150,8 @@ export default function About() {
                             <div className='lg:hidden leading-f26 Inter-Regular text-f14 mx-4 p-4 text-gray-700'>
                                 <p>From a boutique design agency, we envision</p>
                                 <p>becoming a full-service creative agency that</p>
-                                <p>can help the growth of architects & interior designers</p>
-                                <p>in the connected world.</p>
+                                <p>can help the growth of architects & interior </p>
+                                <p>designers in the connected world.</p>
                             </div>
                             <div className="lg:mt-14 lg:mx-2 mx-4 lg:p-0 p-4">
                                 <NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
