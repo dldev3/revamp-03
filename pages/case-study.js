@@ -260,7 +260,7 @@ const CaseStudy = () => {
 
                     <div className='lg:mt-40 mt-12 lg:mx-0 mx-2'>
                         <div><p className='lg:text-f16 text-f12 Inter-Bold'>THE RESULT</p></div>
-                        <div className='lg:block hidden text-f24 leading-f48 mt-4 Inter-Regular'>
+                        <div className='lg:block hidden text-f20 leading-f48 mt-4 Inter-Regular'>
                             <p>After careful curation of content, strategic placement of the layout,</p>
                             <p>and the design of the story for the new homepage, a new homepage</p>
                             <p>emerged to match the challenges and goals identified, and better</p>
