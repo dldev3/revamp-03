@@ -46,7 +46,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="lg:mx-36 relative lg:bottom-100 bottom-106 mx-12">
+                    <div className="lg:mx-36 relative lg:bottom-100 bottom-100 mx-12">
                         <div className="text-white text-f14 lg:text-f20 Inter-Regular mt-12">
                             <p>What we do</p>
                         </div>
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
 
 
-            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-103-low lg:-mt-72'>
+            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-110 lg:-mt-72'>
                 <div className='lg:w-3/12'>
                     <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
