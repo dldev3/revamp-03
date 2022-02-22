@@ -225,7 +225,7 @@ const CaseStudy = () => {
                 </div>
             </div>
             <div className='lg:mx-28 mx-8 lg:mt-20 mt-10'>
-                <div className='lg:block hidden text-f24 leading-f40 Inter-Regular'>
+                <div className='lg:block hidden text-f20 leading-f40 Inter-Regular'>
                     <p>Now that the ideation was done, we were next going to bring the wireframe to life through a visual</p>
                     <p>design. So we created a basic design system which documents the guidelines and measurements</p>
                     <p>of the design for easy use and understanding.</p>
@@ -260,7 +260,7 @@ const CaseStudy = () => {
 
                     <div className='lg:mt-40 mt-12 lg:mx-0 mx-2'>
                         <div><p className='lg:text-f16 text-f12 Inter-Bold'>THE RESULT</p></div>
-                        <div className='lg:block hidden text-f28 leading-f48 mt-4 Inter-Regular'>
+                        <div className='lg:block hidden text-f24 leading-f48 mt-4 Inter-Regular'>
                             <p>After careful curation of content, strategic placement of the layout,</p>
                             <p>and the design of the story for the new homepage, a new homepage</p>
                             <p>emerged to match the challenges and goals identified, and better</p>
