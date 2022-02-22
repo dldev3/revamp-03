@@ -71,16 +71,16 @@ export default function Home() {
 				<div>
 					<div className="flex lg:flex-row flex-col-reverse">
 						<div className="lg:w-5/12">
-							<img className="w-full lg:h-768px h-543px object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
+							<img className="w-full lg:593px lg:h-768px h-543px" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
 							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
-								<div className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:tracking-wide">
+								<div className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:mt-16 mt-0">
 									<h1>We empower the</h1>
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
-								<div className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-20 mt-6">
+								<div className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-8 mt-6">
 									<p>We solve business problems for architects &</p>
 									<p>interior designers through creative designs</p>
 									<p>helping them to build awareness, gain happier</p>
