@@ -50,7 +50,7 @@ export default function Home() {
 								<h1 className="drop-shadow-md">the creators of modern</h1>
 								<h1 className="drop-shadow-md">day dream homes.</h1>
 							</div>
-							<div className="text-white text-f14 leading-f26 Inter-Regular mt-12">
+							<div className="text-white text-f14 leading-f26 Inter-Regular mt-6">
 								<p>We are a creative design agency for</p>
 								<p>architects & interior designers.</p>
 							</div>
@@ -166,7 +166,7 @@ export default function Home() {
 						<div className="lg:w-1/2">
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
-						<div className="lg:w-1/2 py-4 px-8 mt-12">
+						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
 							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f20 text-gray-700">
 								<div className='lg:block hidden'>
 									<p>From a boutique design agency, we envision becoming a</p>
@@ -187,7 +187,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
-						<div className="lg:w-1/2 py-4 px-8 mt-12">
+						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
 							<div className="Inter-Regular text-f14 lg:text-f20 leading-f26 lg:leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you understand your</p>
 								<p>problems and helps us deliver results focused</p>
@@ -206,7 +206,7 @@ export default function Home() {
 			</div>
 
 			{/* case study */}
-			<div className="lg:mt-24 mt-8">
+			<div className="lg:mt-24 mt-16">
 				<div className="lg:mx-2">
 
 					<div><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
