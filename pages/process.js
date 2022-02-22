@@ -97,7 +97,7 @@ const Process = () => {
                         <div className='grid grid-cols-2 gap-y-10'>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>01 Discover</p></div>
-                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f20 text-f12'>
+                                <div className='lg:ml-7 mt-2 Inter-regular lg:text-f20 text-f12'>
                                     <div className='lg:block hidden'>
                                         <p>Our process gathers research,</p>
                                         <p>inputs, thoughts & ideas, audits,</p>
@@ -116,7 +116,7 @@ const Process = () => {
                             </div>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>02 Define</p></div>
-                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f20 text-f12'>
+                                <div className='lg:ml-8 mt-2 Inter-regular lg:text-f20 text-f12'>
                                     <div className='lg:block hidden'>
                                         <p>We run collaborative work to</p>
                                         <p>understand and to refine a</p>
@@ -136,7 +136,7 @@ const Process = () => {
                             </div>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>03 Develop</p></div>
-                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f20 text-f12'>
+                                <div className='lg:ml-8 mt-2 Inter-regular lg:text-f20 text-f12'>
                                     <div className='lg:block hidden'>
                                         <p>From the new founded insights,</p>
                                         <p>we create a road map that will</p>
@@ -154,7 +154,7 @@ const Process = () => {
                             </div>
                             <div>
                                 <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>04 Deliver</p></div>
-                                <div className='md:ml-10 lg:mt-5 mt-2 Inter-regular lg:text-f20 text-f12'>
+                                <div className='lg:ml-8 mt-2 Inter-regular lg:text-f20 text-f12'>
                                     <div className='lg:block hidden'>
                                         <p>We develop the solution for the</p>
                                         <p>measurements & guidelines we</p>
