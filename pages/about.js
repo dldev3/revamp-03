@@ -147,7 +147,7 @@ export default function About() {
                                 <p>full-service creative agency that can help the growth of</p>
                                 <p>architects & interior designers in the connected world.</p>
                             </div>
-                            <div className='lg:hidden leading-f26 Inter-Regular text-f14 mx-4 p-4 text-gray-700'>
+                            <div className='lg:hidden leading-f26 Inter-Regular text-f14 mx-4 p-4 text-gray-700 mt-6'>
                                 <p>From a boutique design agency, we envision</p>
                                 <p>becoming a full-service creative agency that</p>
                                 <p>can help the growth of architects & interior </p>
@@ -164,7 +164,7 @@ export default function About() {
                                 <p>and helps us deliver results focused solutions that solves</p>
                                 <p>problems.</p>
                             </div>
-                            <div className="lg:hidden Inter-Regular text-f14 leading-f26 text-gray-700 mx-4 p-4">
+                            <div className="lg:hidden Inter-Regular text-f14 leading-f26 text-gray-700 mx-4 p-4 mt-6">
                                 <p>Our clear cut process helps you understand your</p>
                                 <p>problems and helps us deliver results focused</p>
                                 <p>solutions that solves problems.</p>
