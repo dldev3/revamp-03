@@ -83,14 +83,14 @@ const CaseStudy = () => {
                 <p className='text-center mt-6 lg:text-f16 text-f12 Inter-Bold'>Current homepage</p>
             </div>
 
-            <div className='lg:mx-0 mx-8 flex flex-col justify-center items-center mt-10 Inter-Regular lg:text-f24 text-f14 lg:leading-f40'>
+            <div className='lg:mx-0 mx-8 flex flex-col justify-center items-center mt-10 Inter-Regular lg:text-f20 text-f14 lg:leading-f40'>
                 <div>
                     <div className='text-left lg:block hidden mt-12'>
                         <p>Given the current market share and client base of Gensler, it was clear that they are not actively</p>
                         <p>looking to generate leads through their website. They are also a market and thought leader in</p>
                         <p>their space. Through our Discovery process, we understood their problem (opportunity in this</p>
                         <p>case) to be demonstrating and communicating their expertise to further establish their current</p>
-                        <p>position</p>
+                        <p>position.</p>
                     </div>
                     <div className='text-left lg:hidden leading-f22'>
                         <p>Given the current market share and client</p>
@@ -101,7 +101,7 @@ const CaseStudy = () => {
                         <p>process, we understood their problem</p>
                         <p>(opportunity in this case) to be demonstrating</p>
                         <p>and communicating their expertise to further</p>
-                        <p>establish their current position</p>
+                        <p>establish their current position.</p>
                     </div>
 
 
