@@ -36,7 +36,7 @@ const Header = () => {
 			</div>
 
 
-			<nav className="md:hidden block mx-8">
+			<nav className="lg:hidden block mx-8">
 				<div className="flex justify-between">
 					<NextLink href="/"><a href="/" ><img className='w-134px h-34px mt-4' id="logo" src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
 					<a href="#" className='mt-4'>
