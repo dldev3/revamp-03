@@ -190,7 +190,7 @@ export default function Home() {
                         <div>
                             <img className="lg:h-223px h-134px w-full" src="/Resources/Capabilities/custom-development.jpg" alt="custom-development" />
                         </div>
-                        <div className="bg-mcl-black lg:p-6 p-4 h-40 lg:h-60">
+                        <div className="bg-mcl-black lg:p-6 p-4 h-40 lg:h-52">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Custom Development</h2>
                             <p className="Inter-Regular lg:text-f14 text-f10 leading-f18 lg:leading-f24-low text-gray-300 mt-4">From scratch building of a solution without the use of website builders and templates of any kind.</p>
                         </div>
@@ -199,7 +199,7 @@ export default function Home() {
                         <div>
                             <img className="lg:h-223px h-134px w-full" src="/Resources/Capabilities/migration.jpg" alt="migration" />
                         </div>
-                        <div className="bg-mcl-gray lg:p-6 p-4 h-40 lg:h-60">
+                        <div className="bg-mcl-gray lg:p-6 p-4 h-40 lg:h-52">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Migration</h2>
                             <p className="Inter-Regular lg:text-f14 text-f10 leading-f18 lg:leading-f24-low text-gray-300 mt-4">Taking a website from one place to another place on the internet without harming the good side of the current location.</p>
                         </div>
@@ -208,7 +208,7 @@ export default function Home() {
                         <div>
                             <img className="lg:h-223px h-134px w-full" src="/Resources/Capabilities/infrastructure.jpg" alt="infrastructure" />
                         </div>
-                        <div className="bg-mcl-black lg:p-6 p-4 h-40 lg:h-60">
+                        <div className="bg-mcl-black lg:p-6 p-4 h-40 lg:h-52">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">Infrastructure</h2>
                             <p className="Inter-Regular lg:text-f14 text-f10 leading-f18 lg:leading-f24-low text-gray-300 mt-4">The basic digital structures and facilities needed for the operation of a website.</p>
                         </div>
@@ -217,7 +217,7 @@ export default function Home() {
                         <div>
                             <img className="lg:h-223px h-134px w-full" src="/Resources/Capabilities/maintenance.jpg" alt="maintenance" />
                         </div>
-                        <div className="bg-mcl-gray lg:p-6 p-4 h-40 lg:h-60">
+                        <div className="bg-mcl-gray lg:p-6 p-4 h-40 lg:h-52">
                             <h2 className="Inter-Medium lg:text-f20 text-f12 text-gray-300">On-Going Support</h2>
                             <p className="Inter-Regular lg:text-f14 text-f10 leading-f18 lg:leading-f24-low text-gray-300 mt-4">From maintenance to scaling a built solution with the growth of a brand.</p>
                         </div>
