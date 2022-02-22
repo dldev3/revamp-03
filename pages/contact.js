@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Head from 'next/head';
 import ScrollOut from "scroll-out";
+import $ from "jquery";
 
 
 const Contact = () => {
@@ -17,6 +18,20 @@ const Contact = () => {
     const [message, setMessage] = useState("");
 
     useEffect(() => {
+        // back to top
+        var btn = $('#button');
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+        // back to top end
         ScrollOut({
             threshold: .8,
             once: true
@@ -31,6 +46,8 @@ const Contact = () => {
                 <title>Minutecode Labs | Contact Us</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
                 <link rel="icon" href="/fav.png" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
             </Head>
 
             <div className='bg-hero-dark lg:pb-14 lg:pt-0 pb-6 pt-2'>
@@ -123,7 +140,8 @@ const Contact = () => {
 
 
 
-
+            {/* back to top button */}
+            <a id="button"></a>
 
         </div >
     )

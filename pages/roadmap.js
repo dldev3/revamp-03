@@ -4,8 +4,23 @@ import Footer from './components/Footer';
 import Grow from './components/Grow';
 import Head from 'next/head';
 import ScrollOut from "scroll-out";
+import $ from "jquery";
 const Roadmap = () => {
     useEffect(() => {
+        // back to top
+        var btn = $('#button');
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+        // back to top end
         ScrollOut({
             threshold: .8,
             once: true
@@ -19,6 +34,7 @@ const Roadmap = () => {
                 <title>Minutecode Labs | Roadmap</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
                 <link rel="icon" href="/fav.png" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
             </Head>
 
             <div className="relative lg:-top-5 z-10">
@@ -200,6 +216,8 @@ const Roadmap = () => {
             <div>
                 <Footer />
             </div>
+            {/* back to top button */}
+            <a id="button"></a>
         </div >
     )
 };

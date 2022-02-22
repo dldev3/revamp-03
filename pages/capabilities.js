@@ -30,6 +30,21 @@ export default function Home() {
 
         ScrollOut();
 
+        // back to top
+        var btn = $('#button');
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+        // back to top end
+
     }, []);
     return (
         <div className="container-mcl">
@@ -37,6 +52,8 @@ export default function Home() {
                 <title>Minutecode Labs | Capabilities</title>
                 <meta name="description" content="Best web development agency in USA, Canada and Europe" />
                 <link rel="icon" href="/fav.png" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
             </Head>
 
             {/* Header */}
@@ -243,7 +260,8 @@ export default function Home() {
             <div>
                 <Footer></Footer>
             </div>
-
+            {/* back to top button */}
+            <a id="button"></a>
         </div>
     )
 }

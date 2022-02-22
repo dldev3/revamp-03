@@ -6,9 +6,26 @@ import Footer from './components/Footer';
 import Grow from './components/Grow';
 import ScrollOut from "scroll-out";
 import { useEffect } from 'react';
+import $ from 'jquery';
 
 export default function Home() {
 	useEffect(() => {
+		// back to top
+		var btn = $('#button');
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+		btn.on('click', function (e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: 0 }, '300');
+		});
+		// back to top end
+
+
 		ScrollOut({
 			threshold: .8,
 			once: true
@@ -22,6 +39,7 @@ export default function Home() {
 				<title>Minutecode Labs | Home</title>
 				<meta name="description" content="Best web development agency in USA, Canada and Europe" />
 				<link rel="icon" href="/fav.png" />
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 			</Head>
 
 			{/* Header */}
@@ -258,7 +276,8 @@ export default function Home() {
 			{/*Empty div*/}
 			<div></div>
 
-
+			{/* back to top button */}
+			<a id="button"></a>
 		</div >
 	)
 }
