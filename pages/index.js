@@ -71,7 +71,7 @@ export default function Home() {
 				<div>
 					<div className="flex lg:flex-row flex-col-reverse">
 						<div className="lg:w-5/12">
-							<img className="w-full h-768px object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
+							<img className="w-full lg:h-768px h-543px object-cover" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
 							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
