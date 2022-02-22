@@ -85,7 +85,7 @@ const CaseStudy = () => {
 
             <div className='lg:mx-0 mx-8 flex flex-col justify-center items-center mt-10 Inter-Regular lg:text-f24 text-f14 lg:leading-f40'>
                 <div>
-                    <div className='text-left lg:block hidden'>
+                    <div className='text-left lg:block hidden mt-12'>
                         <p>Given the current market share and client base of Gensler, it was clear that they are not actively</p>
                         <p>looking to generate leads through their website. They are also a market and thought leader in</p>
                         <p>their space. Through our Discovery process, we understood their problem (opportunity in this</p>
