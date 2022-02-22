@@ -125,22 +125,22 @@ const CaseStudy = () => {
                     </div>
 
 
-                    <div className='mt-16 text-left lg:block hidden'>
-                        <p>All of these user segments have the same intent of searching for information and statistics for</p>
-                        <p>different purposes, which the current homepage is lagging to facilitate efficiently.</p>
+                    <div className='mt-10 text-left lg:block hidden'>
+                        <p>All of these user segments have the <span className='Inter-SemiBold'>same intent of searching for information and statistics for</span></p>
+                        <p><span className='Inter-SemiBold'>different purposes,</span> which the current homepage is lagging to facilitate efficiently.</p>
                     </div>
 
                     <div className='mt-6 text-left lg:hidden leading-f22'>
-                        <p>All of these user segments have the same</p>
-                        <p>intent of searching for information and</p>
-                        <p>statistics for different purposes, which the</p>
+                        <p>All of these user segments have the <span className='Inter-SemiBold'>same</span></p>
+                        <p><span className='Inter-SemiBold'>intent of searching for information and</span></p>
+                        <p><span className='Inter-SemiBold'>statistics for different purposes,</span> which the</p>
                         <p>current homepage is lagging to facilitate</p>
                         <p>efficiently.</p>
                     </div>
 
 
 
-                    <div className='mt-20 text-left lg:block hidden'>
+                    <div className='mt-16 text-left lg:block hidden'>
                         <p>We managed to surface some common themes for the brand through their work.</p>
                     </div>
 
@@ -184,14 +184,14 @@ const CaseStudy = () => {
 
             <div className='lg:mx-28 lg:mt-20 mt-10 mx-8'>
                 <div className='flex lg:flex-row justify-center flex-col'>
-                    <div className='lg:w-1/2 lg:text-f24 text-f14 lg:leading-f40 Inter-Regular leading-f22'>
+                    <div className='lg:w-1/2 lg:text-f20 text-f14 lg:leading-f40 Inter-Regular leading-f22'>
                         <p>Based on our research and analysis, we drew</p>
                         <p>a sketch for the new homepage to structure</p>
                         <p>the new layout. We also identified the key</p>
                         <p>sections to include and how the navigation</p>
                         <p>should be placed.</p>
                     </div>
-                    <div className='lg:w-1/2 lg:text-f24 text-f14 lg:leading-f40 mt-10 lg:mt-0 Inter-Regular leading-f22'>
+                    <div className='lg:w-1/2 lg:text-f20 text-f14 lg:leading-f40 mt-10 lg:mt-0 Inter-Regular leading-f22'>
                         <p>As a result, their research institute, projects,</p>
                         <p>blog and careers were selected respectively</p>
                         <p>as the homepage sections and we added a</p>
@@ -210,13 +210,13 @@ const CaseStudy = () => {
 
             <div className='lg:mx-28 mx-8 lg:mt-20 mt-10'>
                 <div className='flex lg:flex-row flex-col'>
-                    <div className='lg:w-1/2 lg:text-f24 text-f14 lg:leading-f40 Inter-Regular leading-f22'>
+                    <div className='lg:w-1/2 lg:text-f20 text-f14 lg:leading-f40 Inter-Regular leading-f22'>
                         <p>The navigation bar on the header was</p>
                         <p>designed to match the user journey of the 3</p>
                         <p>identified user segments. The rest were taken</p>
                         <p>inside a menu to simplify the journey.</p>
                     </div>
-                    <div className='lg:w-1/2 lg:text-f24 text-f14 lg:leading-f40 mt-6 lg:mt-0 Inter-Regular leading-f22'>
+                    <div className='lg:w-1/2 lg:text-f20 text-f14 lg:leading-f40 mt-6 lg:mt-0 Inter-Regular leading-f22'>
                         <p>Content were taken to match the aspects we</p>
                         <p>chose to reflect from the themes we identified.</p>
                         <p>Information architecture was placed to help</p>
@@ -314,7 +314,7 @@ const CaseStudy = () => {
 
             <div>
                 <div className="flex flex-col items-center my-24">
-                    <h1 className="hidden lg:block Inter-Regular text-f50">Have something in mind?</h1>
+                    <h1 className="hidden lg:block Inter-Regular text-f40">Have something in mind?</h1>
                     <h1 className="lg:hidden Inter-Regular text-f25">Ready to grow?</h1>
                     <div className='flex lg:flex-row flex-col lg:space-x-4 space-y-4 lg:space-y-0 mt-6'>
                         <div className="bg-home-cap py-6 px-12 hover:cursor-pointer">
