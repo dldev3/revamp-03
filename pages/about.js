@@ -153,7 +153,7 @@ export default function About() {
                                 <p>can help the growth of architects & interior designers</p>
                                 <p>in the connected world.</p>
                             </div>
-                            <div className="lg:mt-20 lg:mx-2 mx-4 lg:p-0 p-4">
+                            <div className="lg:mt-14 lg:mx-2 mx-4 lg:p-0 p-4">
                                 <NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ export default function About() {
                                 <p>problems and helps us deliver results focused</p>
                                 <p>solutions that solves problems.</p>
                             </div>
-                            <div className="lg:mt-20 lg:mx-2 mx-4 lg:p-0 p-4">
+                            <div className="lg:mt-14 lg:mx-2 mx-4 lg:p-0 p-4">
                                 <NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
                             </div>
                         </div>
