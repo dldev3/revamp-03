@@ -26,7 +26,7 @@ const CaseStudy = () => {
             </div>
 
 
-            <div className='flex flex-col justify-center text-center lg:-mt-28'>
+            <div className='flex flex-col justify-center text-center -mt-10 lg:-mt-28'>
                 <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Case Studies</h1>
             </div>
             <div className='hidden lg:flex flex-col justify-center text-center text-f50 Inter-Medium leading-f50 text-mcl-text-black'>
@@ -112,7 +112,7 @@ const CaseStudy = () => {
                         <p>c) brands with preference to building sustainable and futuristic physical spaces.</p>
                     </div>
 
-                    <div className='mt-10 text-left lg:hidden leading-f22'>
+                    <div className='mt-6 text-left lg:hidden leading-f22'>
                         <p>With our initial observation about lead </p>
                         <p>generation, we identified 3 key users based</p>
                         <p>on purpose that might come into their site.</p>
@@ -129,7 +129,7 @@ const CaseStudy = () => {
                         <p>different purposes, which the current homepage is lagging to facilitate efficiently.</p>
                     </div>
 
-                    <div className='mt-16 text-left lg:hidden leading-f22'>
+                    <div className='mt-6 text-left lg:hidden leading-f22'>
                         <p>All of these user segments have the same</p>
                         <p>intent of searching for information and</p>
                         <p>statistics for different purposes, which the</p>
@@ -143,7 +143,7 @@ const CaseStudy = () => {
                         <p>We managed to surface some common themes for the brand through their work.</p>
                     </div>
 
-                    <div className='mt-20 text-left lg:hidden leading-f22'>
+                    <div className='mt-6 text-left lg:hidden leading-f22'>
                         <p>We managed to surface some common</p>
                         <p>themes for the brand through their work.</p>
                     </div>
@@ -153,7 +153,7 @@ const CaseStudy = () => {
                         <p>1.) They are laser focused on innovations and their impact. This lead us to choosing their carbon</p>
                         <p>free goal to be included as the main headline for the homepage.</p>
                     </div>
-                    <div className='mt-8 text-left lg:hidden leading-f22'>
+                    <div className='mt-6 text-left lg:hidden leading-f22'>
                         <p>1.) They are laser focused on innovations and</p>
                         <p>their impact. This lead us to choosing their </p>
                         <p>carbon free goal to be included as the main</p>
@@ -166,7 +166,7 @@ const CaseStudy = () => {
                         <p>2.) All their designs are professional, creative and vibrant. This understanding lead us to align the</p>
                         <p>redesign with the same aspects to better showcase their qualities.</p>
                     </div>
-                    <div className='mt-8 text-left lg:hidden leading-f22'>
+                    <div className='mt-6 text-left lg:hidden leading-f22'>
                         <p>2.) All their designs are professional, creative</p>
                         <p>and vibrant. This understanding lead us to </p>
                         <p>align the redesign with the same aspects to</p>
@@ -215,7 +215,7 @@ const CaseStudy = () => {
                         <p>identified user segments. The rest were taken</p>
                         <p>inside a menu to simplify the journey.</p>
                     </div>
-                    <div className='lg:w-1/2 lg:text-f24 text-f14 lg:leading-f40 mt-10 lg:mt-0 Inter-Regular leading-f22'>
+                    <div className='lg:w-1/2 lg:text-f24 text-f14 lg:leading-f40 mt-6 lg:mt-0 Inter-Regular leading-f22'>
                         <p>Content were taken to match the aspects we</p>
                         <p>chose to reflect from the themes we identified.</p>
                         <p>Information architecture was placed to help</p>
@@ -291,14 +291,14 @@ const CaseStudy = () => {
 
 
             <div className='bg-mcl-black lg:p-20 p-8 mt-20'>
-                <div className='text-white'><p className='text-center Inter-Regular text-f12 lg:text-f16'>Disclaimer</p></div>
+                <div className='text-white'><p className='text-center Inter-Bold text-f12 lg:text-f16'>Disclaimer</p></div>
                 <div className='hidden lg:block text-white Inter-regular text-f24 mt-8 leading-f48'>
                     <p className='text-center'>Gensler is not an actual client of MinuteCode Labs. This case was done for the</p>
                     <p className='text-center'>purpose of demonstrating the creative process of MinuteCode. All the content</p>
                     <p className='text-center'>materials used in the case study were taken from their public website and no</p>
                     <p className='text-center'>sensitive information has been displayed on the design.</p>
                 </div>
-                <div className='lg:hidden text-white Inter-regular text-f14 mt-8 leading-f22'>
+                <div className='lg:hidden text-white Inter-Regular text-f14 mt-4 leading-f22'>
                     <p className='text-center'>Gensler is not an actual client of MinuteCode</p>
                     <p className='text-center'>Labs. This case was done for the purpose of</p>
                     <p className='text-center'>demonstrating the creative process of Minute </p>

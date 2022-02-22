@@ -80,14 +80,14 @@ export default function Home() {
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
-								<div className="Inter-Regular lg:text-f24 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-20 mt-12">
+								<div className="Inter-Regular lg:text-f24 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-20 mt-6">
 									<p>We solve business problems for architects &</p>
 									<p>interior designers through creative designs</p>
 									<p>helping them to build awareness, gain happier</p>
 									<p>customers and drive revenues.</p>
 
 								</div>
-								<div className="lg:mt-24 mt-12 Inter-Bold mb-4 lg:mb-0">
+								<div className="lg:mt-24 mt-14 Inter-Bold mb-4 lg:mb-0">
 									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
 								</div>
 							</div>

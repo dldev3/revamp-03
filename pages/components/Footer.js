@@ -24,7 +24,7 @@ const Footer = () => {
             {/* mobile footer */}
             <div className='lg:hidden'>
                 <div className='flex flex-col justify-center items-center p-6'><NextLink href="/"><a href="/"><img className="object-cover w-187px h-46px" src="Resources/About/Logo.png" alt="logo" /></a></NextLink></div>
-                <div className='flex flex-col justify-center items-center space-y-6 text-gray-300 mt-5'>
+                <div className='Inter-Regular flex flex-col justify-center items-center space-y-6 text-gray-300 mt-5'>
                     <NextLink href="/capabilities"><a href="capabilities">Capabilities</a></NextLink>
                     <NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink>
                     <NextLink href="/about"><a href="/about">About</a></NextLink>

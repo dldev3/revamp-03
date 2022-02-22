@@ -85,7 +85,7 @@ export default function About() {
             </div>
 
             <div className='our core values'>
-                <div className="lg:mx-44 mt-12">
+                <div className="lg:mx-44 mt-20 lg:mt-12">
                     <div className="flex lg:flex-row flex-col justify-center">
                         <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                             <p className='mx-8 lg:mx-0'>Our core values </p>
@@ -100,29 +100,29 @@ export default function About() {
                                         <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Be empathetic</p></div>
                                     </div>
 
-                                    <div>
+                                    <div className='mt-4 lg:mt-0'>
                                         <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-2.jpg" alt="value-2" /></div>
                                         <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Build solutions, not websites</p></div>
                                     </div>
                                 </div>
 
                                 <div className="flex lg:flex-row flex-col">
-                                    <div>
+                                    <div className='mt-6 lg:mt-0'>
                                         <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-3.jpg" alt="value-3" /></div>
                                         <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Over deliver, always</p></div>
                                     </div>
-                                    <div>
+                                    <div className='mt-6 lg:mt-0'>
                                         <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-4.jpg" alt="value-4" /></div>
                                         <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Seek learning and growth</p></div>
                                     </div>
                                 </div>
 
                                 <div className="flex lg:flex-row flex-col">
-                                    <div>
+                                    <div className='mt-6 lg:mt-0'>
                                         <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-5.jpg" alt="value-5" /></div>
                                         <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Build a family, not a team</p></div>
                                     </div>
-                                    <div>
+                                    <div className='mt-6 lg:mt-0'>
                                         <div><img className="w-full h-212px lg:w-96 lg:h-56 object-cover" src="/Resources/About/value-6.jpg" alt="value-6" /></div>
                                         <div><p className="Inter-Regular lg:text-f24 text-f14 lg:text-left text-center p-3">Choose honesty over white lies</p></div>
                                     </div>
