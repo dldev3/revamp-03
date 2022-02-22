@@ -27,9 +27,9 @@ const CaseStudy = () => {
 
 
             <div className='flex flex-col justify-center text-center -mt-10 lg:-mt-28'>
-                <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Case Studies</h1>
+                <h1 className='lg:text-f24 text-f12 Inter-Regular text-mcl-text-black'>Concept Case Study</h1>
             </div>
-            <div className='hidden lg:flex flex-col justify-center text-center text-f50 Inter-Medium leading-f50 text-mcl-text-black'>
+            <div className='hidden lg:flex flex-col justify-center text-center text-f40 Inter-Medium leading-f50 text-mcl-text-black'>
                 <h1>Gensler: Reimagining the digital</h1>
                 <h1>forefront in 2022</h1>
 
