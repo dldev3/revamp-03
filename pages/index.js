@@ -4,8 +4,18 @@ import NextLink from 'next/link';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Grow from './components/Grow';
+import ScrollOut from "scroll-out";
+import { useEffect } from 'react';
 
 export default function Home() {
+	useEffect(() => {
+		ScrollOut({
+			threshold: .8,
+			once: true
+		});
+
+		ScrollOut();
+	}, []);
 	return (
 		<div className="container-mcl scroll-smooth">
 			<Head>
@@ -32,11 +42,11 @@ export default function Home() {
 						</div>
 
 						<div className="md:mx-28 relative bottom-102">
-							<div className="text-white text-f40 leading-f50 Inter-Medium">
+							<div data-scroll className="text-white text-f40 leading-f50 Inter-Medium">
 								<h1 className="drop-shadow-md">Creative solutions. For the</h1>
 								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
 							</div>
-							<div className="text-white text-f20 Inter-Regular mt-12">
+							<div data-scroll className="text-white text-f20 Inter-Regular mt-12">
 								<p>We are a creative design agency for architects & interior designers.</p>
 							</div>
 						</div>
@@ -45,12 +55,12 @@ export default function Home() {
 					{/* mobile */}
 					<div className="lg:hidden relative -top-20 landing-section">
 						<div className="bg-mcl-black p-12">
-							<div className="text-white text-f25 leading-f33 Inter-Regular mt-36">
+							<div data-scroll className="text-white text-f25 leading-f33 Inter-Regular mt-36">
 								<h1 className="drop-shadow-md">Creative solutions. For </h1>
 								<h1 className="drop-shadow-md">the creators of modern</h1>
 								<h1 className="drop-shadow-md">day dream homes.</h1>
 							</div>
-							<div className="text-white text-f14 leading-f26 Inter-Regular mt-6">
+							<div data-scroll className="text-white text-f14 leading-f26 Inter-Regular mt-6">
 								<p>We are a creative design agency for</p>
 								<p>architects & interior designers.</p>
 							</div>
@@ -75,19 +85,19 @@ export default function Home() {
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
 							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
-								<div className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:mt-16 mt-0">
+								<div data-scroll className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:mt-16 mt-0">
 									<h1>We empower the</h1>
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
-								<div className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-8 mt-6">
+								<div data-scroll className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-8 mt-6">
 									<p>We solve business problems for architects &</p>
 									<p>interior designers through creative designs</p>
 									<p>helping them to build awareness, gain happier</p>
 									<p>customers and drive revenues.</p>
 
 								</div>
-								<div className="lg:mt-24 mt-14 Inter-Bold mb-4 lg:mb-0">
+								<div data-scroll className="lg:mt-24 mt-14 Inter-Bold mb-4 lg:mb-0">
 									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
 								</div>
 							</div>
@@ -101,12 +111,12 @@ export default function Home() {
 			{/* Vision */}
 			<div>
 				<div className="bg-hero-dark lg:block hidden vision-section">
-					<div className="p-16">
+					<div data-scroll className="p-16">
 						<h1 className="text-white text-f40 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 					</div>
 
 					<div className="flex flex-row justify-between py-12 px-24 mx-28">
-						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
+						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
 							<p>Here is to the creators,</p>
 							<p>The designers,</p>
 							<p>And the builders,</p>
@@ -114,7 +124,7 @@ export default function Home() {
 							<p>The ones who help us ensure</p>
 							<p>a home is our best investment</p>
 						</div>
-						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
+						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
 							<p>We can't ignore them because.</p>
 							<p>they make hte dream of a home a reality for all</p>
 							<p>While the world sees them as just home</p>
@@ -131,12 +141,12 @@ export default function Home() {
 
 				{/* mobile */}
 				<div className="bg-hero-dark lg:hidden">
-					<div className="p-4">
+					<div data-scroll className="p-4">
 						<h1 className="text-white text-f25 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 					</div>
 
 					<div className="flex flex-col justify-between px-8 py-6">
-						<div className="text-left text-gray-300 Inter-Regular text-f14 leading-f26">
+						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 leading-f26">
 							<p>Here is to the creators,</p>
 							<p>The designers,</p>
 							<p>And the builders,</p>
@@ -144,7 +154,7 @@ export default function Home() {
 							<p>The ones who help us ensure</p>
 							<p>a home is our best investment.</p>
 						</div>
-						<div className="mt-12 text-left text-gray-300 Inter-Regular text-f14  leading-f26 mb-4">
+						<div data-scroll className="mt-12 text-left text-gray-300 Inter-Regular text-f14  leading-f26 mb-4">
 							<p>We can't ignore them because.</p>
 							<p>they make hte dream of a home a reality for all</p>
 							<p>While the world sees them as just home</p>
@@ -168,12 +178,12 @@ export default function Home() {
 						</div>
 						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
 							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f20 text-gray-700">
-								<div className='lg:block hidden'>
+								<div data-scroll className='lg:block hidden'>
 									<p>From a boutique design agency, we envision becoming a</p>
 									<p>full-service creative agency that can help the growth of </p>
 									<p>architects & interior designers in the connected world.</p>
 								</div>
-								<div className='lg:hidden'>
+								<div data-scroll className='lg:hidden'>
 									<p>From a boutique design agency, we envision</p>
 									<p>becoming a full-service creative agency that</p>
 									<p>can help the growth of architects & interior</p>
@@ -181,19 +191,19 @@ export default function Home() {
 								</div>
 							</div>
 
-							<div className="lg:mt-20 mt-12">
+							<div data-scroll className="lg:mt-20 mt-12">
 								<NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
 							</div>
 						</div>
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
 						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
-							<div className="Inter-Regular text-f14 lg:text-f20 leading-f26 lg:leading-f24-high text-gray-700">
+							<div data-scroll className="Inter-Regular text-f14 lg:text-f20 leading-f26 lg:leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you understand your</p>
 								<p>problems and helps us deliver results focused</p>
 								<p>solutions that solves problems.</p>
 							</div>
-							<div className="lg:mt-20 mt-12">
+							<div data-scroll className="lg:mt-20 mt-12">
 								<NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
 							</div>
 						</div>
@@ -209,7 +219,7 @@ export default function Home() {
 			<div className="lg:mt-24 mt-16">
 				<div className="lg:mx-2">
 
-					<div><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
+					<div data-scroll><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
 
 					<div className="mt-8">
 						<div className='flex flex-col justify-center items-center'>

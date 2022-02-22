@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import NextLink from 'next/link';
 import { useEffect } from 'react';
 import $ from 'jquery';
+import ScrollOut from "scroll-out";
 
 export default function Home() {
     useEffect(() => {
@@ -21,6 +22,13 @@ export default function Home() {
                 $("#devArrImg").toggleClass("toggle-updown");
             });
         });
+
+        ScrollOut({
+            threshold: .8,
+            once: true
+        });
+
+        ScrollOut();
 
     }, []);
     return (
@@ -47,18 +55,18 @@ export default function Home() {
                     </div>
 
                     <div className="lg:mx-36 relative lg:bottom-100 bottom-100 mx-12">
-                        <div className="text-white text-f14 lg:text-f20 Inter-Regular mt-12">
+                        <div data-scroll className="text-white text-f14 lg:text-f20 Inter-Regular mt-12">
                             <p>What we do</p>
                         </div>
                         <div className="lg:block hidden text-white text-f40 leading-f50 Inter-Medium mt-4">
-                            <div className='drop-shadow-lg'>
+                            <div data-scroll className='drop-shadow-lg'>
                                 <h1 className="drop-shadow-md">We create simple designs, meaningful</h1>
                                 <h1 className="drop-shadow-md">journeys and converting experience.</h1>
                             </div>
                         </div>
 
 
-                        <div className="lg:hidden text-f25 text-white Inter-Regular mt-4">
+                        <div data-scroll className="lg:hidden text-f25 text-white Inter-Regular mt-4">
                             <p>We create simple</p>
                             <p>designs, meaningful</p>
                             <p>journeys and converitng</p>
@@ -72,10 +80,10 @@ export default function Home() {
 
 
             <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-110 lg:-mt-72'>
-                <div className='lg:w-3/12'>
+                <div data-scroll className='lg:w-3/12'>
                     <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
-                <div className='lg:w-9/12 lg:text-f40 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
+                <div data-scroll className='lg:w-9/12 lg:text-f40 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
                     <h1 className='lg:block hidden'>We let creativity meet strategy to</h1>
                     <h1 className='lg:block hidden'>solve problems</h1>
                     <h1 className='lg:hidden'>We let creativity meet strategy to solve</h1>
@@ -88,16 +96,16 @@ export default function Home() {
                 <div className='flex lg:flex-row flex-col-reverse'>
                     <div className="lg:w-5/12 bg-mcl-blue py-16">
                         <div className='lg:mx-20 mx-14 lg:mt-24'>
-                            <div className=''>
+                            <div data-scroll className=''>
                                 <h1 className='lg:text-f40 text-f25 text-gray-200 Inter-Regular'>Designing</h1>
                             </div>
-                            <div className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
+                            <div data-scroll className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
                                 <p>Every brand has a story to tell.</p>
                                 <p>we thoughfully organize and</p>
                                 <p>present a design that brings brand</p>
                                 <p>stories to life in a meaningful way</p>
                             </div>
-                            <div className='max-w-fit border-white border-b-2 lg:mt-20 mt-14'>
+                            <div data-scroll className='max-w-fit border-white border-b-2 lg:mt-20 mt-14'>
                                 <a id="designArr" className='flex flex-row text-white Inter-Bold text-f12 lg:text-f16 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className="ml-2"><img id="designArrImg" className='ml-1 w-auto h-4 lg:mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                             </div>
                         </div>
@@ -162,16 +170,16 @@ export default function Home() {
                         </div>
                         <div className="lg:w-5/12 bg-mcl-blue py-16">
                             <div className='lg:mx-20 mx-14 lg:mt-10'>
-                                <div className=''>
+                                <div data-scroll className=''>
                                     <h1 className='lg:text-f40 text-f25 text-gray-200 Inter-Regular'>Development</h1>
                                 </div>
-                                <div className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 Inter-Regular mt-8 text-gray-200'>
+                                <div data-scroll className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 Inter-Regular mt-8 text-gray-200'>
                                     <p>Our goal is to build a solution that</p>
                                     <p>is specific to a brand, performing,</p>
                                     <p>and future proof, setting the stage</p>
                                     <p>for brand stories come to life.</p>
                                 </div>
-                                <div className='max-w-fit border-white border-b-2 mt-14 lg:mt-20'>
+                                <div data-scroll className='max-w-fit border-white border-b-2 mt-14 lg:mt-20'>
                                     <a id="devArr" className='flex flex-row text-white Inter-Bold lg:text-f16 text-f12 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className="ml-2"><img id="devArrImg" className='ml-1 w-auto h-4 lg:mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
                                 </div>
                             </div>

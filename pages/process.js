@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Grow from './components/Grow';
 import Head from 'next/head';
 import NextLink from 'next/link';
+import ScrollOut from "scroll-out";
 
 const Process = () => {
+    useEffect(() => {
+        ScrollOut({
+            threshold: .8,
+            once: true
+        });
+
+        ScrollOut();
+    }, []);
     return (
         <div className='container-mcl'>
             <Head>
@@ -29,14 +38,14 @@ const Process = () => {
                     </div>
 
                     <div className="md:mx-36 relative bottom-100 mx-10">
-                        <div className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
+                        <div data-scroll className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
                             <p>Our Strength</p>
                         </div>
-                        <div className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
+                        <div data-scroll className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md">One of our key strengths lie in having</h1>
                             <h1 className="drop-shadow-md"> a clear cut process that delivers results</h1>
                         </div>
-                        <div className="lg:hidden text-white text-f20 Inter-Regular tracking-wide mt-4">
+                        <div data-scroll className="lg:hidden text-white text-f20 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md">One of our key </h1>
                             <h1 className="drop-shadow-md">strengths lie in having a</h1>
                             <h1 className="drop-shadow-md">clear cut process that</h1>
@@ -54,11 +63,11 @@ const Process = () => {
 
             <div className="lg:mx-28 mx-6">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
+                    <div data-scroll className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our process</p>
                     </div>
                     <div className="lg:w-3/4 lg:text-f20 text-f14 Inter-Regular mt-6 lg:mt-0">
-                        <div className='lg:block hidden leading-f35'>
+                        <div data-scroll className='lg:block hidden leading-f35'>
                             <h2>Using our experience and new founded learnings, we have</h2>
                             <h2>refined a process that helps to understand where you are</h2>
                             <h2>right now, where you want to go, and the best way to get</h2>
@@ -69,7 +78,7 @@ const Process = () => {
                             <h2>take part and fall in love with the process (and your brand),</h2>
                             <h2>and get the best results from our collective efforts.</h2>
                         </div>
-                        <div className='lg:hidden leading-f24-low'>
+                        <div data-scroll className='lg:hidden leading-f24-low'>
                             <h2>Using our experience and new founded</h2>
                             <h2>learnings, we have refined a process that helps</h2>
                             <h2>to understand where you are right now, where</h2>
@@ -90,21 +99,21 @@ const Process = () => {
 
             <div className="md:mx-28 lg:mt-36 mt-20 mx-6">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 text-f12 lg:text-f16 Inter-Bold">
+                    <div data-scroll className="lg:w-1/4 text-f12 lg:text-f16 Inter-Bold">
                         <p className=''>Process approach</p>
                     </div>
                     <div className="lg:w-3/4 text-f20 Inter-Regular mt-6 lg:mt-0">
                         <div className='grid grid-cols-2 gap-y-10'>
                             <div>
-                                <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>01 Discover</p></div>
+                                <div data-scroll><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>01 Discover</p></div>
                                 <div className='lg:ml-7 mt-2 Inter-regular lg:text-f20 text-f12'>
-                                    <div className='lg:block hidden leading-f35'>
+                                    <div data-scroll className='lg:block hidden leading-f35'>
                                         <p>Our process gathers research,</p>
                                         <p>inputs, thoughts & ideas, audits,</p>
                                         <p>and experiences to understand</p>
                                         <p>the current status of a brand.</p>
                                     </div>
-                                    <div className='lg:hidden leading-f20'>
+                                    <div data-scroll className='lg:hidden leading-f20'>
                                         <p>Our process gathers </p>
                                         <p>research, inputs, thoughts </p>
                                         <p>& ideas, audits, and </p>
@@ -115,16 +124,16 @@ const Process = () => {
                                 </div>
                             </div>
                             <div>
-                                <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>02 Define</p></div>
+                                <div data-scroll><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>02 Define</p></div>
                                 <div className='lg:ml-8 mt-2 Inter-regular lg:text-f20 text-f12'>
-                                    <div className='lg:block hidden leading-f35'>
+                                    <div data-scroll className='lg:block hidden leading-f35'>
                                         <p>We run collaborative work to</p>
                                         <p>understand and to refine a</p>
                                         <p>brand's business goals,</p>
                                         <p>customers, and desired future</p>
                                         <p>state.</p>
                                     </div>
-                                    <div className='lg:hidden leading-f20'>
+                                    <div data-scroll className='lg:hidden leading-f20'>
                                         <p>We run collaborative </p>
                                         <p>work to understand and</p>
                                         <p>to refine a brand's</p>
@@ -135,15 +144,15 @@ const Process = () => {
                                 </div>
                             </div>
                             <div>
-                                <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>03 Develop</p></div>
+                                <div data-scroll><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>03 Develop</p></div>
                                 <div className='lg:ml-8 mt-2 Inter-regular lg:text-f20 text-f12'>
-                                    <div className='lg:block hidden leading-f35'>
+                                    <div data-scroll className='lg:block hidden leading-f35'>
                                         <p>From the new founded insights,</p>
                                         <p>we create a road map that will</p>
                                         <p>take a brand from it's current</p>
                                         <p>state to the desired future state.</p>
                                     </div>
-                                    <div className='lg:hidden leading-f20'>
+                                    <div data-scroll className='lg:hidden leading-f20'>
                                         <p>From the new founded </p>
                                         <p>insights, we create a road</p>
                                         <p>map that will take a brand</p>
@@ -153,15 +162,15 @@ const Process = () => {
                                 </div>
                             </div>
                             <div>
-                                <div><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>04 Deliver</p></div>
+                                <div data-scroll><p className='Inter-SemiBold lg:text-f20 text-f14 text-mcl-blue'>04 Deliver</p></div>
                                 <div className='lg:ml-8 mt-2 Inter-regular lg:text-f20 text-f12'>
-                                    <div className='lg:block hidden leading-f35'>
+                                    <div data-scroll className='lg:block hidden leading-f35'>
                                         <p>We develop the solution for the</p>
                                         <p>measurements & guidelines we</p>
                                         <p>got from the roadmap, which will</p>
                                         <p>be outputted as a website.</p>
                                     </div>
-                                    <div className='lg:hidden leading-f20'>
+                                    <div data-scroll className='lg:hidden leading-f20'>
                                         <p>We develop the solution</p>
                                         <p>for the measurements</p>
                                         <p>& guidelines we got</p>
@@ -181,7 +190,7 @@ const Process = () => {
             <div className="lg:mt-24 mt-8">
                 <div className="lg:mx-2">
 
-                    <div><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
+                    <div data-scroll><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
 
                     <div className="mt-8">
                         <div className='flex flex-col justify-center items-center'>

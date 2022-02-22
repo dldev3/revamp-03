@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Grow from './components/Grow';
 import Head from 'next/head';
-
+import ScrollOut from "scroll-out";
 const Roadmap = () => {
+    useEffect(() => {
+        ScrollOut({
+            threshold: .8,
+            once: true
+        });
+
+        ScrollOut();
+    }, []);
     return (
         <div className='container-mcl'>
             <Head>
@@ -28,14 +36,14 @@ const Roadmap = () => {
                     </div>
 
                     <div className="md:mx-36 relative bottom-100 mx-12">
-                        <div className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
+                        <div data-scroll className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
                             <p>Our mission</p>
                         </div>
-                        <div className="hidden lg:block text-white text-f40 leading-f50 Inter-Regular tracking-wide mt-4">
+                        <div data-scroll className="hidden lg:block text-white text-f40 leading-f50 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md">We envision becoming a full-service</h1>
                             <h1 className="drop-shadow-md">creative agency for home professionals</h1>
                         </div>
-                        <div className="lg:hidden text-white text-f25 Inter-Regular tracking-wide mt-4">
+                        <div data-scroll className="lg:hidden text-white text-f25 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md"> We envision becoming</h1>
                             <h1 className="drop-shadow-md">a full-service creative</h1>
                             <h1 className="drop-shadow-md">agency for home</h1>
@@ -52,11 +60,11 @@ const Roadmap = () => {
 
             <div className="md:mx-44 mx-6">
                 <div className="flex lg:flex-row flex-col justify-center">
-                    <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
+                    <div data-scroll className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our roadmap</p>
                     </div>
                     <div className="lg:w-3/4 lg:text-f20 text-f14 lg:leading-f40 leading-f24-low Inter-Regular mt-6 lg:mt-0">
-                        <div className='lg:block hidden'>
+                        <div data-scroll className='lg:block hidden'>
                             <h2>Delivering results through the power of design is just the</h2>
                             <h2>first step of our grand game plan for the construction</h2>
                             <h2>industry. We have a big vision for the years to come, that</h2>
@@ -67,7 +75,7 @@ const Roadmap = () => {
                             <h2>up giving them the confidence and capability to scale their</h2>
                             <h2>brands even to the global levels.</h2>
                         </div>
-                        <div className='lg:hidden'>
+                        <div data-scroll className='lg:hidden'>
                             <h2>Delivering results through the power of design</h2>
                             <h2>is just the first step of our grand game plan for</h2>
                             <h2>the construction industry. We have a big vision</h2>
@@ -91,11 +99,11 @@ const Roadmap = () => {
                         <p className=''>Our game plan</p>
                     </div>
                     <div className="lg:w-3/4 lg:text-f20 text-f14 lg:leading-f40 leading-f24-low Inter-Regular mt-6 lg:mt-0">
-                        <div className='lg:block hidden'>
+                        <div data-scroll className='lg:block hidden'>
                             <h2>Each side of the hexagon of our brand identity represents</h2>
                             <h2>a specific service we want to bring in as a core service.</h2>
                         </div>
-                        <div className='lg:hidden'>
+                        <div data-scroll className='lg:hidden'>
                             <h2>Each side of the hexagon of our brand</h2>
                             <h2>identity represents a specific service we want</h2>
                             <h2>to bring in as a core service.</h2>
@@ -113,8 +121,8 @@ const Roadmap = () => {
             <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-y-12 gap-y-8 lg:mx-16 lg:mt-28 mt-16 mx-4'>
 
                 <div>
-                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Online Identity</h1>
-                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
+                    <h1 data-scroll className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Online Identity</h1>
+                    <div data-scroll className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Setting your online presence</p>
                         <p>for success through creative</p>
                         <p><span className='text-mcl-blue'>Web Designing </span>that helps</p>
@@ -124,8 +132,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Personality</h1>
-                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
+                    <h1 data-scroll className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Personality</h1>
+                    <div data-scroll className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Giving you an identity that</p>
                         <p>tells your personality and</p>
                         <p>your values through</p>
@@ -136,8 +144,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Discoverability</h1>
-                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
+                    <h1 data-scroll className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Discoverability</h1>
+                    <div data-scroll className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Giving your brand the upper</p>
                         <p>hand at being found online</p>
                         <p>through<span className='text-mcl-blue'> SEO.</span></p>
@@ -146,8 +154,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Master Plan</h1>
-                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
+                    <h1 data-scroll className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Master Plan</h1>
+                    <div data-scroll className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you understand your</p>
                         <p>purpose and define your goals</p>
                         <p>through<span className='text-mcl-blue'> Strategy.</span></p>
@@ -155,8 +163,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Attraction</h1>
-                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
+                    <h1 data-scroll className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Attraction</h1>
+                    <div data-scroll className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you to penetrate</p>
                         <p>and attract your ideal</p>
                         <p>customers through<span className='text-mcl-blue'> Digital</span></p>
@@ -165,14 +173,14 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Connectivity</h1>
-                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
-                        <div className='hidden lg:block'>
+                    <h1 data-scroll className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Connectivity</h1>
+                    <div data-scroll className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
+                        <div data-scroll className='hidden lg:block'>
                             <p>Helping you to go out to the world</p>
                             <p>and establish authentic connections</p>
                             <p>by bringing your next event to life</p>
                             <p>through<span className='text-mcl-blue'> Event planning.</span></p></div>
-                        <div className='lg:hidden'>
+                        <div data-scroll className='lg:hidden'>
                             <p>Helping you to go out to </p>
                             <p>the world and establish </p>
                             <p>authentic connections by</p>
