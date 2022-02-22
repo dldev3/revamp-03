@@ -292,7 +292,7 @@ const CaseStudy = () => {
 
             <div className='bg-mcl-black lg:p-20 p-8 mt-20'>
                 <div className='text-white'><p className='text-center Inter-Bold text-f12 lg:text-f16'>Disclaimer</p></div>
-                <div className='hidden lg:block text-white Inter-regular text-f24 mt-8 leading-f48'>
+                <div className='hidden lg:block text-white Inter-Regular text-f24 mt-8 leading-f48'>
                     <p className='text-center'>Gensler is not an actual client of MinuteCode Labs. This case was done for the</p>
                     <p className='text-center'>purpose of demonstrating the creative process of MinuteCode. All the content</p>
                     <p className='text-center'>materials used in the case study were taken from their public website and no</p>
