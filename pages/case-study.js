@@ -258,7 +258,7 @@ const CaseStudy = () => {
                         <img src="/Resources/CaseStudy/Redesigned-Home.png" alt="home-redesign" className='border border-gray-200' />
                     </div>
 
-                    <div className='lg:mt-32 mt-12 lg:mx-0 mx-2'>
+                    <div className='lg:mt-32 mt-12 lg:mx-2 mx-2'>
                         <div><p className='lg:text-f16 text-f12 Inter-Bold'>THE RESULT</p></div>
                         <div className='lg:block hidden text-f20 leading-f48 mt-4 Inter-Regular'>
                             <p>After careful curation of content, strategic placement of the layout, and the design of</p>
