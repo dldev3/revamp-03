@@ -58,7 +58,7 @@ export default function Home() {
                         </div>
 
 
-                        <div className="lg:hidden text-f25 text-white Inter-Regular mt-8">
+                        <div className="lg:hidden text-f25 text-white Inter-Regular mt-4">
                             <p>We create simple</p>
                             <p>designs, meaningful</p>
                             <p>journeys and converitng</p>
