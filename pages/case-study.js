@@ -182,7 +182,7 @@ const CaseStudy = () => {
                 <p className='lg:text-f16 text-f12 text-center mt-4 Inter-Bold'>Sketch for the new homepage</p>
             </div>
 
-            <div className='lg:mx-28 lg:mt-20 mt-10 mx-8'>
+            <div className='lg:mx-52 lg:mt-20 mt-10 mx-8'>
                 <div className='flex lg:flex-row justify-center flex-col'>
                     <div className='lg:w-1/2 lg:text-f20 text-f14 lg:leading-f40 Inter-Regular leading-f22'>
                         <p>Based on our research and analysis, we drew</p>
@@ -208,7 +208,7 @@ const CaseStudy = () => {
                 <p className='mt-6 lg:text-f16 text-f12 text-center Inter-Bold'>Wireframe for the new homepage</p>
             </div>
 
-            <div className='lg:mx-28 mx-8 lg:mt-20 mt-10'>
+            <div className='lg:mx-52 mx-8 lg:mt-20 mt-10'>
                 <div className='flex lg:flex-row flex-col'>
                     <div className='lg:w-1/2 lg:text-f20 text-f14 lg:leading-f40 Inter-Regular leading-f22'>
                         <p>The navigation bar on the header was</p>
@@ -224,7 +224,7 @@ const CaseStudy = () => {
                     </div>
                 </div>
             </div>
-            <div className='lg:mx-28 mx-8 lg:mt-20 mt-10'>
+            <div className='lg:mx-52 mx-8 lg:mt-20 mt-10'>
                 <div className='lg:block hidden text-f20 leading-f40 Inter-Regular'>
                     <p>Now that the ideation was done, we were next going to bring the wireframe to life through a visual</p>
                     <p>design. So we created a basic design system which documents the guidelines and measurements</p>
@@ -258,13 +258,12 @@ const CaseStudy = () => {
                         <img src="/Resources/CaseStudy/Redesigned-Home.png" alt="home-redesign" className='border border-gray-200' />
                     </div>
 
-                    <div className='lg:mt-40 mt-12 lg:mx-0 mx-2'>
+                    <div className='lg:mt-32 mt-12 lg:mx-0 mx-2'>
                         <div><p className='lg:text-f16 text-f12 Inter-Bold'>THE RESULT</p></div>
                         <div className='lg:block hidden text-f20 leading-f48 mt-4 Inter-Regular'>
-                            <p>After careful curation of content, strategic placement of the layout,</p>
-                            <p>and the design of the story for the new homepage, a new homepage</p>
-                            <p>emerged to match the challenges and goals identified, and better</p>
-                            <p>reflecting the position of Gensler.</p>
+                            <p>After careful curation of content, strategic placement of the layout, and the design of</p>
+                            <p>the story for the new homepage, a new homepage emerged to match the challenges and </p>
+                            <p>goals identified, and better reflecting the position of Gensler.</p>
                         </div>
                         <div className='lg:hidden text-f14 leading-f22 mt-4 Inter-Regular'>
                             <p>After careful curation of content, strategic</p>
