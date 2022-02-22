@@ -166,7 +166,7 @@ export default function Home() {
 						<div className="lg:w-1/2">
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
-						<div className="lg:w-1/2 py-4 px-8 mt-12 lg:ml-4 ml-0">
+						<div className="lg:w-1/2 py-4 px-8 mt-12">
 							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f24 text-gray-700">
 								<p>From a boutique design agency, we envision</p>
 								<p>becoming a full-service creative agency that</p>
@@ -180,7 +180,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
-						<div className="lg:w-1/2 py-4 px-8 mt-12 lg:mr-4 mr-0">
+						<div className="lg:w-1/2 py-4 px-8 mt-12">
 							<div className="Inter-Regular text-f14 lg:text-f24 leading-f26 lg:leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you understand your</p>
 								<p>problems and helps us deliver results focused</p>
