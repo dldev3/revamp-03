@@ -142,7 +142,7 @@ export default function About() {
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-4'>
                         <div className=''>
                             <img className="w-full lg:h-96 h-254px" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
-                            <div className="lg:block hidden mt-4 Inter-Regular leading-f24-high text-f20  text-gray-700 mx-1">
+                            <div className="lg:block hidden mt-4 Inter-Regular leading-f24-high text-f20  text-gray-700 mx-2">
                                 <p>From a boutique design agency, we envision becoming a</p>
                                 <p>full-service creative agency that can help the growth of</p>
                                 <p>architects & interior designers in the connected world.</p>
@@ -153,23 +153,23 @@ export default function About() {
                                 <p>can help the growth of architects & interior designers</p>
                                 <p>in the connected world.</p>
                             </div>
-                            <div className="lg:mt-20 lg:mx-1 mx-4 lg:p-0 p-4">
+                            <div className="lg:mt-20 lg:mx-2 mx-4 lg:p-0 p-4">
                                 <NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
                             </div>
                         </div>
                         <div className='mt-12 lg:mt-0'>
                             <img className="w-full lg:h-96 h-254px" src="/Resources/Home/home-process.jpg" alt="our-process-img" />
-                            <div className="hidden lg:block mt-4 Inter-Regular text-f20 leading-f24-high text-gray-700 mx-1">
-                                <p>Our clear cut process helps you understand your</p>
-                                <p>problems and helps us deliver results focused</p>
-                                <p>solutions that solves problems.</p>
+                            <div className="hidden lg:block mt-4 Inter-Regular text-f20 leading-f24-high text-gray-700 mx-2">
+                                <p>Our clear cut process helps you understand your problems</p>
+                                <p>and helps us deliver results focused solutions that solves</p>
+                                <p>problems.</p>
                             </div>
                             <div className="lg:hidden Inter-Regular text-f14 leading-f26 text-gray-700 mx-4 p-4">
                                 <p>Our clear cut process helps you understand your</p>
                                 <p>problems and helps us deliver results focused</p>
                                 <p>solutions that solves problems.</p>
                             </div>
-                            <div className="lg:mt-20 lg:mx-1 mx-4 lg:p-0 p-4">
+                            <div className="lg:mt-20 lg:mx-2 mx-4 lg:p-0 p-4">
                                 <NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
                             </div>
                         </div>
