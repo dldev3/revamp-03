@@ -31,7 +31,7 @@ const Roadmap = () => {
                         <div className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
                             <p>Our mission</p>
                         </div>
-                        <div className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
+                        <div className="hidden lg:block text-white text-f40 leading-f50 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md">We envision becoming a full-service</h1>
                             <h1 className="drop-shadow-md">creative agency for home professionals</h1>
                         </div>

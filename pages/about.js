@@ -33,7 +33,7 @@ export default function About() {
                         <div className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
                             <p>Our work ethic</p>
                         </div>
-                        <div className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
+                        <div className="hidden lg:block text-white text-f40 leading-f50 Inter-Regular tracking-wide mt-4">
                             <h1 className="drop-shadow-md">A prescription without diagnosis</h1>
                             <h1 className="drop-shadow-md">is a malpractice</h1>
                         </div>

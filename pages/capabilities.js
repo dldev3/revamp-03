@@ -50,7 +50,7 @@ export default function Home() {
                         <div className="text-white text-f14 lg:text-f20 Inter-Regular mt-12">
                             <p>What we do</p>
                         </div>
-                        <div className="lg:block hidden text-white text-f50 leading-f50 Inter-Medium mt-4">
+                        <div className="lg:block hidden text-white text-f40 leading-f50 Inter-Medium mt-4">
                             <div className='drop-shadow-lg'>
                                 <h1 className="drop-shadow-md">We create simple designs, meaningful</h1>
                                 <h1 className="drop-shadow-md">journeys and converting experience.</h1>
@@ -75,7 +75,7 @@ export default function Home() {
                 <div className='lg:w-3/12'>
                     <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
-                <div className='lg:w-9/12 lg:text-f50 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
+                <div className='lg:w-9/12 lg:text-f40 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
                     <h1 className='lg:block hidden'>We let creativity meet strategy to</h1>
                     <h1 className='lg:block hidden'>solve problems</h1>
                     <h1 className='lg:hidden'>We let creativity meet strategy to solve</h1>
@@ -89,7 +89,7 @@ export default function Home() {
                     <div className="lg:w-5/12 bg-mcl-blue py-16">
                         <div className='lg:mx-20 mx-14 lg:mt-24'>
                             <div className=''>
-                                <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Regular'>Designing</h1>
+                                <h1 className='lg:text-f40 text-f25 text-gray-200 Inter-Regular'>Designing</h1>
                             </div>
                             <div className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
                                 <p>Every brand has a story to tell.</p>
@@ -163,7 +163,7 @@ export default function Home() {
                         <div className="lg:w-5/12 bg-mcl-blue py-16">
                             <div className='lg:mx-20 mx-14 lg:mt-10'>
                                 <div className=''>
-                                    <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Regular'>Development</h1>
+                                    <h1 className='lg:text-f40 text-f25 text-gray-200 Inter-Regular'>Development</h1>
                                 </div>
                                 <div className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 Inter-Regular mt-8 text-gray-200'>
                                     <p>Our goal is to build a solution that</p>

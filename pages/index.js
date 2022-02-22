@@ -32,7 +32,7 @@ export default function Home() {
 						</div>
 
 						<div className="md:mx-28 relative bottom-102">
-							<div className="text-white text-f50 leading-f50 Inter-Medium">
+							<div className="text-white text-f40 leading-f50 Inter-Medium">
 								<h1 className="drop-shadow-md">Creative solutions. For the</h1>
 								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
 							</div>
@@ -75,7 +75,7 @@ export default function Home() {
 						</div>
 						<div className="lg:w-7/12 bg-home-cap">
 							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
-								<div className="Inter-Regular text-f25 lg:text-f50 text-white lg:leading-f50 lg:tracking-wide">
+								<div className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:tracking-wide">
 									<h1>We empower the</h1>
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
@@ -102,7 +102,7 @@ export default function Home() {
 			<div>
 				<div className="bg-hero-dark lg:block hidden vision-section">
 					<div className="p-16">
-						<h1 className="text-white text-f50 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
+						<h1 className="text-white text-f40 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
 					</div>
 
 					<div className="flex flex-row justify-between py-12 px-24 mx-28">
@@ -202,7 +202,7 @@ export default function Home() {
 			<div className="lg:mt-24 mt-8">
 				<div className="lg:mx-2">
 
-					<div><h1 className="text-f25 lg:text-f50 Inter-Medium text-center">Case Studies</h1></div>
+					<div><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
 
 					<div className="mt-8">
 						<div className='flex flex-col justify-center items-center'>
