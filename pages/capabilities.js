@@ -47,7 +47,7 @@ export default function Home() {
                     </div>
 
                     <div className="lg:mx-36 relative lg:bottom-100 bottom-106 mx-12">
-                        <div className="text-white text-f14 lg:text-f24 Inter-Regular mt-12">
+                        <div className="text-white text-f14 lg:text-f20 Inter-Regular mt-12">
                             <p>What we do</p>
                         </div>
                         <div className="lg:block hidden text-white text-f50 leading-f50 Inter-Medium mt-4">
@@ -91,7 +91,7 @@ export default function Home() {
                             <div className=''>
                                 <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Regular'>Designing</h1>
                             </div>
-                            <div className='text-f14 lg:text-f24 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
+                            <div className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 mt-6 text-gray-200 Inter-Regular'>
                                 <p>Every brand has a story to tell.</p>
                                 <p>we thoughfully organize and</p>
                                 <p>present a design that brings brand</p>
@@ -165,7 +165,7 @@ export default function Home() {
                                 <div className=''>
                                     <h1 className='lg:text-f50 text-f25 text-gray-200 Inter-Regular'>Development</h1>
                                 </div>
-                                <div className='text-f14 lg:text-f24 lg:leading-f36 leading-f26 Inter-Regular mt-8 text-gray-200'>
+                                <div className='text-f14 lg:text-f20 lg:leading-f36 leading-f26 Inter-Regular mt-8 text-gray-200'>
                                     <p>Our goal is to build a solution that</p>
                                     <p>is specific to a brand, performing,</p>
                                     <p>and future proof, setting the stage</p>

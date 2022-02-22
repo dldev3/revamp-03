@@ -28,7 +28,7 @@ const Roadmap = () => {
                     </div>
 
                     <div className="md:mx-36 relative bottom-100 mx-12">
-                        <div className="text-white lg:text-f24 text-f14 Inter-Regular mt-12">
+                        <div className="text-white lg:text-f20 text-f14 Inter-Regular mt-12">
                             <p>Our mission</p>
                         </div>
                         <div className="hidden lg:block text-white text-f50 leading-f50 Inter-Regular tracking-wide mt-4">
@@ -55,7 +55,7 @@ const Roadmap = () => {
                     <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our roadmap</p>
                     </div>
-                    <div className="lg:w-3/4 lg:text-f24 text-f14 lg:leading-f40 leading-f24-low Inter-Regular mt-6 lg:mt-0">
+                    <div className="lg:w-3/4 lg:text-f20 text-f14 lg:leading-f40 leading-f24-low Inter-Regular mt-6 lg:mt-0">
                         <div className='lg:block hidden'>
                             <h2>Delivering results through the power of design is just the</h2>
                             <h2>first step of our grand game plan for the construction</h2>
@@ -90,7 +90,7 @@ const Roadmap = () => {
                     <div className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
                         <p className=''>Our game plan</p>
                     </div>
-                    <div className="lg:w-3/4 lg:text-f24 text-f14 lg:leading-f40 leading-f24-low Inter-Regular mt-6 lg:mt-0">
+                    <div className="lg:w-3/4 lg:text-f20 text-f14 lg:leading-f40 leading-f24-low Inter-Regular mt-6 lg:mt-0">
                         <div className='lg:block hidden'>
                             <h2>Each side of the hexagon of our brand identity represents</h2>
                             <h2>a specific service we want to bring in as a core service.</h2>
@@ -113,8 +113,8 @@ const Roadmap = () => {
             <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-y-12 gap-y-8 lg:mx-16 lg:mt-28 mt-16 mx-4'>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Online Identity</h1>
-                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
+                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Online Identity</h1>
+                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Setting your online presence</p>
                         <p>for success through creative</p>
                         <p><span className='text-mcl-blue'>Web Designing </span>that helps</p>
@@ -124,8 +124,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Personality</h1>
-                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
+                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Personality</h1>
+                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Giving you an identity that</p>
                         <p>tells your personality and</p>
                         <p>your values through</p>
@@ -136,8 +136,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Discoverability</h1>
-                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
+                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Discoverability</h1>
+                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Giving your brand the upper</p>
                         <p>hand at being found online</p>
                         <p>through<span className='text-mcl-blue'> SEO.</span></p>
@@ -146,8 +146,8 @@ const Roadmap = () => {
 
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Master Plan</h1>
-                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
+                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Master Plan</h1>
+                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you understand your</p>
                         <p>purpose and define your goals</p>
                         <p>through<span className='text-mcl-blue'> Strategy.</span></p>
@@ -155,8 +155,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Attraction</h1>
-                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
+                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Attraction</h1>
+                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <p>Helping you to penetrate</p>
                         <p>and attract your ideal</p>
                         <p>customers through<span className='text-mcl-blue'> Digital</span></p>
@@ -165,8 +165,8 @@ const Roadmap = () => {
                 </div>
 
                 <div>
-                    <h1 className='lg:text-f24 text-f14 text-mcl-gray Inter-SemiBold'>Connectivity</h1>
-                    <div className='lg:text-f24 text-f12 mt-4 Inter-Regular'>
+                    <h1 className='lg:text-f20 text-f14 text-mcl-gray Inter-SemiBold'>Connectivity</h1>
+                    <div className='lg:text-f20 text-f12 mt-4 Inter-Regular'>
                         <div className='hidden lg:block'>
                             <p>Helping you to go out to the world</p>
                             <p>and establish authentic connections</p>

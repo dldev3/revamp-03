@@ -36,7 +36,7 @@ export default function Home() {
 								<h1 className="drop-shadow-md">Creative solutions. For the</h1>
 								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
 							</div>
-							<div className="text-white text-f24 Inter-Regular mt-12">
+							<div className="text-white text-f20 Inter-Regular mt-12">
 								<p>We are a creative design agency for architects & interior designers.</p>
 							</div>
 						</div>
@@ -80,7 +80,7 @@ export default function Home() {
 									<h1 className="Inter-SemiBold">Designers and Builders</h1>
 									<h1>of 21<sup>st</sup> century</h1>
 								</div>
-								<div className="Inter-Regular lg:text-f24 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-20 mt-6">
+								<div className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-20 mt-6">
 									<p>We solve business problems for architects &</p>
 									<p>interior designers through creative designs</p>
 									<p>helping them to build awareness, gain happier</p>
@@ -106,7 +106,7 @@ export default function Home() {
 					</div>
 
 					<div className="flex flex-row justify-between py-12 px-24 mx-28">
-						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
+						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
 							<p>Here is to the creators,</p>
 							<p>The designers,</p>
 							<p>And the builders,</p>
@@ -114,7 +114,7 @@ export default function Home() {
 							<p>The ones who help us ensure</p>
 							<p>a home is our best investment</p>
 						</div>
-						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f24 leading-f24">
+						<div className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
 							<p>We can't ignore them because.</p>
 							<p>they make hte dream of a home a reality for all</p>
 							<p>While the world sees them as just home</p>
@@ -167,7 +167,7 @@ export default function Home() {
 							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
 						</div>
 						<div className="lg:w-1/2 py-4 px-8 mt-12">
-							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f24 text-gray-700">
+							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f20 text-gray-700">
 								<p>From a boutique design agency, we envision</p>
 								<p>becoming a full-service creative agency that</p>
 								<p>can help the growth of architects & interior</p>
@@ -181,7 +181,7 @@ export default function Home() {
 					</div>
 					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
 						<div className="lg:w-1/2 py-4 px-8 mt-12">
-							<div className="Inter-Regular text-f14 lg:text-f24 leading-f26 lg:leading-f24-high text-gray-700">
+							<div className="Inter-Regular text-f14 lg:text-f20 leading-f26 lg:leading-f24-high text-gray-700">
 								<p>Our clear cut process helps you understand your</p>
 								<p>problems and helps us deliver results focused</p>
 								<p>solutions that solves problems.</p>
@@ -221,7 +221,7 @@ export default function Home() {
 							</div>
 
 
-							{/* <p className="hidden lg:block mt-2 text-center text-f24 Inter-Regular text-gray-700">Gensler</p> */}
+							{/* <p className="hidden lg:block mt-2 text-center text-f20 Inter-Regular text-gray-700">Gensler</p> */}
 						</div>
 					</div>
 
