@@ -51,7 +51,7 @@ const Contact = () => {
             </Head>
 
             <div className='bg-hero-dark lg:pb-14 lg:pt-0 pb-6 pt-2'>
-                <div>
+                <div className='container-mcl'>
                     <Header />
                 </div>
             </div>

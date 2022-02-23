@@ -69,7 +69,7 @@ const CaseStudy = () => {
                 {/* <div className='grid lg:grid-cols-3 grid-cols-1 gap-y-6 lg:gap-y-0'> */}
                 <div className='flex lg:flex-row flex-col justify-center lg:space-x-10 space-y-8 '>
                     <div>
-                        <div data-scroll className='lg:text-f16 text-f12 text-mcl-text-black Inter-Bold'><p>Background</p></div>
+                        <div data-scroll className='lg:text-f16 text-f12 text-mcl-text-black Inter-Bold lg:mt-9 mt-0'><p>Background</p></div>
                         <div data-scroll className='Inter-Regular text-f14 lg:text-f20 lg:leading-f40 mt-4 lg:mt-4'>
                             <p>Gensler is the world's largest design </p>
                             <p>firm that partners with clients to</p>
