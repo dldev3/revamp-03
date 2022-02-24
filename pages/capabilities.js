@@ -50,7 +50,12 @@ export default function Home() {
         <div className="container-mcl">
             <Head>
                 <title>Minutecode Labs | Capabilities</title>
-                <meta name="description" content="Best web development agency in USA, Canada and Europe" />
+                <meta name="description" content="What we do" />
+                <meta property="og:title" content="MinuteCode Labs" />
+                <meta property="og:description" content="What we do" />
+                <meta property="og:keywords" content="Web Design,Web Development,USA,Architects,Interior Designers, Washington DC, DC, Web design agency for architects in Washington DC, Web design agency for interior designers in Washington DC" />
+                <meta property="og:author" content="minutecodelabs" />
+                <meta property="og:url" content="https://minutecodelabs.com/capabilities" />
                 <link rel="icon" href="/fav.png" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
