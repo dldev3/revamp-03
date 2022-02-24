@@ -34,9 +34,9 @@ const Process = () => {
     return (
         <div className='container-mcl'>
             <Head>
-                <title>Minutecode Labs | Process</title>
+                <title>Our Process</title>
                 <meta name="description" content="How we do" />
-                <meta property="og:title" content="MinuteCode Labs" />
+                <meta property="og:title" content="Our Process" />
                 <meta property="og:description" content="How we do" />
                 <meta property="og:keywords" content="Web Design,Web Development,USA,Architects,Interior Designers, Washington DC, DC, Web design agency for architects in Washington DC, Web design agency for interior designers in Washington DC" />
                 <meta property="og:author" content="minutecodelabs" />

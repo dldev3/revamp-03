@@ -34,10 +34,10 @@ const CaseStudy = () => {
     return (
         <div className='container-mcl'>
             <Head>
-                <title>Minutecode Labs | Case Study</title>
+                <title>Our Work</title>
                 <meta name="description" content="Our Work" />
                 <meta name="description" content="Our work" />
-                <meta property="og:title" content="MinuteCode Labs" />
+                <meta property="og:title" content="Our Work" />
                 <meta property="og:description" content="What we do" />
                 <meta property="og:keywords" content="Web Design,Web Development,USA,Architects,Interior Designers, Washington DC, DC, Web design agency for architects in Washington DC, Web design agency for interior designers in Washington DC" />
                 <meta property="og:author" content="minutecodelabs" />

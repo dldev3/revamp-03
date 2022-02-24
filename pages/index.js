@@ -36,9 +36,9 @@ export default function Home() {
 	return (
 		<div className="container-mcl scroll-smooth">
 			<Head>
-				<title>Minutecode Labs | Home</title>
+				<title>MinuteCode Labs - Creative design solutions agency</title>
 				<meta name="description" content="We are a web design agency for architects and interior designers bringing them better awareness, happier clients & more revenues" />
-				<meta property="og:title" content="MinuteCode Labs" />
+				<meta property="og:title" content="MinuteCode Labs - Creative design solutions agency" />
 				<meta property="og:description" content="We are a web design agency for architects and interior designers bringing them better awareness, happier clients & more revenues" />
 				<meta property="og:keywords" content="Web Design,Web Development,USA,Architects,Interior Designers, Washington DC, DC, Web design agency for architects in Washington DC, Web design agency for interior designers in Washington DC" />
 				<meta property="og:author" content="minutecodelabs" />
