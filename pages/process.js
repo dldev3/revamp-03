@@ -96,7 +96,7 @@ const Process = () => {
                             <h2>there.</h2>
                             <br></br>
                             <h2>We kept you as the center when we created our process</h2>
-                            <h2>to ensure that you will easily understand what's going on,</h2>
+                            <h2>to ensure that you will easily understand what is going on,</h2>
                             <h2>take part and fall in love with the process (and your brand),</h2>
                             <h2>and get the best results from our collective efforts.</h2>
                         </div>
@@ -109,7 +109,7 @@ const Process = () => {
                             <br></br>
                             <h2>We kept you as the center when we created</h2>
                             <h2>our process to ensure that you will easily</h2>
-                            <h2>understand what's going on, take part and fall</h2>
+                            <h2>understand what is going on, take part and fall</h2>
                             <h2>in love with the process (and your brand),</h2>
                             <h2>and get the best results from our collective</h2>
                             <h2>efforts.</h2>
