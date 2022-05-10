@@ -81,16 +81,6 @@ export default function Home() {
 								</ul>
 							</div>
 						</div>
-						<div data-scroll className='container-mcl landing-section-home-mid-content hidden'>
-							<h1 className='text-f60 text-gray-200 Inter-Regular'>Websites for Architects</h1>
-							<p className='text-f30 text-gray-200 Inter-Regular'>That attract right clients, better projects, and earn more profit. Period</p>
-
-							<div className='bg-mcl-blue max-w-max mt-12 py-4 px-8 flex flex-row'>
-								<NextLink href="/contact"><a className='text-gray-300 Inter-Regular' href="/contact">Book your Discovery Call</a></NextLink>
-								<p className='ml-4'><span className='material-icons text-gray-300'>arrow_forward</span></p>
-							</div>
-						</div>
-
 						<nav className="lg:hidden block mx-8">
 							<div className="flex justify-between">
 								<NextLink href="/"><a href="/" ><img className='w-134px h-34px mt-4' id="logo" src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
@@ -112,11 +102,22 @@ export default function Home() {
 									<NextLink href="/contact"><a href="/contact">Contact</a></NextLink>
 								</div>
 							</div>
-							{/* <span className="md:hidden flex text-gray-700 hover:text-white rlow"
-                    onClick={openNav}>&#9776;</span> */}
+
 						</div>
 						{/* mobile navbar end */}
+						<div data-scroll className='container-mcl landing-section-home-mid-content'>
+							<h1 className='lg:text-f60 text-f30 text-gray-200 Inter-Regular'>Websites for Architects</h1>
+							<p className='lg:text-f30 text-f20 text-gray-200 Inter-Regular'>That attract right clients, better projects, and earn more profit. Period</p>
+
+							<div className='bg-mcl-blue max-w-max mt-12 lg:py-4 lg:px-8 p-3 rounded-sm flex flex-row'>
+								<NextLink href="/contact"><a className='text-gray-300 Inter-Regular' href="/contact">Book your Discovery Call</a></NextLink>
+								<p className='ml-4'><span className='material-icons text-gray-300'>arrow_forward</span></p>
+							</div>
+						</div>
+
+
 					</div>
+
 
 				</div>
 			</div>

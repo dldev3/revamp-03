@@ -175,7 +175,7 @@
 }
 
 .times-are-changing {
-  background-image: url("/Resources/NewHome/3.jpg");
+  background-image: url("/Resources/NewHome/3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@
 }
 
 .your-buyers-are-evolving {
-  background-image: url("/Resources/NewHome/15.jpg");
+  background-image: url("/Resources/NewHome/15.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,7 +192,7 @@
 }
 
 .bridging-this-gap {
-  background-image: url("/Resources/NewHome/10.jpg");
+  background-image: url("/Resources/NewHome/10.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,12 +202,27 @@
 }
 
 .fix-your-problems {
-  background-image: url("/Resources/NewHome/11.jpg");
+  background-image: url("/Resources/NewHome/11.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 
+}
+
+@media (max-width: 640px) {
+  .landing-section-home {
+    background-image: url("/Resources/MobileHome/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .landing-section-home-mid-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
 
