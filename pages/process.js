@@ -32,7 +32,7 @@ const Process = () => {
         ScrollOut();
     }, []);
     return (
-        <div className='container-mcl'>
+        <div className=''>
             <Head>
                 <title>Our Process</title>
                 <meta name="description" content="How we do" />
@@ -221,7 +221,7 @@ const Process = () => {
                                 <div className="content">
                                     <NextLink href="/case-study"><a href="/case-study">
                                         <div className="content-overlay"></div>
-                                        <img className="content-image" src="/Resources/Home/case-study-1-cover.png" alt="case-1" />
+                                        <img className="content-image" src="/Resources/NewHome/2.jpg" alt="case-1" />
                                         <div className="content-details fadeIn-top">
                                             <h3>Gensler:Reimagining the digital</h3>
                                             <h3>forefront in 2022</h3>

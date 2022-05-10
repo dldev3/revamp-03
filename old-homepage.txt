@@ -1,0 +1,317 @@
+import Head from 'next/head';
+import Image from 'next/image';
+import NextLink from 'next/link';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Grow from './components/Grow';
+import ScrollOut from "scroll-out";
+import { useEffect } from 'react';
+import $ from 'jquery';
+
+export default function Home() {
+	useEffect(() => {
+		// back-to-top
+		var btn = $('#button');
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+		btn.on('click', function (e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: 0 }, '300');
+		});
+		// back-to-top-end
+
+
+		ScrollOut({
+			threshold: .8,
+			once: true
+		});
+
+		ScrollOut();
+	}, []);
+	return (
+		<div className="scroll-smooth">
+			<Head>
+				<title>MinuteCode - Creative design solutions agency</title>
+				<meta name="description" content="We are a web design agency for architects and interior designers bringing them better awareness, happier clients & more revenues" />
+				<meta property="og:title" content="MinuteCode Labs - Creative design solutions agency" />
+				<meta property="og:description" content="We are a web design agency for architects and interior designers bringing them better awareness, happier clients & more revenues" />
+				<meta property="og:keywords" content="Web Design,Web Development,USA,Architects,Interior Designers, Washington DC, DC, Web design agency for architects in Washington DC, Web design agency for interior designers in Washington DC" />
+				<meta property="og:author" content="minutecodelabs" />
+				<meta property="og:url" content="https://minutecodelabs.com" />
+				<link rel="icon" href="/fav.png" />
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+			</Head>
+
+			{/* Header */}
+			{/* <div className="relative top-0 z-10 container-mcl">
+				<Header></Header>
+			</div> */}
+
+			{/* Landing page */}
+			<div className=''>
+				<div>
+					{/* <div className="hidden lg:block">
+						<div className="relative -top-33 landing-section flex flex-row justify-center z-0">
+							<div className="w-7/12 bg-hero-dark h-768px">
+							</div>
+							<div className="w-5/12">
+								<img src="/Resources/Home/hero-image.png" className="h-768px w-full object-fill" />
+							</div>
+						</div>
+
+						<div className="md:mx-28 relative bottom-102">
+							<div data-scroll className="text-white text-f40 leading-f50 Inter-Medium">
+								<h1 className="drop-shadow-md">Creative solutions. For the</h1>
+								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
+							</div>
+							<div data-scroll className="text-white text-f20 Inter-Regular mt-12">
+								<p>We are a creative design agency for architects & interior designers.</p>
+							</div>
+						</div>
+					</div> */}
+
+					<div className='landing-section-home'>
+						<div className='flex flex-row'>
+							<div className='w-1/2 p-4 lg:ml-10'>
+								<div className="w-230px h-60px">
+									<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
+								</div>
+							</div>
+							<div className='w-1/2'>
+								<ul className="flex flex-row justify-between text-3xl text-gray-300 font-semibold">
+									<li className="p-4"><NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink></li>
+									<li className="p-4"><NextLink href="/capabilities"><a href="/capablities">Capabilities</a></NextLink></li>
+
+									<li className="p-4"><NextLink href="/process"><a href="/process">Process</a></NextLink></li>
+									<li className="py-4 px-10 bg-mcl-blue"><NextLink href="/contact"><a href="/contact">Let's Talk</a></NextLink></li>
+								</ul>
+							</div>
+						</div>
+						<div className='container-mcl landing-section-home-mid-content'>
+							<h1 className='text-f60 text-gray-200 Inter-Regular'>Websites for Architects</h1>
+							<p className='text-f30 text-gray-200 Inter-Regular'>That attract right clients, better projects, and earn more profit. Period</p>
+
+							<div className='bg-mcl-blue max-w-max mt-12 py-4 px-8 flex flex-row'>
+								<NextLink href="/contact"><a className='text-gray-300 Inter-Regular' href="/contact">Book your Discovery Call</a></NextLink>
+								<p className='ml-4'><span className='material-icons text-gray-300'>arrow_forward</span></p>
+							</div>
+						</div>
+					</div>
+
+
+					{/* mobile */}
+					<div className="lg:hidden relative -top-20 landing-section">
+						<div className="bg-mcl-black p-12">
+							<div data-scroll className="text-white text-f25 leading-f33 Inter-Regular mt-36">
+								<h1 className="drop-shadow-md">Creative solutions. For </h1>
+								<h1 className="drop-shadow-md">the creators of modern</h1>
+								<h1 className="drop-shadow-md">day dream homes.</h1>
+							</div>
+							<div data-scroll className="text-white text-f14 leading-f26 Inter-Regular mt-6">
+								<p>We are a creative design agency for</p>
+								<p>architects & interior designers.</p>
+							</div>
+						</div>
+						<div>
+							<img src="/Resources/Home/hero-image.png" className="object-cover h-auto w-auto" />
+						</div>
+					</div>
+					{/* mobile end */}
+				</div>
+			</div>
+
+			{/* <div className="lg:-mt-88 -mt-20">
+			</div> */}
+
+			{/* capabilities section */}
+			{/* <div className='container-mcl'>
+				<div>
+					<div className="flex lg:flex-row flex-col-reverse">
+						<div className="lg:w-5/12">
+							<img className="w-full lg:593px lg:h-768px h-543px" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
+						</div>
+						<div className="lg:w-7/12 bg-home-cap">
+							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
+								<div data-scroll className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:mt-16 mt-0">
+									<h1>We empower the</h1>
+									<h1 className="Inter-SemiBold">Designers and Builders</h1>
+									<h1>of 21<sup>st</sup> century</h1>
+								</div>
+								<div data-scroll className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-8 mt-6">
+									<p>We solve business problems for architects &</p>
+									<p>interior designers through creative designs</p>
+									<p>helping them to build awareness, gain happier</p>
+									<p>customers and drive revenues.</p>
+
+								</div>
+								<div data-scroll className="lg:mt-24 mt-14 Inter-Bold mb-4 lg:mb-0">
+									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> */}
+
+
+
+			{/* Vision */}
+			<div className='container-mcl'>
+				<div className="bg-hero-dark lg:block hidden vision-section">
+					<div data-scroll className="p-16">
+						<h1 className="text-white text-f40 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
+					</div>
+
+					<div className="flex flex-row justify-between py-12 px-24 mx-28">
+						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
+							<p>Here is to the creators,</p>
+							<p>The designers,</p>
+							<p>And the builders,</p>
+							<p>of modern day dream homes.</p>
+							<p>The ones who help us ensure</p>
+							<p>a home is our best investment</p>
+						</div>
+						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
+							<p>We can't ignore them because.</p>
+							<p>they make hte dream of a home a reality for all</p>
+							<p>While the world sees them as just home</p>
+							<p>professionals, we see them as the creators of a</p>
+							<p>greater life that empowers the human race.</p>
+							<p>Because they are th ones that envision</p>
+							<p>comfort and healing of a home above all,</p>
+							<p>and they are the ones that make it so.</p>
+						</div>
+					</div>
+
+				</div>
+				<div className='bg-hero-dark lg:block hidden p-12'></div>
+
+				{/* mobile */}
+				<div className="bg-hero-dark lg:hidden">
+					<div data-scroll className="p-4">
+						<h1 className="text-white text-f25 text-center Inter-Regular">Our Belief - Our Tribute</h1>
+					</div>
+
+					<div className="flex flex-col justify-between px-8 py-6">
+						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 leading-f26">
+							<p>Here is to the creators,</p>
+							<p>The designers,</p>
+							<p>And the builders,</p>
+							<p>of modern day dream homes.</p>
+							<p>The ones who help us ensure</p>
+							<p>a home is our best investment.</p>
+						</div>
+						<div data-scroll className="mt-12 text-left text-gray-300 Inter-Regular text-f14  leading-f26 mb-4">
+							<p>We can't ignore them because.</p>
+							<p>they make hte dream of a home a reality for all</p>
+							<p>While the world sees them as just home</p>
+							<p>professionals, we see them as the creators of a</p>
+							<p>greater life that empowers the human race.</p>
+							<p>Because they are th ones that envision</p>
+							<p>comfort and healing of a home above all,</p>
+							<p>and they are the ones that make it so.</p>
+						</div>
+					</div>
+				</div>
+				{/* mobile end */}
+			</div>
+
+			{/* Our process */}
+			<div className="lg:mt-24 container-mcl">
+				<div className="lg:mx-14">
+					<div className="flex lg:flex-row flex-col">
+						<div className="lg:w-1/2">
+							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
+						</div>
+						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
+							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f20 text-gray-700">
+								<div data-scroll className='lg:block hidden'>
+									<p>From a boutique design agency, we envision becoming a</p>
+									<p>full-service creative agency that can help the growth of </p>
+									<p>architects & interior designers in the connected world.</p>
+								</div>
+								<div data-scroll className='lg:hidden'>
+									<p>From a boutique design agency, we envision</p>
+									<p>becoming a full-service creative agency that</p>
+									<p>can help the growth of architects & interior</p>
+									<p>designers in the connected world.</p>
+								</div>
+							</div>
+
+							<div data-scroll className="lg:mt-20 mt-12">
+								<NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
+							</div>
+						</div>
+					</div>
+					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
+						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
+							<div data-scroll className="Inter-Regular text-f14 lg:text-f20 leading-f26 lg:leading-f24-high text-gray-700">
+								<p>Our clear cut process helps you understand your</p>
+								<p>problems and helps us deliver results focused</p>
+								<p>solutions that solves problems.</p>
+							</div>
+							<div data-scroll className="lg:mt-20 mt-12">
+								<NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
+							</div>
+						</div>
+						<div className="lg:w-1/2">
+							<img className="w-full h-full" src="/Resources/Home/home-process.jpg" alt="our-process-img" />
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			{/* case study */}
+			<div className="lg:mt-24 mt-16 container-mcl">
+				<div className="lg:mx-2">
+
+					<div data-scroll><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
+
+					<div className="mt-8">
+						<div className='flex flex-col justify-center items-center'>
+							{/* <img className="object-cover w-auto lg:h-72 h-auto" src="/Resources/Home/case-study-1-cover.png" alt="case-1" /> */}
+							<div className="container">
+								<div className="content">
+									<NextLink href="/case-study"><a href="/case-study">
+										<div className="content-overlay"></div>
+										<img className="content-image" src="/Resources/Home/case-study-1-cover.png" alt="case-1" />
+										<div className="content-details fadeIn-top">
+											<h3>Gensler:Reimagining the digital</h3>
+											<h3>forefront in 2022</h3>
+										</div>
+									</a></NextLink>
+								</div>
+							</div>
+
+
+							{/* <p className="hidden lg:block mt-2 text-center text-f20 Inter-Regular text-gray-700">Gensler</p> */}
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			{/* Ready to grow*/}
+			<div className='container-mcl'>
+				<Grow></Grow>
+			</div>
+
+			{/*Footer*/}
+			<div>
+				<Footer></Footer>
+			</div>
+
+			{/*Empty div*/}
+			<div></div>
+
+			{/* back to top button */}
+			<a id="button"></a>
+		</div >
+	)
+}

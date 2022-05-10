@@ -32,7 +32,7 @@ const CaseStudy = () => {
         ScrollOut();
     }, []);
     return (
-        <div className='container-mcl'>
+        <div className=''>
             <Head>
                 <title>Our Works</title>
                 <meta name="description" content="Our Works" />

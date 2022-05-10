@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'material-icons/iconfont/material-icons.css';
 
 .container-mcl {
-	/* max-width: 1536px !important; */
-	max-width: 1366px !important;
-	margin: auto;
+  max-width: 1366px !important;
+  margin: auto;
 }
-
 
 @font-face {
   font-family: Inter-Black;
@@ -66,82 +65,92 @@
 
 
 .Inter-Light {
-    font-family: 'Inter-Light', sans-serif;
+  font-family: 'Inter-Light', sans-serif;
 }
 
 .Inter-Regular {
-	font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter-Regular', sans-serif;
 }
 
 .Inter-Medium {
-	font-family: 'Inter-Medium', sans-serif;
+  font-family: 'Inter-Medium', sans-serif;
 }
 
 .Inter-SemiBold {
-	font-family: 'Inter-SemiBold', sans-serif;
+  font-family: 'Inter-SemiBold', sans-serif;
 }
 
 .Inter-Bold {
-	font-family: 'Inter-Bold', sans-serif;
+  font-family: 'Inter-Bold', sans-serif;
 }
 
 
 /*navbar overlay*/
 .overlay {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-y: hidden;
-    transition: 0.5s;
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
 }
 
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
 @media screen and (max-height: 450px) {
-    .overlay {overflow-y: auto;}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
 /*navbar overlay end*/
-
 .rlow {
-  font-size:25px; cursor:pointer; position: absolute; right: 5%; top:10px;
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 10px;
 }
 
 .heightHigh {
@@ -152,12 +161,52 @@
   height: 0%;
 }
 
-
 /* home */
-
-.vision-section {
-  background-image: url('/Resources/Home/background-home.png');
+.landing-section-home {
+  background-image: url("/Resources/NewHome/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+
+.landing-section-home-mid-content {
+  margin-top: 20rem;
+}
+
+.times-are-changing {
+  background-image: url("/Resources/NewHome/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* filter: brightness(90%); */
+}
+
+.your-buyers-are-evolving {
+  background-image: url("/Resources/NewHome/15.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bridging-this-gap {
+  background-image: url("/Resources/NewHome/10.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
+}
+
+.fix-your-problems {
+  background-image: url("/Resources/NewHome/11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 
 }
 
@@ -166,15 +215,15 @@
 .content {
   position: relative;
   width: 100%;
-  max-width: 30rem;
+  max-width: 60rem;
   margin: auto;
   overflow: hidden;
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -186,11 +235,11 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content:hover .content-overlay {
   opacity: 1;
 }
 
-.content-image{
+.content-image {
   width: 100%;
   height: auto;
 }
@@ -212,13 +261,13 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-.content-details h3{
+.content-details h3 {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -227,7 +276,7 @@
   font-family: 'Inter-Regular', sans-serif;
 }
 
-.fadeIn-top{
+.fadeIn-top {
   top: 20%;
 }
 
@@ -241,28 +290,25 @@ select {
   background-repeat: no-repeat;
   background-position-x: 99%;
   background-position-y: 20px;
-  
+
 }
 
 @media screen and (max-width: 480px) {
   select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: transparent;
-  background-image: url("/Resources/About/Arrow.svg");
-  background-repeat: no-repeat;
-  background-position-x: 98%;
-  background-position-y: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("/Resources/About/Arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 15px;
+  }
 }
-}
-
-
 
 /* capabilities */
 .toggle-updown {
- transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
 
 /* scroll-out */
 /* [data-scroll] {
@@ -272,7 +318,7 @@ select {
   opacity: 1;
 } */
 
-[data-scroll]{
+[data-scroll] {
   opacity: 0;
   will-change: transform, scale, opacity;
   transform: translateY(6rem) scale(0.93);
@@ -301,12 +347,13 @@ select {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
+  transition: background-color .3s,
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
 }
+
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -316,13 +363,16 @@ select {
   line-height: 50px;
   color: #fff;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #333;
 }
+
 #button:active {
   background-color: #555;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;

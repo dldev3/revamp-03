@@ -41,7 +41,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className='container-mcl'>
+        <div className=''>
             <Head>
                 <title>Contact Us</title>
                 <meta name="description" content="Say hello" />
@@ -108,17 +108,13 @@ const Contact = () => {
                         <div className='grid gap-y-2 lg:w-1/2'>
                             <label data-scroll for="budget" className="lg:text-f16 text-f12 Inter-Regular" htmlFor="name">Your readiness of investment into growing your business*</label>
                             <select name="budget" id="budget" value={budget} onChange={(e) => { setBudget(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
-<<<<<<< HEAD
                                 <option value="Choose your option">Choose your option</option>
-								<option value="$10,000-$20,000">$10,000 - $20,000</option>
-=======
-                                <option value="choose-your-option">Choose your option</option>
                                 <option value="$10,000-$20,000">$10,000 - $20,000</option>
->>>>>>> 664097d67ab1a204076948409b636afa6ad625cf
                                 <option value="$20,000-$30,000">$20,000 - $30,000</option>
                                 <option value="$30,000+">$30,000+</option>
-                            </select>
-                        </div>
+                            </select >
+                        </div >
+
                         <div className='grid gap-y-2 lg:w-1/2 mt-4 lg:mt-0'>
                             <label data-scroll for="find" className="lg:text-f16 text-f12 Inter-Regular" htmlFor='email'>How did you find us?</label>
                             <select name="find" id="find" value={find} onChange={(e) => { setFind(e.target.value) }} className="w-full border-2 lg:h-16 h-14 p-2 hover:cursor-pointer">
@@ -128,7 +124,7 @@ const Contact = () => {
                                 <option value="Other">Other</option>
                             </select>
                         </div>
-                    </div>
+                    </div >
 
                     <div className='mt-10 grid gap-y-2'>
                         <label data-scroll className="lg:text-f16 text-f12 Inter-Regular" htmlFor='email'>Tell us a bit about your what you are thinking*</label>
@@ -138,13 +134,13 @@ const Contact = () => {
                     <input data-scroll type="submit" value="Submit" className="Inter-SemiBold mt-10 text-gray-200 hover:cursor-pointer py-6 px-16 bg-mcl-blue lg:text-f20 text-f14 flex mx-auto lg:mx-0" />
 
 
-                </form>
+                </form >
             </div >
             {/* form-end */}
 
 
 
-            <div div className='mt-60' >
+            <div className='mt-60' >
                 <Footer />
             </div>
 
@@ -152,7 +148,7 @@ const Contact = () => {
 
 
             {/* back to top button */}
-            <a id="button"></a>
+            <a id="button" ></a>
 
         </div >
     )

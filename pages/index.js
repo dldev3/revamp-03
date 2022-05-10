@@ -8,9 +8,22 @@ import ScrollOut from "scroll-out";
 import { useEffect } from 'react';
 import $ from 'jquery';
 
+
+const openNav = (e) => {
+	var element = document.getElementById("myNav");
+	element.classList.add("heightHigh");
+	element.classList.remove("heightLow");
+}
+
+const closeNav = (e) => {
+	var element = document.getElementById("myNav");
+	element.classList.add("heightLow");
+	element.classList.remove("heightHigh");
+}
+
 export default function Home() {
 	useEffect(() => {
-		// back to top
+		// back-to-top
 		var btn = $('#button');
 		$(window).scroll(function () {
 			if ($(window).scrollTop() > 300) {
@@ -23,7 +36,7 @@ export default function Home() {
 			e.preventDefault();
 			$('html, body').animate({ scrollTop: 0 }, '300');
 		});
-		// back to top end
+		// back-to-top-end
 
 
 		ScrollOut({
@@ -34,7 +47,7 @@ export default function Home() {
 		ScrollOut();
 	}, []);
 	return (
-		<div className="container-mcl scroll-smooth">
+		<div className="scroll-smooth">
 			<Head>
 				<title>MinuteCode - Creative design solutions agency</title>
 				<meta name="description" content="We are a web design agency for architects and interior designers bringing them better awareness, happier clients & more revenues" />
@@ -47,199 +60,242 @@ export default function Home() {
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 			</Head>
 
-			{/* Header */}
-			<div className="relative top-0 z-10">
-				<Header></Header>
-			</div>
 
 			{/* Landing page */}
-			<div>
+			<div className=''>
 				<div>
-					<div className="hidden lg:block">
-						<div className="relative -top-33 landing-section flex flex-row justify-center z-0">
-							<div className="w-7/12 bg-hero-dark h-768px">
+					<div className='landing-section-home'>
+						<div className='hidden lg:flex flex-row'>
+							<div className='w-1/2 p-4 lg:ml-10'>
+								<div className="w-230px h-60px">
+									<NextLink href="/"><a href="/"><img src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
+								</div>
 							</div>
-							<div className="w-5/12">
-								<img src="/Resources/Home/hero-image.png" className="h-768px w-full object-fill" />
+							<div className='w-1/2'>
+								<ul className="flex flex-row justify-between text-3xl text-gray-200">
+									<li className="p-4"><NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink></li>
+									<li className="p-4"><NextLink href="/capabilities"><a href="/capablities">Capabilities</a></NextLink></li>
+
+									<li className="p-4"><NextLink href="/process"><a href="/process">Process</a></NextLink></li>
+									<li className="py-4 px-10 bg-mcl-blue"><NextLink href="/contact"><a href="/contact">Let's Talk</a></NextLink></li>
+								</ul>
+							</div>
+						</div>
+						<div data-scroll className='container-mcl landing-section-home-mid-content hidden'>
+							<h1 className='text-f60 text-gray-200 Inter-Regular'>Websites for Architects</h1>
+							<p className='text-f30 text-gray-200 Inter-Regular'>That attract right clients, better projects, and earn more profit. Period</p>
+
+							<div className='bg-mcl-blue max-w-max mt-12 py-4 px-8 flex flex-row'>
+								<NextLink href="/contact"><a className='text-gray-300 Inter-Regular' href="/contact">Book your Discovery Call</a></NextLink>
+								<p className='ml-4'><span className='material-icons text-gray-300'>arrow_forward</span></p>
 							</div>
 						</div>
 
-						<div className="md:mx-28 relative bottom-102">
-							<div data-scroll className="text-white text-f40 leading-f50 Inter-Medium">
-								<h1 className="drop-shadow-md">Creative solutions. For the</h1>
-								<h1 className="drop-shadow-md">creators of modern day dream homes.</h1>
+						<nav className="lg:hidden block mx-8">
+							<div className="flex justify-between">
+								<NextLink href="/"><a href="/" ><img className='w-134px h-34px mt-4' id="logo" src="/Resources/About/Logo.png" alt="logo" /></a></NextLink>
+								<a href="#" className='mt-4'>
+									<img src="/Resources/Mobile/m-menu.png" onClick={openNav} className="cursor-pointer w-5 h-4 mt-2" alt="mobile-menu" />
+								</a>
 							</div>
-							<div data-scroll className="text-white text-f20 Inter-Regular mt-12">
-								<p>We are a creative design agency for architects & interior designers.</p>
-							</div>
-						</div>
-					</div>
+						</nav>
 
-					{/* mobile */}
-					<div className="lg:hidden relative -top-20 landing-section">
-						<div className="bg-mcl-black p-12">
-							<div data-scroll className="text-white text-f25 leading-f33 Inter-Regular mt-36">
-								<h1 className="drop-shadow-md">Creative solutions. For </h1>
-								<h1 className="drop-shadow-md">the creators of modern</h1>
-								<h1 className="drop-shadow-md">day dream homes.</h1>
-							</div>
-							<div data-scroll className="text-white text-f14 leading-f26 Inter-Regular mt-6">
-								<p>We are a creative design agency for</p>
-								<p>architects & interior designers.</p>
-							</div>
-						</div>
+						{/* mobile navbar */}
 						<div>
-							<img src="/Resources/Home/hero-image.png" className="object-cover h-auto w-auto" />
-						</div>
-					</div>
-					{/* mobile end */}
-				</div>
-			</div>
-
-			<div className="lg:-mt-88 -mt-20">
-			</div>
-
-			{/* capabilities section */}
-			<div>
-				<div>
-					<div className="flex lg:flex-row flex-col-reverse">
-						<div className="lg:w-5/12">
-							<img className="w-full lg:593px lg:h-768px h-543px" src="/Resources/Home/home-capabilities.jpg" alt="home-capabilities" />
-						</div>
-						<div className="lg:w-7/12 bg-home-cap">
-							<div className="flex flex-col lg:p-12 p-8 lg:ml-12 lg:mt-14 mt-6">
-								<div data-scroll className="Inter-Regular text-f25 lg:text-f40 text-white lg:leading-f50 lg:mt-16 mt-0">
-									<h1>We empower the</h1>
-									<h1 className="Inter-SemiBold">Designers and Builders</h1>
-									<h1>of 21<sup>st</sup> century</h1>
-								</div>
-								<div data-scroll className="Inter-Regular lg:text-f20 text-f14 leading-f26 lg:leading-f24 text-white lg:mt-8 mt-6">
-									<p>We solve business problems for architects &</p>
-									<p>interior designers through creative designs</p>
-									<p>helping them to build awareness, gain happier</p>
-									<p>customers and drive revenues.</p>
-
-								</div>
-								<div data-scroll className="lg:mt-24 mt-14 Inter-Bold mb-4 lg:mb-0">
-									<NextLink href="/capabilities"><a href="/capabilities" className="text-gray-200 lg:text-f16 text-f14 uppercase underline underline-offset-2">see our capabilities</a></NextLink>
+							<div id="myNav" className="overlay">
+								<a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
+								<div className="overlay-content">
+									<NextLink href="/"><a href="/">Home</a></NextLink>
+									<NextLink href="/about"><a href="/about">About</a></NextLink>
+									<NextLink href="/capabilities"><a href="/capabilities">Capabilities</a></NextLink>
+									<NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink>
+									<NextLink href="/contact"><a href="/contact">Contact</a></NextLink>
 								</div>
 							</div>
+							{/* <span className="md:hidden flex text-gray-700 hover:text-white rlow"
+                    onClick={openNav}>&#9776;</span> */}
 						</div>
+						{/* mobile navbar end */}
 					</div>
+
 				</div>
 			</div>
 
 
-
-			{/* Vision */}
-			<div>
-				<div className="bg-hero-dark lg:block hidden vision-section">
-					<div data-scroll className="p-16">
-						<h1 className="text-white text-f40 leading-f50 text-center Inter-Regular">Our Belief - Our Tribute</h1>
-					</div>
-
-					<div className="flex flex-row justify-between py-12 px-24 mx-28">
-						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
-							<p>Here is to the creators,</p>
-							<p>The designers,</p>
-							<p>And the builders,</p>
-							<p>of modern day dream homes.</p>
-							<p>The ones who help us ensure</p>
-							<p>a home is our best investment</p>
-						</div>
-						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 lg:text-f20 leading-f24">
-							<p>We can't ignore them because.</p>
-							<p>they make hte dream of a home a reality for all</p>
-							<p>While the world sees them as just home</p>
-							<p>professionals, we see them as the creators of a</p>
-							<p>greater life that empowers the human race.</p>
-							<p>Because they are th ones that envision</p>
-							<p>comfort and healing of a home above all,</p>
-							<p>and they are the ones that make it so.</p>
+			{/* times-are-changing */}
+			<div className='times-are-changing'>
+				<div className='flex flex-row mx-44'>
+					<div className='w-1/2'></div>
+					<div className='w-1/2'>
+						<div className='flex flex-col mt-52 max-w-2xl text-white'>
+							<h1 data-scroll className='text-f48 Inter-Regular mt-8'>Times are changing</h1>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>Before the pandemic, architecture firms relied on their good
+								names and reputations to create connections and referrals.</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								After the pandemic, the rules changed. Days of selling AEC
+								professional services from a portfolio are coming to an end.
+								You are only one out of many choices for the evolved AEC
+								buyers
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								In fact, 83% of AEC buyers will eliminate your firm from
+								consideration because of your website, according to Hinge.
+							</p>
 						</div>
 					</div>
-
-				</div>
-				<div className='bg-hero-dark lg:block hidden p-12'></div>
-
-				{/* mobile */}
-				<div className="bg-hero-dark lg:hidden">
-					<div data-scroll className="p-4">
-						<h1 className="text-white text-f25 text-center Inter-Regular">Our Belief - Our Tribute</h1>
-					</div>
-
-					<div className="flex flex-col justify-between px-8 py-6">
-						<div data-scroll className="text-left text-gray-300 Inter-Regular text-f14 leading-f26">
-							<p>Here is to the creators,</p>
-							<p>The designers,</p>
-							<p>And the builders,</p>
-							<p>of modern day dream homes.</p>
-							<p>The ones who help us ensure</p>
-							<p>a home is our best investment.</p>
-						</div>
-						<div data-scroll className="mt-12 text-left text-gray-300 Inter-Regular text-f14  leading-f26 mb-4">
-							<p>We can't ignore them because.</p>
-							<p>they make hte dream of a home a reality for all</p>
-							<p>While the world sees them as just home</p>
-							<p>professionals, we see them as the creators of a</p>
-							<p>greater life that empowers the human race.</p>
-							<p>Because they are th ones that envision</p>
-							<p>comfort and healing of a home above all,</p>
-							<p>and they are the ones that make it so.</p>
-						</div>
-					</div>
-				</div>
-				{/* mobile end */}
-			</div>
-
-			{/* Our process */}
-			<div className="lg:mt-24">
-				<div className="lg:mx-14">
-					<div className="flex lg:flex-row flex-col">
-						<div className="lg:w-1/2">
-							<img className="w-full h-full" src="/Resources/Home/home-roadmap.jpg" alt="img-roadmap" />
-						</div>
-						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
-							<div className="Inter-Regular leading-f26 lg:leading-f24-high text-f14 lg:text-f20 text-gray-700">
-								<div data-scroll className='lg:block hidden'>
-									<p>From a boutique design agency, we envision becoming a</p>
-									<p>full-service creative agency that can help the growth of </p>
-									<p>architects & interior designers in the connected world.</p>
-								</div>
-								<div data-scroll className='lg:hidden'>
-									<p>From a boutique design agency, we envision</p>
-									<p>becoming a full-service creative agency that</p>
-									<p>can help the growth of architects & interior</p>
-									<p>designers in the connected world.</p>
-								</div>
-							</div>
-
-							<div data-scroll className="lg:mt-20 mt-12">
-								<NextLink href="/roadmap"><a href="/roadmap" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our roadmap</a></NextLink>
-							</div>
-						</div>
-					</div>
-					<div className="flex lg:flex-row flex-col-reverse mt-6 lg:mt-0">
-						<div className="lg:w-1/2 py-4 px-8 lg:mt-12 mt-4">
-							<div data-scroll className="Inter-Regular text-f14 lg:text-f20 leading-f26 lg:leading-f24-high text-gray-700">
-								<p>Our clear cut process helps you understand your</p>
-								<p>problems and helps us deliver results focused</p>
-								<p>solutions that solves problems.</p>
-							</div>
-							<div data-scroll className="lg:mt-20 mt-12">
-								<NextLink href="/process"><a href="/process" className="text-mcl-black Inter-Bold lg:text-f16 text-f14 uppercase underline underline-offset-4">see our process</a></NextLink>
-							</div>
-						</div>
-						<div className="lg:w-1/2">
-							<img className="w-full h-full" src="/Resources/Home/home-process.jpg" alt="our-process-img" />
-						</div>
-					</div>
-
 				</div>
 			</div>
+			{/* times-are-changing-end */}
+
+
+			{/* your-buyers-are-evolving */}
+			<div className='your-buyers-are-evolving'>
+				<div className='flex flex-row mx-44'>
+					<div className='w-1/2'>
+						<div className='flex flex-col mt-52 max-w-2xl text-white '>
+							<h1 data-scroll className='text-f48 Inter-Regular mt-8'>Your buyers are evolving</h1>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								Your ideal clients are all online. More than you can even deal
+								with, that are actively looking for a firm to partner with. Then
+								what’s the problem?
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								Buyers these days are increasingly seeking expertise and
+								credibility. On average 57% of a buyer’s mind is made up
+								before they even issue an RFP or pick up the phone.
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								Where the buyers used to know only the problem, now they
+								also know how to solve the problem, and who is qualified to
+								do the work.
+							</p>
+						</div>
+					</div>
+					<div className='w-1/2'></div>
+				</div>
+			</div>
+			{/* your-buyers-are-evolving-end */}
+
+
+
+			{/* bridging-this-gap */}
+			<div className='bridging-this-gap'>
+				<div className='flex flex-row mx-44'>
+					<div className='w-1/2'>
+
+					</div>
+					<div className='w-1/2'>
+						<div className='flex flex-col mt-52 max-w-xl text-white '>
+							<h1 data-scroll className='text-f48 Inter-Regular mt-8'>Success lies in bridging
+								this gap.</h1>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								We get it. You’re busy running your architecture practice.
+								The last thing you have time for is your website.
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								But here’s the thing: to attract the right client, to get better
+								work, and to earn more profits (that you deserve) - you
+								need a strategy.
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								A strategy that aligns with business goals and solves
+								business problems.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* bridging-this-gap-end */}
+
+			{/* fix-your-problems */}
+			<div className='fix-your-problems'>
+				<div className='flex flex-row mx-44'>
+					<div className='w-1/2'>
+						<div className='flex flex-col mt-36 max-w-2xl text-white '>
+							<h1 data-scroll className='text-f48 Inter-Regular mt-8'>
+								Fix your problems with our
+								proven process.</h1>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								Architects are overworked and underappreciated, highly
+								educated and poorly compensated, & very devoted and
+								badly supported.
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								We believe a good website can help you overcome these.
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								We create websites that go beyond solving your problems to
+								achieving your business goals. Websites that build awareness,
+								trust, authority, generate the right clients, and better work.
+							</p>
+							<p data-scroll className='text-f22 Inter-Regular mt-8'>
+								So that you can keep designing & doing what you do BEST in
+								business and most importantly, spend more free time with
+								your family, and do what you LOVE in life.
+							</p>
+						</div>
+					</div>
+					<div className='w-1/2'>
+
+					</div>
+				</div>
+			</div>
+			{/* fix-your-problems-end */}
+
+
+			{/* process */}
+			<div className="mx-28">
+				<img className='w-auto h-auto' src='/Resources/NewHome/process.png' alt="process" />
+			</div>
+			{/* process-end */}
+
+			{/* what-if-you-could */}
+			<div className='mx-44 mt-16'>
+				<div className='mx-auto'>
+					<h1 className='Inter-Regular text-f40 text-center'>What if you could,</h1>
+				</div>
+				<div className='grid grid-cols-3 gap-24 mt-12'>
+					<div className='pt-8 px-8 pb-24 bg-gray-200 rounded-md'>
+						<h1 className='text-f60 Inter-Regular'>01</h1>
+						<p className='Inter-Regular text-f20'>Create a consistent flow of great
+							projects</p>
+					</div>
+					<div className='pt-8 px-8 pb-24 bg-gray-200 rounded-md'>
+						<h1 className='text-f60 Inter-Regular'>02</h1>
+						<p className='Inter-Regular text-f20'>Get more qualified leads</p>
+					</div>
+					<div className='pt-8 px-8 pb-24 bg-gray-200 rounded-md'>
+						<h1 className='text-f60 Inter-Regular'>03</h1>
+						<p className='Inter-Regular text-f20'>Build your place within the
+							AEC industry</p>
+					</div>
+					<div className='pt-8 px-8 pb-24 bg-gray-200 rounded-md'>
+						<h1 className='text-f60 Inter-Regular'>04</h1>
+						<p className='Inter-Regular text-f20'>Get clients that treat
+							collaboration as a needed thing</p>
+					</div>
+					<div className='pt-8 px-8 pb-24 bg-gray-200 rounded-md'>
+						<h1 className='text-f60 Inter-Regular'>05</h1>
+						<p className='Inter-Regular text-f20'>Never have to justify your fees
+							again</p>
+					</div>
+					<div className='pt-8 px-8 pb-24 bg-gray-200 rounded-md'>
+						<h1 className='text-f60 Inter-Regular'>06</h1>
+						<p className='Inter-Regular text-f20'>Get clients that understand the
+							value of good design</p>
+					</div>
+				</div>
+				<div className='mt-20'>
+					<h1 className='Inter-Regular text-f40 text-center'>That's how our result can help you.</h1>
+				</div>
+
+			</div>
+			{/* what-if-you-could-end */}
+
+
 
 			{/* case study */}
-			<div className="lg:mt-24 mt-16">
+			<div className="lg:mt-24 mt-16 container-mcl">
 				<div className="lg:mx-2">
 
 					<div data-scroll><h1 className="text-f25 lg:text-f40 Inter-Medium text-center">Case Studies</h1></div>
@@ -251,7 +307,7 @@ export default function Home() {
 								<div className="content">
 									<NextLink href="/case-study"><a href="/case-study">
 										<div className="content-overlay"></div>
-										<img className="content-image" src="/Resources/Home/case-study-1-cover.png" alt="case-1" />
+										<img className="content-image" src="/Resources/NewHome/2.jpg" alt="case-1" />
 										<div className="content-details fadeIn-top">
 											<h3>Gensler:Reimagining the digital</h3>
 											<h3>forefront in 2022</h3>
@@ -269,7 +325,7 @@ export default function Home() {
 			</div>
 
 			{/* Ready to grow*/}
-			<div>
+			<div className='container-mcl'>
 				<Grow></Grow>
 			</div>
 

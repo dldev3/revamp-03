@@ -9,19 +9,19 @@ import ScrollOut from "scroll-out";
 
 export default function Home() {
     useEffect(() => {
-        $(document).ready(function () {
-            $("#designArr").click(function () {
-                $(".designGrid").toggle(800);
-                $("#designArrImg").toggleClass("toggle-updown");
-            });
-        });
+        // $(document).ready(function () {
+        //     $("#designArr").click(function () {
+        //         $(".designGrid").toggle(800);
+        //         $("#designArrImg").toggleClass("toggle-updown");
+        //     });
+        // });
 
-        $(document).ready(function () {
-            $("#devArr").click(function () {
-                $(".devGrid").toggle(800);
-                $("#devArrImg").toggleClass("toggle-updown");
-            });
-        });
+        // $(document).ready(function () {
+        //     $("#devArr").click(function () {
+        //         $(".devGrid").toggle(800);
+        //         $("#devArrImg").toggleClass("toggle-updown");
+        //     });
+        // });
 
         ScrollOut({
             threshold: .8,
@@ -47,7 +47,7 @@ export default function Home() {
 
     }, []);
     return (
-        <div className="container-mcl">
+        <div className="">
             <Head>
                 <title>Our Capabilities</title>
                 <meta name="description" content="What we do" />
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
 
             {/* Designing */}
-            <div className='lg:mt-24 mt-10'>
+            <div className='lg:mt-24 mt-10 container-mcl'>
                 <div className='flex lg:flex-row flex-col-reverse'>
                     <div className="lg:w-5/12 bg-mcl-blue py-16">
                         <div className='lg:mx-20 mx-14 lg:mt-24'>
@@ -127,9 +127,9 @@ export default function Home() {
                                 <p>present a design that brings brand</p>
                                 <p>stories to life in a meaningful way</p>
                             </div>
-                            <div data-scroll className='max-w-fit border-white border-b-2 lg:mt-20 mt-14'>
+                            {/* <div data-scroll className='max-w-fit border-white border-b-2 lg:mt-20 mt-14'>
                                 <a id="designArr" className='flex flex-row text-white Inter-Bold text-f12 lg:text-f16 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className="ml-2"><img id="designArrImg" className='ml-1 w-auto h-4 lg:mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="lg:w-7/12">
@@ -140,7 +140,7 @@ export default function Home() {
             </div>
 
             {/* Design grid */}
-            <div className='designGrid hidden' id="designGrid">
+            <div className='designGrid container-mcl' id="designGrid">
                 <div className="grid grid-cols-2 lg:grid-cols-4">
 
                     <div>
@@ -184,7 +184,7 @@ export default function Home() {
             </div>
 
             {/* Development */}
-            <div>
+            <div className="container-mcl">
                 <div>
                     <div className='flex lg:flex-row flex-col'>
                         <div className="lg:w-7/12">
@@ -201,9 +201,9 @@ export default function Home() {
                                     <p>and future proof, setting the stage</p>
                                     <p>for brand stories come to life.</p>
                                 </div>
-                                <div data-scroll className='max-w-fit border-white border-b-2 mt-14 lg:mt-20'>
+                                {/* <div data-scroll className='max-w-fit border-white border-b-2 mt-14 lg:mt-20'>
                                     <a id="devArr" className='flex flex-row text-white Inter-Bold lg:text-f16 text-f12 hover:cursor-pointer'><span className='uppercase'>Learn more</span><span className="ml-2"><img id="devArrImg" className='ml-1 w-auto h-4 lg:mt-1' src="/Resources/About/Arrow-copy.svg" alt="arrow" /></span></a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
@@ -213,7 +213,7 @@ export default function Home() {
             </div>
 
             {/* Development grid */}
-            <div className='devGrid hidden' id="devGrid">
+            <div className='devGrid container-mcl' id="devGrid">
                 <div className="grid grid-cols-2 lg:grid-cols-4">
 
                     <div>

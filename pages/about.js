@@ -31,7 +31,7 @@ export default function About() {
         ScrollOut();
     }, []);
     return (
-        <div className="container-mcl">
+        <div className="">
             <Head>
                 <title>About Us</title>
                 <meta name="description" content="Who we are" />
@@ -83,7 +83,7 @@ export default function About() {
             <div className="lg:-mt-56 -mt-72">
             </div>
 
-            <div className='who we are'>
+            <div className='who-we-are container-mcl'>
                 <div className="lg:mx-44 mx-8">
                     <div className="flex lg:flex-row flex-col justify-center">
                         <div data-scroll className="lg:w-1/4 text-f12 lg:text-f16 Inter-Bold">
@@ -116,7 +116,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className='our core values'>
+            <div className='our-core-values container-mcl'>
                 <div className="lg:mx-44 mt-20 lg:mt-12">
                     <div className="flex lg:flex-row flex-col justify-center">
                         <div data-scroll className="lg:w-1/4 lg:text-f16 text-f12 Inter-Bold">
@@ -168,7 +168,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="our process and roadmap">
+            <div className="our process and roadmap container-mcl">
                 <div className='lg:mx-20 lg:mt-20 mt-36'>
 
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-4'>
