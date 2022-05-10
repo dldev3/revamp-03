@@ -163,7 +163,7 @@
 
 /* home */
 .landing-section-home {
-  background-image: url("/Resources/NewHome/1.jpg");
+  background-image: url("/Resources/NewHome/1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +171,7 @@
 }
 
 .landing-section-home-mid-content {
-  margin-top: 20rem;
+  margin-top: 26rem;
 }
 
 .times-are-changing {
@@ -207,7 +207,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-
 }
 
 @media (max-width: 640px) {
@@ -220,9 +219,46 @@
   }
 
   .landing-section-home-mid-content {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 25rem;
   }
+
+  .times-are-changing {
+    background-image: url("/Resources/MobileHome/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+  }
+
+  .your-buyers-are-evolving {
+    background-image: url("/Resources/MobileHome/3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+  }
+
+  .bridging-this-gap {
+    background-image: url("/Resources/MobileHome/4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+  }
+
+  .fix-your-problems {
+    background-image: url("/Resources/MobileHome/5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+  }
+
+
+
+
 }
 
 
