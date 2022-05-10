@@ -24,7 +24,7 @@ const Header = () => {
 				</div>
 
 				<div className="w-7/12 text-f18 Inter-Regular text-gray-200 mt-4">
-					<ul className="flex flex-row justify-center space-x-9 ml-36">
+					<ul className="flex flex-row justify-end space-x-20 ml-36">
 						<li className=""><NextLink href="/capabilities"><a href="/capablities">Capabilities</a></NextLink></li>
 						<li className=""><NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink></li>
 						<li className=""><NextLink href="/about"><a href="/about">About</a></NextLink></li>

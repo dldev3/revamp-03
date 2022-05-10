@@ -72,12 +72,12 @@ export default function Home() {
 								</div>
 							</div>
 							<div className='w-1/2'>
-								<ul className="flex flex-row justify-between text-f25 text-gray-200">
-									<li className="p-2"><NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink></li>
-									<li className="p-2"><NextLink href="/capabilities"><a href="/capablities">Capabilities</a></NextLink></li>
+								<ul className="flex flex-row justify-between text-f25 text-gray-200 Inter-Regular">
+									<li className="p-3"><NextLink href="/case-study"><a href="/case-study">Case Studies</a></NextLink></li>
+									<li className="p-3"><NextLink href="/capabilities"><a href="/capablities">Capabilities</a></NextLink></li>
 
-									<li className="p-2"><NextLink href="/process"><a href="/process">Process</a></NextLink></li>
-									<li className="py-2 px-10 bg-mcl-blue"><NextLink href="/contact"><a href="/contact">Let's Talk</a></NextLink></li>
+									<li className="p-3"><NextLink href="/process"><a href="/process">Process</a></NextLink></li>
+									<li className="py-3 px-10 bg-mcl-blue"><NextLink href="/contact"><a href="/contact">Let's Talk</a></NextLink></li>
 								</ul>
 							</div>
 						</div>

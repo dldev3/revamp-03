@@ -101,20 +101,20 @@ export default function Home() {
             </div>
 
 
-            <div className='lg:mx-36 flex lg:flex-row flex-col mx-12 -mt-110 lg:-mt-72'>
+            <div className='lg:mx-64 flex lg:flex-row flex-col mx-12 -mt-110 lg:-mt-72'>
                 <div data-scroll className='lg:w-3/12'>
                     <p className='Inter-Bold lg:text-f16 text-f12 lg:p-2 text-gray-700'>How we do it</p>
                 </div>
-                <div data-scroll className='lg:w-9/12 lg:text-f40 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
-                    <h1 className='lg:block hidden'>We let creativity meet strategy to</h1>
-                    <h1 className='lg:block hidden'>solve problems</h1>
+                <div data-scroll className='lg:w-9/12 lg:text-f30 text-f14 Inter-Medium lg:leading-f50 leading-f24 text-gray-700 mt-2 lg:mt-0'>
+                    <h1 className='lg:block hidden'>We let creativity meet strategy to solve problems</h1>
+                    <h1 className='lg:block hidden'></h1>
                     <h1 className='lg:hidden'>We let creativity meet strategy to solve</h1>
                     <h1 className='lg:hidden'>problems</h1>
                 </div>
             </div>
 
             {/* Designing */}
-            <div className='lg:mt-24 mt-10 container-mcl'>
+            <div className='lg:mt-10 mt-10 container-mcl'>
                 <div className='flex lg:flex-row flex-col-reverse'>
                     <div className="lg:w-5/12 bg-mcl-blue py-16">
                         <div className='lg:mx-20 mx-14 lg:mt-24'>
@@ -258,7 +258,7 @@ export default function Home() {
 
 
             {/* Grow */}
-            <div>
+            <div className="mx-16 text-center">
                 <Grow></Grow>
             </div>
             {/* Footer */}

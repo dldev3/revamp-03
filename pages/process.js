@@ -244,7 +244,7 @@ const Process = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="mx-16 text-center">
                 <Grow />
             </div>
 

@@ -4,9 +4,9 @@ const Footer = () => {
         <div className="bg-hero-dark">
 
             <div className='hidden lg:block container-mcl'>
-                <div className="pt-6 mx-24">
+                <div className="pt-14 mx-24">
                     <div>
-                        <p className='Inter-Regular text-f18 text-white'>Interested in working with us? Let’s get to work!</p>
+                        <p className='Inter-Regular text-f18 text-white mb-2'>Interested in working with us? Let’s get to work!</p>
                         <a className="Inter-Regular text-f25 text-white" href="mailto:janithajay.design@gmail.com">janithajay.design@gmail.com</a>
                     </div>
                     <div className='mt-32 flex flex-row border-b-white border-b-2 pb-5'>
