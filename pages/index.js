@@ -128,7 +128,7 @@ export default function Home() {
 				<div className='flex flex-row md:mx-44 mx-12'>
 					<div className='md:w-1/2'></div>
 					<div className='md:w-1/2'>
-						<div className='flex flex-col md:mt-52 mt-32 md:max-w-2xl text-white'>
+						<div className='flex flex-col mt-32 md:max-w-2xl text-white'>
 							<h1 data-scroll className='md:text-f48 text-f25 Inter-Regular mt-8'>Times are changing</h1>
 							<p data-scroll className='md:text-f22 text-f18 Inter-Regular mt-8'>Before the pandemic, architecture firms relied on their good
 								names and reputations to create connections and referrals.</p>
@@ -153,7 +153,7 @@ export default function Home() {
 			<div className='your-buyers-are-evolving'>
 				<div className='flex flex-row md:mx-44 mx-12'>
 					<div className='md:w-1/2'>
-						<div className='flex flex-col md:mt-52 mt-32 max-w-2xl text-white '>
+						<div className='flex flex-col mt-24 max-w-2xl text-white '>
 							<h1 data-scroll className='md:text-f48 text-f25 Inter-Regular mt-8'>Your buyers are evolving</h1>
 							<p data-scroll className='md:text-f22 text-f18 Inter-Regular mt-8'>
 								Your ideal clients are all online. More than you can even deal
@@ -184,7 +184,7 @@ export default function Home() {
 				<div className='flex flex-row md:mx-44 mx-12'>
 					<div className='md:w-1/2'></div>
 					<div className='md:w-1/2'>
-						<div className='flex flex-col md:mt-52 mt-32 max-w-xl text-white '>
+						<div className='flex flex-col mt-24 max-w-xl text-white '>
 							<h1 data-scroll className='md:text-f48 text-f25 Inter-Regular mt-8'>Success lies in bridging
 								this gap.</h1>
 							<p data-scroll className='md:text-f22 text-f18 Inter-Regular mt-8'>
@@ -210,24 +210,24 @@ export default function Home() {
 			<div className='fix-your-problems'>
 				<div className='flex flex-row md:mx-44 mx-12'>
 					<div className='md:w-1/2'>
-						<div className='flex flex-col md:mt-36 mt-10 max-w-2xl text-white '>
+						<div className='flex flex-col mt-10 max-w-2xl text-white '>
 							<h1 data-scroll className='md:text-f48 text-f25 Inter-Regular mt-8'>
 								Fix your problems with our
 								proven process.</h1>
-							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-8 mt-6'>
+							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-4 mt-6'>
 								Architects are overworked and underappreciated, highly
 								educated and poorly compensated, & very devoted and
 								badly supported.
 							</p>
-							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-8 mt-6'>
+							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-4 mt-6'>
 								We believe a good website can help you overcome these.
 							</p>
-							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-8 mt-6'>
+							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-4 mt-6'>
 								We create websites that go beyond solving your problems to
 								achieving your business goals. Websites that build awareness,
 								trust, authority, generate the right clients, and better work.
 							</p>
-							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-8 mt-6'>
+							<p data-scroll className='md:text-f22 text-f18 Inter-Regular md:mt-4 mt-6'>
 								So that you can keep designing & doing what you do BEST in
 								business and most importantly, spend more free time with
 								your family, and do what you LOVE in life.
